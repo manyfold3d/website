@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Manyfold
+description: A self-hosted web app for organising and managing 3d models for printing
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://manyfold.app
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Source Code: https://github.com/manyfold3d/manyfold
