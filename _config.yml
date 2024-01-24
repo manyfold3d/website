@@ -1,6 +1,7 @@
 title: Manyfold
 description: A self-hosted web app for organising and managing 3d models for printing
 theme: just-the-docs
+color_scheme: dark
 
 url: https://manyfold.app
 
