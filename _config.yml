@@ -12,3 +12,7 @@ nav_external_links:
   - title: Releases
     url: https://github.com/manyfold3d/manyfold/releases
 
+collections:
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title:output_ext
