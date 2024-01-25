@@ -9,11 +9,16 @@ div.hero {
 	// Force full width, from https://css-tricks.com/full-width-containers-limited-width-parents/
   width: 100vw;
   position: relative;
-	top: 0;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+
+	// Vertical positioning
+	margin-top: -1rem;
+	@media (min-width: 50rem) {
+		margin-top: -2rem;
+	}
 
 	background-image: url(/images/background.png);
 	background-color: rgba(38,15,94,1);
