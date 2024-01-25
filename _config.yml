@@ -16,3 +16,8 @@ collections:
   posts:
     output: true
     permalink: /news/:year/:month/:day/:title:output_ext
+
+callouts:
+  warning:
+    title: Warning
+    color: red
