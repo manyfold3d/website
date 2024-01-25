@@ -1,0 +1,68 @@
+.main-content-wrap > .hero {
+	padding-top: 0
+
+}
+
+
+div.hero {
+
+	// Force full width, from https://css-tricks.com/full-width-containers-limited-width-parents/
+  width: 100vw;
+  position: relative;
+	top: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+	background-image: url(/images/background.png);
+	background-color: rgba(38,15,94,1);
+	background-position: center;
+	background-size: cover;
+	aspect-ratio: 2.33;
+	text-align: center;
+	text-shadow: 0 0 0.5em black;
+	padding: 3em 1em;
+
+	h1 {
+		color: white;
+		font-size: 4rem !important;
+	}
+
+}
+
+div.feature {
+	display: flex;
+	margin-top: 1.5rem;
+	background-color: lighten(rgb(39, 38, 43), 10%);
+	border-radius: 1rem;
+
+	img {
+		object-fit: cover;
+		max-width: 33%;
+		border: 2px solid white;
+	}
+
+	h2 {
+		margin-top: 0;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	&:nth-child(odd) {
+		flex-direction: row;
+		img { border-radius: 1rem 0 0 1rem; }
+	}
+
+	&:nth-child(even) {
+		flex-direction: row-reverse;
+		text-align: right;
+		img { border-radius: 0 1rem 1rem 0 ; }
+	}
+
+	div:nth-child(2) {
+		padding: 1rem 2rem;
+	}
+}
