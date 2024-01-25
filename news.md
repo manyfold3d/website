@@ -2,6 +2,7 @@
 title: News
 layout: page
 nav_order: 2
+nav_exclude: true
 ---
 # Latest News
 
