@@ -24,12 +24,12 @@ div.hero {
 	background-color: rgba(38,15,94,1);
 	background-position: center;
 	background-size: cover;
-	aspect-ratio: 2.33;
 	text-align: center;
 	text-shadow: 0 0 0.5em black;
 	padding: 3em 1em;
 
 	h1 {
+		margin-top: 0 !important;
 		color: white;
 		font-size: 4rem !important;
 	}
