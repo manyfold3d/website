@@ -2,7 +2,7 @@ title: Manyfold
 description: Organise your 3d print files
 theme: just-the-docs
 color_scheme: dark
-
+logo: "/images/logo.png"
 url: https://manyfold.app
 
 aux_links:
