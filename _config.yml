@@ -18,6 +18,12 @@ collections:
     permalink: /news/:year/:month/:day/:title:output_ext
 
 callouts:
-  warning:
-    title: Warning
+  important:
+    title: Important
     color: red
+  note:
+    title: Note
+    color: yellow
+  info:
+    title: Info
+    color: blue
