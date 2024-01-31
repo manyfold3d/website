@@ -4,8 +4,8 @@ parent: Get Started
 layout: page
 ---
 
-{: .warning }
-Some people have had success with this method, though it's not yet officially supported.
+{: .note }
+Some people have had success with this method, though it's not yet officially supported. Improved documentation will come along in the future!
 
 Manyfold is available via the [Unraid Community Apps plugin](https://unraid.net/community/apps), currently under its old name "van_dam". For detailed instructions, install the CA plugin and search on the apps tab.
 
