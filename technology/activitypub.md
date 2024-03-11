@@ -61,7 +61,7 @@ Future expansion may include `Add` and `Remove` activities for collections.
 
 #### Downgrading
 
-Servers that do not support the `3dModel` object type will reject the `Activity`; in this case, the `3dModel` will be sent as a `Link` instead, containing the canonical URL of the model's web page, and the 3D preview will not be included.
+Servers that do not support the `3dModel` object type (as determined using NodeInfo, above) will be sent a `Link` instead, containing the canonical URL of the model's web page, and the 3D preview will not be included.
 
 ### Actor
 
