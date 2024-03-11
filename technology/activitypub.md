@@ -65,10 +65,10 @@ Servers that do not support the `3dModel` object type will reject the `Activity`
 
 ### Actor
 
-Our `Actor` objects are just as defined in the ActivityPub standard; they are mapped to our instance `User`s.
+Our `Actor` objects are just as defined in the ActivityPub standard; they correspond to our signed-up users, and will use the `Person` type.
 
 {:.note}
-Note that Manyfold's `Creator` class is not the same thing; Manyfold can store creator metadata even when the creators do not have a `User` account on the instance. Only activities from actual real users of an instance are federated; creators that are purely made for metadata purposes will not be exposed.
+Note that Manyfold's internal`Creator` class is not the same thing; Manyfold can store creator metadata even when the creators do not have an account on the instance. Only activities from actual real users of an instance are federated; creators that are purely made for metadata purposes will not be exposed.
 
 ### Collection
 
