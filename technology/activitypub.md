@@ -61,14 +61,14 @@ Future expansion may include `Add` and `Remove` activities for collections.
 
 #### Downgrading
 
-Servers that do not support the `3dModel` object type will reject the `Activity`; in this case, the `3dModel` will be sent as a `Link` instead, containing the canonical URL of the model's web page, and the 3D preview will not be included.
+Servers that do not support the `3dModel` object type (as determined using NodeInfo, above) will be sent a `Link` instead, containing the canonical URL of the model's web page, and the 3D preview will not be included.
 
 ### Actor
 
-Our `Actor` objects are just as defined in the ActivityPub standard; they are mapped to our instance `User`s.
+Our `Actor` objects are just as defined in the ActivityPub standard; they correspond to our signed-up users, and will use the `Person` type.
 
 {:.note}
-Note that Manyfold's `Creator` class is not the same thing; Manyfold can store creator metadata even when the creators do not have a `User` account on the instance. Only activities from actual real users of an instance are federated; creators that are purely made for metadata purposes will not be exposed.
+Note that Manyfold's internal`Creator` class is not the same thing; Manyfold can store creator metadata even when the creators do not have an account on the instance. Only activities from actual real users of an instance are federated; creators that are purely made for metadata purposes will not be exposed.
 
 ### Collection
 
