@@ -76,7 +76,7 @@ Note that Manyfold's internal`Creator` class is not the same thing; Manyfold can
 
 ### Collection
 
-We anticipate using the standard's `Collection` feature to support activities around users adding models to collections. This will operate using all the standard semantics.
+We will use the ActivityPub standard `Collection` object to share activities where users add `3dModel`s and `Actor`s to collections, if made public. This will operate using all the standard semantics.
 
 ### Note
 
