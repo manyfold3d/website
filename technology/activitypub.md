@@ -18,7 +18,7 @@ Manyfold will support the [NodeInfo](https://nodeinfo.diaspora.software/) standa
 
 Support for extension types will be indicated in the `metadata` field of the nodeinfo response. Several metadata fields are [known](https://codeberg.org/thefederationinfo/nodeinfo_metadata_survey), but we define a new one specifically to indicate 3d model support.
 
-```
+```json
 {
   "version": "2.1",
   "software": {
@@ -30,13 +30,17 @@ Support for extension types will be indicated in the `metadata` field of the nod
   ],
   "usage": {...},
   "openRegistrations": true|false,
-  metadata: {
-    "ActivityPub:ObjectType:3dModel": "1.0"
+  "metadata": {
+    "activitypub": {
+      "extensions": {
+        "https://w3id.org/activity-streams/extensions/3dModel": "1.0"
+      }
+    }
   }
 }
 ```
 
-Platforms such as Pixelfed and Bookwyrm use the `software` field to determine support for their custom types, but as we explicitly want to encourage other implementations, using `metadata` seems more sensible. We make this a version field rather than boolean, in case of future changes.
+Platforms such as Pixelfed and Bookwyrm use the `software` field to determine support for their custom types, but as we explicitly want to encourage other implementations, using a structure in `metadata` seems more sensible. We define an [IRI](https://codeberg.org/fediverse/fep/src/branch/main/fep/888d/fep-888d.md) for the extension type, and use a version field rather than boolean, in case of future changes.
 
 ## Objects
 
