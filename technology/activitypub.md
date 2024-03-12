@@ -50,19 +50,6 @@ Platforms such as Pixelfed and Bookwyrm use the `software` field to determine su
 
 If available, the `preview` property of the object will include a URL for both an image and a 3d model file for direct loading by the client, with the appropriate MIME types. Of course, it's up to the client whether it chooses to display these.
 
-#### Supported activities
-
-|Activity|Description|Actor|
-|-|-|-|
-|Create|A new model has been published|model creator|
-|Update|The model or its files have been changed|model creator|
-|Delete|The model has been removed|model creator|
-|Announce|A user "boosts" the model into their own timeline|other user|
-|Follow|A user has followed the model to get updates|other user|
-|Like|A user has liked the model|other user|
-
-Future expansion may include `Add` and `Remove` activities for collections.
-
 #### Downgrading
 
 Servers that do not support the `3dModel` object type (as determined using NodeInfo, above) will be sent a `Link` instead, containing the canonical URL of the model's web page, and the 3D preview will not be included.
@@ -81,6 +68,26 @@ We will use the ActivityPub standard `Collection` object to share activities whe
 ### Note
 
 `Note` is used to represent comments on a model; these could either be local to Manyfold, or remote on a different system such as Mastodon. A Manyfold `Note` will always be in reply to something, either a `3dModel` or another `Note`. They operate in accordance with the standard.
+
+## Activities
+
+The following activities are supported on the object types shown in the table. In summary:
+
+* Following is supported for users, individual models, and collections;
+* Standard microblog-interaction-type activities (create, like, boost) are supported for models and comments;
+* Collection-oriented activities are supported for users, models, and other collections.
+
+|Activity|Description|object|target|origin|
+|-|-|-|-|-|
+|`Create`|Actor has published a new model or comment|`3dModel`, `Note`|||
+|`Update`|Actor has updated the object (including individual files, in the case of a model)|`3dModel`, `Note`|||
+|`Delete`|Actor has deleted the object|`3dModel`, `Note`||
+|`Announce`|Actor "boosts" the object into their own timeline|`3dModel`, `Note`|||
+|`Like`|Actor has liked the object|`3dModel`, `Note`|||
+|`Flag`|Actor has flagged the object for moderator attention|`3dModel`, `Note`|
+|`Follow`|Actor has followed the object to get updates|`Actor`, `3dModel`, `Collection`|||
+|`Add`|Actor has added the object to the target collection|`Actor`, `3dModel`, `Collection`|`Collection`||
+|`Remove`|Actor has removed the object from the target collection|`Actor`, `3dModel`, `Collection`||`Collection`|
 
 ## Technical implementation
 
