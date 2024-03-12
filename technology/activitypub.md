@@ -32,15 +32,15 @@ Support for extension types will be indicated in the `metadata` field of the nod
   "openRegistrations": true|false,
   "metadata": {
     "activitypub": {
-      "extensions": {
-        "https://w3id.org/activity-streams/extensions/3dModel": "1.0"
-      }
+      "extensions": [
+        "https://w3id.org/activity-streams/extensions/3dModel#v1.0"
+      ]
     }
   }
 }
 ```
 
-Platforms such as Pixelfed and Bookwyrm use the `software` field to determine support for their custom types, but as we explicitly want to encourage other implementations, using a structure in `metadata` seems more sensible. We define an [IRI](https://codeberg.org/fediverse/fep/src/branch/main/fep/888d/fep-888d.md) for the extension type, and use a version field rather than boolean, in case of future changes.
+Platforms such as Pixelfed and Bookwyrm use the `software` field to determine support for their custom types, but as we explicitly want to encourage other implementations, using a structure in `metadata` seems more sensible. We define an [IRI](https://codeberg.org/fediverse/fep/src/branch/main/fep/888d/fep-888d.md) for the extension type, as proposed in [FEP-6481](https://codeberg.org/fediverse/fep/src/branch/main/fep/6481/fep-6481.md).
 
 ## Objects
 
