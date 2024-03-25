@@ -29,14 +29,17 @@ A secret key used to sign browser cookies; normally a 128-digit hexadecimal numb
 ## Features
 
 ### `DEMO_MODE`
+<small>Version 0.55.0+</small>
 
 Set to `enabled` to put the entire site into the demo mode used on [try.manyfold.app](https://try.manyfold.app). In this mode, all deletion, upload, and advanced admin features are disabled, even in single-user mode and for administrator users. You're pretty unlikely to need it, though perhaps you could use it as a sort of "emergency lockdown" mode.
 
 ### `REGISTRATION`
+<small>Version 0.59.0+</small>
 
 If `MULTIUSER` is enabled, set to `enabled` to allow new users to sign up for account. If disabled, users will need to be invited by an admin. Off by default.
 
 ### `MULTIUSER`
+<small>Version 0.59.0+</small>
 
 Set to `enabled` to turn on multiuser features such as account login, signup (with `REGISTRATION` option), permissions, roles, and so on. By default this is off, and Manyfold operates in single-user mode without any login necessary; however, if you're exposing your Manyfold instance on the public Internet, even if you intend to only use it yourself, it's probably a good idea to enable multiuser for security.
 
