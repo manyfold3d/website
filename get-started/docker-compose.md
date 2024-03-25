@@ -40,7 +40,8 @@ services:
       DATABASE_URL: postgresql://manyfold:password@db/manyfold?pool=5
       SECRET_KEY_BASE: a_nice_long_random_string
       REDIS_URL: redis://redis:6379/1
-      # RAILS_RELATIVE_URL_ROOT: /manyfold Sets the root of the app to /manyfold useful for reverse proxies with nginx
+      # For details of other optional environment variables, including features such
+      # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
     depends_on:
       - db
       - redis
