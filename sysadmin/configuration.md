@@ -18,6 +18,8 @@ The variables in this section **must** be set, or the application will not start
 
 A string that includes all the information necessary to connect to a PostgreSQL database, in the form `postgresql://{username}:{password}@{database_server}/{database_name}?pool=5`. For a complete description, and more options, see the [PostgreSQL connection string documentation](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS).
 
+Alternatively, you can set server, username, password and name separately; see the [Database](#database) section.
+
 ### `REDIS_URL`
 
 A string that includes all the information necessary to connect to a Redis server, in the form `redis://{redis_server}:{port}/{dbnumber}`; for instance `redis://redis:6379/1`.
@@ -51,3 +53,27 @@ You should set a secure administrator password before turning on multiuser mode.
 ### `RAILS_RELATIVE_URL_ROOT`
 
 If you are mapping Manyfold to a non-root path via a reverse proxy like nginx, use this option to tell Manyfold what the root path is; for instance `/manyfold`.
+
+## Database
+
+Instead of setting `DATABASE_URL` as above, you can set separate variables for each component. If you do this, all variables in this section are required.
+
+### `DATABASE_HOST`
+<small>Version 0.60.0+</small>
+
+The hostname of your PostgreSQL server.
+
+### `DATABASE_USER`
+<small>Version 0.60.0+</small>
+
+The username used to authenticate to PostgreSQL.
+
+### `DATABASE_PASSWORD`
+<small>Version 0.60.0+</small>
+
+The password used to authenticate to PostgreSQL.
+
+### `DATABASE_NAME`
+<small>Version 0.60.0+</small>
+
+Your PostgreSQL database name.
