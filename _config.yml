@@ -8,10 +8,6 @@ url: https://manyfold.app
 aux_links:
   Source Code: https://github.com/manyfold3d/manyfold
 
-nav_external_links:
-  - title: Releases
-    url: https://github.com/manyfold3d/manyfold/releases
-
 collections:
   posts:
     output: true
