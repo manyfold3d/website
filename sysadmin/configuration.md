@@ -77,3 +77,41 @@ The password used to authenticate to PostgreSQL.
 <small>Version 0.60.0+</small>
 
 Your PostgreSQL database name.
+
+## Email
+
+Some multiuser features are only enabled if an email server is configured, such as password recovery, email verification, and so on.
+
+In order to send mail, you need an SMTP server to send through; this could be your own local mail server, your own email host like gmail, or a hosted SMTP service like [Mandrill](https://www.mandrillapp.com/).
+
+### `SMTP_SERVER`
+<small>Version 0.61.0+</small>
+
+The hostname of your SMTP server, e.g. `smtp.example.com`. The default port 25 will be used.
+
+If the server supports TLS, it will be used automatically with `STARTTLS`, but otherwise an unencrypted connection will be used. See [ActionMailer's SMTP documentation](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration) for details. Defaults to `localhost`.
+
+### `SMTP_USERNAME`
+<small>Version 0.61.0+</small>
+
+The username for your mail server, if authentication is required.
+
+### `SMTP_PASSWORD`
+<small>Version 0.61.0+</small>
+
+The password for your mail server, if authentication is required.
+
+### `SMTP_FROM_ADDRESS`
+<small>Version 0.61.0+</small>
+
+The email address that mails should appear to be sent from. If not set, mail is sent from `notifications@{PUBLIC_HOSTNAME}`.
+
+### `PUBLIC_HOSTNAME`
+<small>Version 0.61.0+</small>
+
+The hostname of your publicly-accessible service, e.g. `try.manyfold.app`. This variable is used to create links in emails, and _must_ be set for email delivery to work.
+
+### `PUBLIC_PORT`
+<small>Version 0.61.0+</small>
+
+If your public service is on a non-standard port, set it here (e.g. `3214`).
