@@ -115,3 +115,10 @@ The hostname of your publicly-accessible service, e.g. `try.manyfold.app`. This 
 <small>Version 0.61.0+</small>
 
 If your public service is on a non-standard port, set it here (e.g. `3214`).
+
+## Miscellaneous
+
+### `USAGE_REPORTING_URL`
+<small>Version 0.67.0+</small>
+
+Set this URL in order to redirect anonymous usage tracking to your own endpoint; mainly if you want to verify what we're sending. See [the tracking page](tracking.html) for more details.
