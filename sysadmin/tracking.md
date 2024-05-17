@@ -34,7 +34,7 @@ These fields are:
 * `app`: The version of Manyfold that you're running, as shown in the footer. This will be the Docker tag you're using, or "unknown" if you're running a development version.
 * `sha`: The git SHA of the running code, again as shown in the app footer. This specifies the precise software version, and is really just a double-check on the `app` number.
 
-No other information is sent in the request payload.
+No other information is sent in the request payload. You can verify this by sending the data to your own endpoint by setting the `USAGE_REPORTING_URL` environment variable. For instance, you could send it to something like a [RequestBin](https://requestbin.myworkato.com/) and see exactly what arrives.
 
 ## Tracking API
 
@@ -47,7 +47,7 @@ The API provides two endpoints for reading data back, both of which are open to 
 * `/stats` provides aggregated statistics in JSON format; the number of instances, and a breakdown by version so we can track rollout.
 * `/badge` provides a shields.io badge URL from the aggregated stats. Here it is: ![Manyfold instance count](https://tracking.manyfold.app/badge)
 
-Because all data is in-memory, there is literally no other way for anyone to get data out, not even the Manyfold developers who run the API.
+Because all data is in-memory, there is literally no other way for anyone to get data out, not even the Manyfold developers who run the API. This also leads to the privacy benefit that the API code cannot be changed without resetting all data.
 
 ## Security
 
