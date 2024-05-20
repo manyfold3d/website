@@ -5,8 +5,6 @@ layout: page
 nav_order: 1
 ---
 
-# Docker Compose
-
 {: .warning }
 Before trying to get the app running using this method, we strongly suggest you have some familiarity with [Docker](https://docker.com) and [Docker Compose](https://docs.docker.com/compose/).
 
