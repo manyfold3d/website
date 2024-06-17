@@ -40,7 +40,7 @@ No other information is sent in the request payload. You can verify this by send
 
 The tracking API is hosted at [tracking.manyfold.app](https://tracking.manyfold.app) (which redirects to this page by default if you visit with a browser), and all its source code is on GitHub at [github.com/manyfold3d/tracking](https://github.com/manyfold3d/tracking).
 
-The API code is designed to be as forgetful as possible. There is *no* persistent storage, and data is never written to disk, even temporarilty. The API stores all the submitted data in memory, so when it's restarted, everything is gone.
+The API code is designed to be as forgetful as possible. There is *no* persistent storage, and data is never written to disk, even temporarily. The API stores all the submitted data in memory, so when it's restarted, everything is gone.
 
 The API provides two endpoints for reading data back, both of which are open to anyone to check:
 
