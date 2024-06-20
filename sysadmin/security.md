@@ -74,8 +74,8 @@ cap_drop:
   - ALL
 cap_add:
   - CHOWN
-	- SETUID
-	- SETGID
+  - SETUID
+  - SETGID
 ```
 
 ### Read-only filesystem
