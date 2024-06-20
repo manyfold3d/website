@@ -21,6 +21,7 @@ In order for Manyfold to correctly realise it's running behind an HTTPS proxy, y
 
 ```
 http-request set-header X-Forwarded-Ssl on
+http-request set-header X-Forwarded-Proto https
 http-request set-header X-Forwarded-Port 443
 http-request set-header X-Forwarded-Host "YOUR_DOMAIN"
 ```
