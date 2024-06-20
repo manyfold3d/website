@@ -42,6 +42,14 @@ services:
       PGID: 1000
       # For details of other optional environment variables, including features such
       # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETUID
+      - SETGID
     depends_on:
       - db
       - redis
