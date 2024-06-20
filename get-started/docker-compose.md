@@ -38,6 +38,8 @@ services:
       DATABASE_URL: postgresql://manyfold:password@db/manyfold?pool=5
       SECRET_KEY_BASE: a_nice_long_random_string
       REDIS_URL: redis://redis:6379/1
+      PUID: 1000
+      PGID: 1000
       # For details of other optional environment variables, including features such
       # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
     depends_on:
