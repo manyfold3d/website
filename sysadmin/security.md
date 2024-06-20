@@ -51,7 +51,61 @@ To change these sizes, set a number _in bytes_ in the environment variable. For 
 
 ## Container permissions
 
-`--security-opts no-new-privileges:true`
-`--cap-drop=ALL`
-`--cap-add=CHOWN,SETUID,SETGID`
-`--read-only=true`
+You should always make sure that you're running Docker containers securely. After all, can you *really* trust a downloaded image without going through every line of code? This is a very [big topic](https://docs.docker.com/engine/security/) that we can't explain fully here, but we can recommend some basic security options that you can set on the command line or in your compose file.
+
+### Privileges
+
+The container runs as root, and then drops to a different user once initialized, as described about in the `PUID` documentation. To minimise what the container can do as much as possible, you can set some privilege options.
+
+First, you should forbid privilege escalation, using the `no-new-privileges` security option.
+
+Then, you can set the container's capabilities by dropping all default capabilities, then adding back only the ones Manyfold really needs. Manyfold uses `CHOWN` permission to make sure temp and log files are writable by the `PUID` user, then uses `SETUID` and `SETGID` to actually change to that user. No others are required.
+
+On the docker command line, you can set these options using the following arguments:
+
+`--security-opt=no-new-privileges:true --cap-drop=ALL --cap-add=CHOWN,SETUID,SETGID`
+
+Or, if you're using docker-compose:
+
+```yaml
+security_opt:
+  - no-new-privileges:true
+cap_drop:
+  - ALL
+cap_add:
+  - CHOWN
+	- SETUID
+	- SETGID
+```
+
+### Read-only filesystem
+
+By setting `read-only` on your container, you can prevent the application from writing to the image filesystem, thus preventing attackers from (for instance) changing the running code.
+
+On the docker command line:
+
+`--read-only`
+
+In docker-compose:
+
+```yaml
+read_only: true
+```
+
+{:.important}
+If you set this option, you will need to map some extra volumes, because Manyfold does need to write to some temporary files.
+
+The required paths are:
+
+* `/tmp`
+* `/usr/src/app/tmp`
+* `/usr/src/app/log`
+
+For example, you might map these to a specific place on your host. In docker-compose:
+
+```yaml
+volumes:
+  - /var/manyfold/sys_tmp:/tmp
+  - /var/manyfold/app_tmp:/usr/src/app/tmp
+  - /var/manyfold/log:/usr/src/app/log
+```
