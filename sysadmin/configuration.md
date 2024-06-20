@@ -28,6 +28,16 @@ A string that includes all the information necessary to connect to a Redis serve
 
 A secret key used to sign browser cookies; normally a 128-digit hexadecimal number, but any long random string will do. If you have the code checked out, you can generate one with `rake secret`. Changing this will invalidate all user cookies and sessions.
 
+### `PUID` and `PGID`
+<small>Version 0.69.0+</small>
+
+Set the user and group IDs that the Manyfold application should run as. Works the same as it does in [Linuxserver containers](https://docs.linuxserver.io/general/understanding-puid-and-pgid/).
+
+For example: `PUID=1000` and `PGID=1000`
+
+To get your user and group IDs, run `id` and look at the `uid` and `gid` values. Read our [security guide](security) for more details.
+
+
 ## Features
 
 ### `DEMO_MODE`
@@ -49,6 +59,14 @@ Set to `enabled` to turn on multiuser features such as account login, signup (wi
 You should set a secure administrator password before turning on multiuser mode. Manyfold should prompt you to do so when you first access version 0.59.0 or above.
 
 ## Network
+
+### `HTTPS_ONLY`
+<small>Version 0.69.0+</small>
+
+Put the application into HTTPS-only mode, including automatic HTTPS redirection, Strict-Transport-Security, and secure cookies. Read the [security](security) page for important details.
+
+{:.important}
+The HSTS header has a long expiry time, so this is effectively a one-way switch! By turning it on you will lose unencrypted access to your instance for a long time, so make sure HTTPS is working first!
 
 ### `RAILS_RELATIVE_URL_ROOT`
 
@@ -117,6 +135,16 @@ The hostname of your publicly-accessible service, e.g. `try.manyfold.app`. This 
 If your public service is on a non-standard port, set it here (e.g. `3214`).
 
 ## Miscellaneous
+
+### `MAX_FILE_EXTRACT_SIZE`
+<small>Version 0.69.0+</small>
+
+The maximum individual file size (in bytes) that will be extracted from uploaded archives. 1GiB by default.
+
+### `MAX_FILE_UPLOAD_SIZE`
+<small>Version 0.69.0+</small>
+
+The maximum individual file size (in bytes) that can be uploaded. 256MiB by default.
 
 ### `USAGE_REPORTING_URL`
 <small>Version 0.67.0+</small>

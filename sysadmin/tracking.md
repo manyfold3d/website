@@ -2,7 +2,7 @@
 title: Tracking
 parent: Running Manyfold
 layout: page
-nav_order: 3
+nav_order: 4
 ---
 
 Since v0.67.0, Manyfold includes an opt-in anonymous usage tracking option. This has been designed to let the developers answer one single question; how many people are running Manyfold instances?

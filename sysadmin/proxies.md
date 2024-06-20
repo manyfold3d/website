@@ -2,7 +2,7 @@
 title: Proxies
 parent: Running Manyfold
 layout: page
-nav_order: 5
+nav_order: 6
 ---
 
 You may want to run Manyfold behind a reverse proxy, in order to provide HTTPS termination, or run it on a path. This page lists some considerations you'll need to take into account.
@@ -21,6 +21,7 @@ In order for Manyfold to correctly realise it's running behind an HTTPS proxy, y
 
 ```
 http-request set-header X-Forwarded-Ssl on
+http-request set-header X-Forwarded-Proto https
 http-request set-header X-Forwarded-Port 443
 http-request set-header X-Forwarded-Host "YOUR_DOMAIN"
 ```
