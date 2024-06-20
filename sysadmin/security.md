@@ -26,7 +26,19 @@ Make sure that your libraries and files are readable and writable by the user yo
 
 ## Enforcing secure connections
 
+If you're running an instance anywhere except your own private network, it should be using HTTPS. Manyfold itself doesn't (yet) provide SSL termination, but if you're [running behind a proxy](proxies.md), you can put the app into secure-only mode using the following environment variable:
+
 `HTTPS_ONLY=enabled`
+
+This will do three things:
+
+1. Automatically redirects any HTTP requests to HTTPS. The proxy is probably already doing this, but just in case, the application will as well. Make sure your proxy is setting `X-Forwarded-Proto` appropriately so you don't get infinite loops!
+2. Set the `Strict-Transport-Security` header (aka [HSTS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)).
+3. Set all cookies to `secure`, meaning they will only be sent over HTTPS connections.
+
+{:.important}
+The HSTS header has a long expiry time, so this is effectively a one-way switch! By turning it on you will lose unencrypted access to your instance for a long time, so make sure HTTPS is working first!
+
 
 ## File uploads
 
