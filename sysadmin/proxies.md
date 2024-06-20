@@ -2,7 +2,7 @@
 title: Proxies
 parent: Running Manyfold
 layout: page
-nav_order: 5
+nav_order: 6
 ---
 
 You may want to run Manyfold behind a reverse proxy, in order to provide HTTPS termination, or run it on a path. This page lists some considerations you'll need to take into account.
