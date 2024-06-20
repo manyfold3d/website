@@ -42,8 +42,12 @@ The HSTS header has a long expiry time, so this is effectively a one-way switch!
 
 ## File uploads
 
-`MAX_FILE_UPLOAD_SIZE` - 256MiB by default
-`MAX_FILE_EXTRACT_SIZE` - 1GiB by default
+An attacker with upload capability could upload a file that's too big for your server, or even a [zip bomb](https://en.wikipedia.org/wiki/Zip_bomb) in order to cause problems. To avoid that, there are two environment variables to control uploads:
+
+* `MAX_FILE_UPLOAD_SIZE`: sets the maximum size of any individual uploaded file. 256MiB by default.
+* `MAX_FILE_EXTRACT_SIZE`: sets the maximum size of any extracted file. 1GiB by default.
+
+To change these sizes, set a number _in bytes_ in the environment variable. For instance, to allow up to 512MiB uploads, set `MAX_FILE_UPLOAD_SIZE=536870912`.
 
 ## Container permissions
 
