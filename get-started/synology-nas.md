@@ -7,7 +7,7 @@ layout: page
 {: .important }
 NOTE: Your Synology NAS will need to be running Kernel 4.x or higher; the app will not start on kernel version 3. See the "Outdated Synology NAS Kernel under Version 4" section of [Mariushosting's troubleshooting guide](https://mariushosting.com/synology-common-docker-issues-and-fixes) for more info.
 
-You can run Manyfold on your Synology NAS by using the docker-compose template below with [Container Manager](https://www.wundertech.net/container-manager-on-a-synology-nas/) on DSM 7.2+. Alternatively you can use the same template with Portainer if you're running that, or on the command line if you prefer.
+You can run Manyfold on your Synology NAS by using the docker-compose template below with [Container Manager](https://www.wundertech.net/container-manager-on-a-synology-nas/) on DSM 7.2+. Alternatively you can use the same template with [Portainer](https://mariushosting.com/how-to-install-portainer-on-your-synology-nas/) if you're running that, or on the command line if you prefer.
 
 The following configuration is tested and working on a DiskStation 923+ with lots of memory and space; you may want to adjust the memory limits to suit your own device.
 
