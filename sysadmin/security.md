@@ -24,6 +24,9 @@ To get your user and group IDs, run `id` and look at the `uid` and `gid` values.
 {:.note}
 Make sure that your libraries and files are readable and writable by the user you run as!
 
+{:.important}
+Manyfold does not currently support Docker's built-in `user` option; if you set that, it will drop privileges too early. Hopefully we can make it work in a future release.
+
 ## Enforcing secure connections
 
 If you're running an instance anywhere except your own private network, it should be using HTTPS. Manyfold itself doesn't (yet) provide SSL termination, but if you're [running behind a proxy](proxies.md), you can put the app into secure-only mode using the following environment variable:
