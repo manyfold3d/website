@@ -9,9 +9,11 @@ NOTE: Your Synology NAS will need to be running Kernel 4.x or higher; the app wi
 
 You can run Manyfold on your Synology NAS by using the docker-compose template below with [Container Manager](https://www.wundertech.net/container-manager-on-a-synology-nas/) on DSM 7.2+. Alternatively you can use the same template with [Portainer](https://mariushosting.com/how-to-install-portainer-on-your-synology-nas/) if you're running that, or on the command line if you prefer.
 
-The following configuration is tested and working on a DiskStation 923+ with lots of memory and space; you may want to adjust the memory limits to suit your own device.
+You will need your user and group IDs for the `PUID` and `PGID` variables; read this [guide from Mariushosting](https://mariushosting.com/synology-find-uid-userid-and-gid-groupid-in-5-seconds/) for information on how to get them.
 
 ## docker-compose.yaml
+
+The following configuration is tested and working on a DiskStation 923+ with lots of memory and space; you may want to adjust the memory limits to suit your own device.
 
 ```yaml
 version: "3.9"
