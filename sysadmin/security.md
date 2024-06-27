@@ -62,11 +62,11 @@ The container runs as root, and then drops to a different user once initialized,
 
 First, you should forbid privilege escalation, using the `no-new-privileges` security option.
 
-Then, you can set the container's capabilities by dropping all default capabilities, then adding back only the ones Manyfold really needs. Manyfold uses `CHOWN` permission to make sure temp and log files are writable by the `PUID` user, then uses `SETUID` and `SETGID` to actually change to that user. No others are required.
+Then, you can set the container's capabilities by dropping all default capabilities, then adding back only the ones Manyfold really needs. Manyfold uses `CHOWN` and `DAC_OVERRIDE` permissions to make sure temp and log files are writable by the `PUID` user, then uses `SETUID` and `SETGID` to actually change to that user. No others are required.
 
 On the docker command line, you can set these options using the following arguments:
 
-`--security-opt=no-new-privileges:true --cap-drop=ALL --cap-add=CHOWN,SETUID,SETGID`
+`--security-opt=no-new-privileges:true --cap-drop=ALL --cap-add=CHOWN,DAC_OVERRIDE,SETUID,SETGID`
 
 Or, if you're using docker-compose:
 
@@ -77,6 +77,7 @@ cap_drop:
   - ALL
 cap_add:
   - CHOWN
+  - DAC_OVERRIDE
   - SETUID
   - SETGID
 ```

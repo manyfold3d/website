@@ -28,6 +28,7 @@ services:
       - ALL
     cap_add:
       - CHOWN
+      - DAC_OVERRIDE
       - SETUID
       - SETGID
     security_opt:
