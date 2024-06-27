@@ -136,6 +136,19 @@ If your public service is on a non-standard port, set it here (e.g. `3214`).
 
 ## Miscellaneous
 
+### `DEFAULT_WORKER_CONCURRENCY`
+<small>Version 0.70.0+</small>
+
+The number of standard worker threads to run. If you have more CPU power and memory, you may want to increase this to get faster
+job processing. 4 by default.
+
+### `PERFORMANCE_WORKER_CONCURRENCY`
+<small>Version 0.70.0+</small>
+
+The number of high-performance worker threads to run. High-performance workers run intensive jobs like geometric analysis and
+file conversion, and use a lot of memory and CPU power. Set to 1 by default, so that demanding jobs don't saturate the Manyfold
+server, but if you have lots of CPU and memory available, you can increase this to process more jobs in parallel.
+
 ### `MAX_FILE_EXTRACT_SIZE`
 <small>Version 0.69.0+</small>
 
