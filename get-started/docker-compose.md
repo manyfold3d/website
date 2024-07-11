@@ -51,7 +51,7 @@ services:
       - redis-server
     networks:
       - manyfold
-    # Optional but recommended for better security
+    # Optional, but recommended for better security
     security_opt:
       - no-new-privileges:true
     cap_drop:
@@ -101,7 +101,7 @@ services:
       SECRET_KEY_BASE: a_nice_long_random_string
       PUID: 1000
       PGID: 1000
-    # Optional but recommended for better security
+    # Optional, but recommended for better security
     security_opt:
       - no-new-privileges:true
     cap_drop:
