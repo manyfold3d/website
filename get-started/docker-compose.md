@@ -41,7 +41,7 @@ services:
       DATABASE_USER: manyfold
       DATABASE_PASSWORD: password
       SECRET_KEY_BASE: a_nice_long_random_string
-      REDIS_URL: redis://redis:6379/1
+      REDIS_URL: redis://redis-server:6379/1
       PUID: 1000
       PGID: 1000
       # For details of other optional environment variables, including features such
@@ -56,15 +56,15 @@ services:
       - SETUID
       - SETGID
     depends_on:
-      - db
-      - redis
+      - postgres-server
+      - redis-server
     networks:
       - manyfold
     links:
-      - db
-      - redis
+      - postgres-server
+      - redis-server
 
-  db:
+  postgres-server:
     image: postgres:15
     volumes:
       - db_data:/var/lib/postgresql/data
@@ -75,7 +75,7 @@ services:
     networks:
       - manyfold
 
-  redis:
+  redis-server:
     image: redis:7
     restart: on-failure
     networks:
@@ -83,7 +83,6 @@ services:
 
 volumes:
   db_data:
-
 
 networks:
   manyfold:
