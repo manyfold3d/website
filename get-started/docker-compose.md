@@ -46,6 +46,15 @@ services:
       PGID: 1000
       # For details of other optional environment variables, including features such
       # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
+    depends_on:
+      - postgres-server
+      - redis-server
+    networks:
+      - manyfold
+    links:
+      - postgres-server
+      - redis-server
+    # Optional but recommended for better security
     security_opt:
       - no-new-privileges:true
     cap_drop:
@@ -55,14 +64,6 @@ services:
       - DAC_OVERRIDE
       - SETUID
       - SETGID
-    depends_on:
-      - postgres-server
-      - redis-server
-    networks:
-      - manyfold
-    links:
-      - postgres-server
-      - redis-server
 
   postgres-server:
     image: postgres:15
@@ -103,6 +104,7 @@ services:
       SECRET_KEY_BASE: a_nice_long_random_string
       PUID: 1000
       PGID: 1000
+    # Optional but recommended for better security
     security_opt:
       - no-new-privileges:true
     cap_drop:
