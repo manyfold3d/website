@@ -27,8 +27,6 @@ You can install and run all the dependencies in one go using `docker compose`:
 ## Standard docker-compose.yml
 
 ```docker
-version: "3"
-
 services:
   app:
     image: ghcr.io/manyfold3d/manyfold:latest
