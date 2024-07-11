@@ -22,7 +22,7 @@ You can install and run all the dependencies in one go using `docker compose`:
 
 3. Open Manyfold at <http://localhost:3214>
 
-4. Add a library. Remember the path mappings in the Docker Compose file? In `docker-compose.example.yml` the libraries at /path/to/your/libraries in your file system would be available at /libraries in the app.
+4. Add a library. Remember the path mappings in the Docker Compose file? In the examples below, the contents of /path/to/your/libraries in your file system would be available in /libraries inside the running app.
 
 ## Standard docker-compose.yml
 
