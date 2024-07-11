@@ -51,9 +51,6 @@ services:
       - redis-server
     networks:
       - manyfold
-    links:
-      - postgres-server
-      - redis-server
     # Optional but recommended for better security
     security_opt:
       - no-new-privileges:true
