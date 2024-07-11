@@ -14,20 +14,6 @@ This page lists the available environment variables, and describes the effect of
 {:.important}
 The variables in this section **must** be set, or the application will not start.
 
-### `DATABASE_URL`
-
-A string that includes all the information necessary to connect to a PostgreSQL database, in the form `postgresql://{username}:{password}@{database_server}/{database_name}?pool=5`. For a complete description, and more options, see the [PostgreSQL connection string documentation](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS).
-
-Alternatively, you can set server, username, password and name separately; see the [Database](#database) section.
-
-### `REDIS_URL`
-
-A string that includes all the information necessary to connect to a Redis server, in the form `redis://{redis_server}:{port}/{dbnumber}`; for instance `redis://redis:6379/1`.
-
-### `SECRET_KEY_BASE`
-
-A secret key used to sign browser cookies; normally a 128-digit hexadecimal number, but any long random string will do. If you have the code checked out, you can generate one with `rake secret`. Changing this will invalidate all user cookies and sessions.
-
 ### `PUID` and `PGID`
 <small>Version 0.69.0+</small>
 
@@ -37,6 +23,63 @@ For example: `PUID=1000` and `PGID=1000`
 
 To get your user and group IDs, run `id` and look at the `uid` and `gid` values. Read our [security guide](security) for more details.
 
+### `SECRET_KEY_BASE`
+
+A secret key used to sign browser cookies; normally a 128-digit hexadecimal number, but any long random string will do. If you have the code checked out, you can generate one with `rake secret`. Changing this will invalidate all user cookies and sessions.
+
+### `REDIS_URL`
+<small>`manyfold` image only, not required for `manyfold-solo`</small>
+
+A string that includes all the information necessary to connect to a Redis server, in the form `redis://{redis_server}:{port}/{dbnumber}`; for instance `redis://redis:6379/1`.
+
+## Database
+
+If you're using the `manyfold` image, you need to provide *either* a `DATABASE_URL` or a set of separate `DATABASE_*` parameters. If you're using `manyfold-solo`, as long as you have mounted persistent storage at `/config`, you do not need any more database configuration.
+
+### `DATABASE_ADAPTER`
+<small>Version 0.72.0+</small>
+
+Specifies the type of database being connected to. Supported values are:
+
+|DATABASE_ADAPTER|Server|Default?|
+|--|--|--|
+|`postgresql`|[PostgreSQL](https://postgresql.org)|yes|
+|`mysql2`|[MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/)||
+|`sqlite3`|[SQLite](https://www.sqlite.org)||
+
+### `DATABASE_HOST`
+<small>Version 0.60.0+</small>
+
+The hostname of your database server. Not required for `sqlite3`.
+
+### `DATABASE_USER`
+<small>Version 0.60.0+</small>
+
+The username used to authenticate to your database server. Not required for `sqlite3`.
+
+### `DATABASE_PASSWORD`
+<small>Version 0.60.0+</small>
+
+The password used to authenticate to your database server. Not required for `sqlite3`.
+
+### `DATABASE_NAME`
+<small>Version 0.60.0+</small>
+
+For `postgresql` and `mysql2`, this should be the name of the database you want to use. For `sqlite3`, this
+should specify the absolute path of the database file, e.g. `/config/manyfold.sqlite3`
+
+### `DATABASE_CONNECTION_POOL`
+<small>Version 0.70.0+</small>
+
+Specifies the number of database connections to share across the application. Defaults to `RAILS_MAX_THREADS` or `16`, which should be fine in most cases.
+
+### `DATABASE_URL`
+
+A single string that combines all the information necessary to connect to your database. This will override any other information specified in the other `DATABASE_*` variables. The exact format varies slightly depending on the database adapter you want to use:
+
+* [PostgreSQL](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS): `postgresql://{username}:{password}@{database_server}/{database_name}?pool={pool_size}`
+* [MySQL/MariaDB](https://dev.mysql.com/doc/refman/8.0/en/connecting-using-uri-or-key-value-pairs.html): `mysql2://{username}:{password}@{database_server}/{database_name}?pool={pool_size}`
+* [SQLite](https://www.sqlite.org/c3ref/open.html#urifilenamesinsqlite3open): `sqlite3:{absolute_path_of_database_file}?pool={pool_size}`
 
 ## Features
 
@@ -71,30 +114,6 @@ The HSTS header has a long expiry time, so this is effectively a one-way switch!
 ### `RAILS_RELATIVE_URL_ROOT`
 
 If you are mapping Manyfold to a non-root path via a reverse proxy like nginx, use this option to tell Manyfold what the root path is; for instance `/manyfold`.
-
-## Database
-
-Instead of setting `DATABASE_URL` as above, you can set separate variables for each component. If you do this, all variables in this section are required.
-
-### `DATABASE_HOST`
-<small>Version 0.60.0+</small>
-
-The hostname of your PostgreSQL server.
-
-### `DATABASE_USER`
-<small>Version 0.60.0+</small>
-
-The username used to authenticate to PostgreSQL.
-
-### `DATABASE_PASSWORD`
-<small>Version 0.60.0+</small>
-
-The password used to authenticate to PostgreSQL.
-
-### `DATABASE_NAME`
-<small>Version 0.60.0+</small>
-
-Your PostgreSQL database name.
 
 ## Email
 
@@ -134,7 +153,15 @@ The hostname of your publicly-accessible service, e.g. `try.manyfold.app`. This 
 
 If your public service is on a non-standard port, set it here (e.g. `3214`).
 
-## Miscellaneous
+## Performance
+
+### `WEB_CONCURRENCY`
+
+Sets the number of web workers run by the application. Recommended to be the same or slightly less than the number of available CPU cores for best performance. Defaults to 4. The number of concurrent requests that can be served is `WEB_CONCURRENCY` * `RAILS_MAX_THREADS`.
+
+### `RAILS_MAX_THREADS`
+
+The maximum number of threads that each worker should run. Each thread can serve one request at a time, so the number of concurrent requests that can be served is `WEB_CONCURRENCY` * `RAILS_MAX_THREADS`. Defaults to 16.
 
 ### `DEFAULT_WORKER_CONCURRENCY`
 <small>Version 0.70.0+</small>
@@ -149,6 +176,8 @@ The number of high-performance worker threads to run. High-performance workers r
 file conversion, and use a lot of memory and CPU power. Set to 1 by default, so that demanding jobs don't saturate the Manyfold
 server, but if you have lots of CPU and memory available, you can increase this to process more jobs in parallel.
 
+## Miscellaneous
+
 ### `MAX_FILE_EXTRACT_SIZE`
 <small>Version 0.69.0+</small>
 
@@ -157,7 +186,7 @@ The maximum individual file size (in bytes) that will be extracted from uploaded
 ### `MAX_FILE_UPLOAD_SIZE`
 <small>Version 0.69.0+</small>
 
-The maximum individual file size (in bytes) that can be uploaded. 256MiB by default.
+The maximum individual file size (in bytes) that can be uploaded. 1GiB by default.
 
 ### `USAGE_REPORTING_URL`
 <small>Version 0.67.0+</small>

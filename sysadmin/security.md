@@ -104,10 +104,13 @@ The required paths are:
 * `/tmp`
 * `/usr/src/app/tmp`
 * `/usr/src/app/log`
+* `/run`
 
-For example, you might map these to a specific place on your host. In docker-compose:
+You might map these to a specific place on your host (apart from `/run` which should be a `tmpfs` mount). In docker-compose:
 
 ```yaml
+tmpfs:
+  - /run:exec
 volumes:
   - /var/manyfold/sys_tmp:/tmp
   - /var/manyfold/app_tmp:/usr/src/app/tmp
