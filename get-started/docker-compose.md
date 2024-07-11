@@ -35,7 +35,11 @@ services:
     volumes:
       - /path/to/your/libraries:/libraries
     environment:
-      DATABASE_URL: postgresql://manyfold:password@db/manyfold?pool=5
+      DATABASE_ADAPTER: postgresql # mysql2 or sqlite3 are also supported
+      DATABASE_HOST: postgres-server
+      DATABASE_NAME: manyfold # or the path to the database file if using sqlite3
+      DATABASE_USER: manyfold
+      DATABASE_PASSWORD: password
       SECRET_KEY_BASE: a_nice_long_random_string
       REDIS_URL: redis://redis:6379/1
       PUID: 1000
