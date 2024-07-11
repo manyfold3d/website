@@ -24,3 +24,15 @@ callouts:
   info:
     title: Info
     color: blue
+  good:
+    title: Good
+    color: green
+  ok:
+    title: OK
+    color: yellow
+  bad:
+    title: Bad
+    color: red
+  not-assessed:
+    title: Not Assessed
+    color: purple
