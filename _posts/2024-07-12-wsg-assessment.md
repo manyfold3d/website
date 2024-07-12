@@ -98,7 +98,7 @@ If you provide physical goods or services, you may also have to account for the 
 
 Consider and work with non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected.
 
-{:.not-assessed}
+{:.na}
 No physical product involved.
 
 ### Guideline 2.4. [Consider Sustainability in Early Ideation](https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation)
@@ -581,14 +581,14 @@ All of our built-in imagery has alternative text, but the images included in cat
 
 Audio should provide text transcripts of conversations as an alternative to playing the media.
 
-{:.good}
+{:.na}
 We have no audio content.
 
 #### Video Alternatives
 
 Video should provide text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options.
 
-{:.good}
+{:.na}
 We have no video content of this type.
 
 ### Guideline 2.20. [Provide Accessible, Usable, Minimal Web Forms](https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms)
@@ -957,7 +957,7 @@ ARIA attributes are only added if actually useful - wherever possible we just us
 
 Deploy solutions that fight against electronic inequalities in products and services.
 
-{:.not-assessed}
+{:.na}
 I'm not sure how to assess or apply this...
 
 ### Guideline 3.6. [Avoid Code Duplication](https://w3c.github.io/sustyweb/#avoid-code-duplication)
