@@ -35,17 +35,15 @@ At this point, I am not assessing against section 5 of the recommendations, whic
 ## Conclusions
 
 <div id="results" style="text-align: center; line-height: 2rem;">
-  <div id="good" style="display: inline-block; background-color: green; width: 14.7%" >14.7%</div><div id="ok" style="display: inline-block; background-color: yellow; width: 10%" >10%</div><div id="bad" style="display: inline-block; background-color: red; width: 8.8%" >8.8 %</div><div id="na" style="display: inline-block; background-color: purple; width: 3.5%" >3.5%</div><div id="todo" style="display: inline-block; background-color: black; width: 62.9%" >62.9%</div>
+  <div id="good" style="display: inline-block; background-color: green; width: calc(100% / 170 * 34)" >Good</div><div id="ok" style="display: inline-block; background-color: yellow; width: calc(100% / 170 * 22)" >OK</div><div id="bad" style="display: inline-block; background-color: red; width: calc(100% / 170 * 29)" >Bad</div><div id="na" style="display: inline-block; background-color: purple; width: calc(100% / 170 * 7)" >N/A</div><div id="todo" style="display: inline-block; background-color: black; width: calc(100% / 170 * 78)" >TODO</div>
 </div>
-
-
 
 |Rating|Criteria|
 |---|---|
-|🟢 Good|25|
-|🟡 OK|17|
-|🔴 Bad|15|
-|🟣 N/A|6|
+|🟢 Good|34|
+|🟡 OK|22|
+|🔴 Bad|29|
+|🟣 N/A|7|
 |Total|170|
 
 ## Section 2. User-Experience Design
