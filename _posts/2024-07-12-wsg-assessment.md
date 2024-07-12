@@ -1049,7 +1049,7 @@ Redundancy is the enemy of sustainability. Having systems in place to ensure tha
 
 <details markdown="block">
 <summary>
-Criteria: 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🟢
 </summary>
 
 #### Remove Or Simplify
@@ -1064,17 +1064,14 @@ We regularly refactor old code to make it simpler and more efficient, with less 
 Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact.
 
 {:.good}
-We do take an iterative approach to development, and reuse code and third larty libraries wherever possible.
+We do take an iterative approach to development, and reuse code and third party libraries wherever possible.
 
 #### Organize Code Arrangement
 
 Within CSS and JavaScript, use methodologies (like BEM) and systems like DRY and WET to optimize the arrangement and output of your source code.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use good software engineering approaches to code design, and continually consider the tradeoffs between maintainability, complexity and repetition.
 
 </details>
 
@@ -1084,38 +1081,29 @@ Whether advertising, chatbots, maps, or other tooling; outsourcing your service 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟣 🟣 🔴 🟢 🟢 🟢
 </summary>
 
 #### Assess Third-Parties
 
 Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.na}
+We do not embed any third party services.
 
 #### Third-party Implementation
 
 Third-party content (including plugins, widgets, feeds, maps, carousels, etc) should be placed behind a click-to-load delay screen (using the "import on interaction" pattern), while alternatives to automated solutions such as chatbots should be offered.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.na}
+We do not embed any third party services.
 
 #### Libraries And Frameworks
 
 Large CSS libraries and JavaScript frameworks should only be used if a more performant alternative that achieves the same goal cannot be used instead.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We haven't done an assessment of the software we use against this criterion.
 
 #### Self-Hosting
 
@@ -1128,21 +1116,15 @@ Manyfold doesn't include any external third party content.
 
 Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use no third party services for embedded content.
 
 #### Third-party Preferences
 
 Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use no third party services outside our control.
 
 </details>
 
@@ -1152,7 +1134,7 @@ HTML semantics are important. They don't just play a key role in making the Web 
 
 <details markdown="block">
 <summary>
-Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🟢 🟢
+Criteria: 🟡 🔴 🟢 🟢
 </summary>
 
 #### Semantic Code
@@ -1166,11 +1148,8 @@ Manyfold aims to always use clean and semantic HTML. But we can always do better
 
 Consider removing optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We should set up automated linting that can highlight these issues for fixing; we're not currently aware if this problem is present in our application or not.
 
 #### Avoid Non-standard Code
 
@@ -1194,28 +1173,22 @@ The ability to work around render-blocking issues is a great addition to the web
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 🔴
 </summary>
 
 #### Asynchronous Code
 
 All external assets should be deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do some of this, but I'm not sure if everything is properly deferred.
 
 #### Priority Loading
 
 If external resources are required on load, ensure their priorities (delivery route) are set correctly.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not set priorities for loading of assets.
 
 </details>
 
@@ -1225,38 +1198,29 @@ Helping visitors avoid wasting their time can reduce the number of emissions fro
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🔴 🟢
 </summary>
 
 #### Metadata And Microdata
 
 Optimize your metadata and microdata for search engines and social media.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not done this.
 
 #### Search Engines
 
 Assist search engines, while blocking any ill-intentioned robots and scripts.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not done this.
 
 #### Accessibility Aids
 
 Offer accessibility and usability aids to find content, such as skip links and signposts.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+Many issues like this were raised in our recent accessibility audit, and have been addressed. Links and buttons are well labeled, and we have skip links in a number of places, including around large lists of content.
 
 </details>
 
@@ -1298,38 +1262,29 @@ Search engines and social networks make use of the content within a website, by 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🔴 🔴
 </summary>
 
 #### Required Elements
 
 Include the required title element, plus any optional HTML head elements (such as link).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+Our titles are probably not set to useful values, and I don't think we've done much other head metadata.
 
 #### Meta Tags
 
 Include necessary meta tag references that search engines and social networks recognize, using a recognized name scheme such as Dublin Core Metadata Initiative (DCMI), Friend Of A Friend (FOAF), or RDFa.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't do this, but there are probably opportunities to do so.
 
 #### Structured Data
 
 Embed Microdata, Structured Data (Schema), or Microformats within your pages.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't do this, but there are probably opportunities to do so.
 
 </details>
 
@@ -1357,7 +1312,7 @@ Visitors approach our products and services on a wide variety of devices these d
 
 <details markdown="block">
 <summary>
-Criteria: 🔴 🟡 🔴 ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟡 🔴 🔴
 </summary>
 
 #### Mobile-First
@@ -1385,11 +1340,8 @@ We've not looked into this at all, and I didn't even know it was possible. We sh
 
 Consider supporting other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected technology (watch, appliance, transport, etc).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not explored these interaction methods at all.
 
 </details>
 
@@ -1474,18 +1426,15 @@ Search engines and browsers regularly examine websites, requesting specific file
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### Expected File Formats
 
 Take advantage of the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't have these yet.
 
 </details>
 
@@ -1495,18 +1444,15 @@ Several small assets can be included within a website, conferring a range of ben
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### Beneficial File Formats
 
 Utilize standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't have these yet.
 
 </details>
 
@@ -1516,28 +1462,22 @@ The Web is full of dead, often proprietary code, created using standards that ha
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 🟡
 </summary>
 
 #### Deprecated Code
 
 Upgrading or avoiding deprecated formats is important, the only exception being if consumer support demands maintaining older standards to provide a functional product.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do have to support a number of outdated formats for 3d models. But, a primary purpose of Manyfold is to help users turn those old formats into more efficient newer forms, a process we've started with our 3MF conversion.
 
 #### Outdated Code
 
 Don't use an older standard if a newer recommendation will do the same job as / or more effectively.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do stay up to date with recent standards and recommendations, though we may sometimes fall behind. For instance, our HTML could probably be a bit more up to date.
 
 </details>
 
@@ -1547,28 +1487,22 @@ Every product or service is different, and each will require a different set of 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟡 🟢 🟡 🔴
 </summary>
 
 #### Identify Requirements
 
 List (and choose carefully) the requirements of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+This has not been done carefully or intentionally.
 
 #### Optimized Methodology
 
 As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+Our language and framework choice optimises for development velocity, and in general will be more efficient than something we could write to do the same job. However, we can use them more efficiently.
 
 #### Static VS Dynamic
 
@@ -1581,21 +1515,15 @@ Our core application is inherently dynamic, so this cannot be applied, but our d
 
 Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do consider these aspects for libraries and plugins, though the functionality is probably the primary driver. We do keep an eye on them to make sure they still work and that other solutions wouldn't be a better fit.
 
 #### Interface Impact
 
 Make sure all the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We have not approached the UI in this way; it's something we should explore.
 
 </details>
 
@@ -1605,28 +1533,22 @@ Languages evolve regularly, and it's important for security and performance reas
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🔴
 </summary>
 
 #### Versioning
 
 Use the latest build of your chosen syntax language and its coupled framework.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do automatically stay up to date with recent language and framework versions, except where blocked by other problems, in which case we work to actively resolve the blockers.
 
 #### Language Choice
 
 Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved or become too cost prohibitive.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+Ruby is not the best language for processing heavy 3D content server side. We could save a lot of computation by using a lower-level native-code library for model manipulation.
 
 </details>
 
@@ -1636,18 +1558,15 @@ Ensuring that your code is free of redundancy by using pre-existing functionalit
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Native Over Custom
 
 Use native functions, APIs, and features over writing your own.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We try to do this wherever possible, though we have some legacy code that still needs updating.
 
 </details>
 
@@ -1657,18 +1576,15 @@ Making multiple requests whether HTTP or within a database has a carbon cost as 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### Database Queries
 
 If you need information that is stored in a database, and you require it (or it's likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We definitely have some database query optimisation to do. We've done some, but it has to be kept on top of, and we're probably a bit behind. Improving fragment caching would probably have a big impact here.
 
 </details>
 
