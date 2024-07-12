@@ -38,6 +38,12 @@ At this point, I am not assessing against section 5 of the recommendations, whic
   <div id="good" style="display: inline-block; background-color: green; width: calc(100% / 170 * 53)" >Good</div><div id="ok" style="display: inline-block; background-color: yellow; width: calc(100% / 170 * 37)" >OK</div><div id="bad" style="display: inline-block; background-color: red; width: calc(100% / 170 * 64)" >Bad</div><div id="na" style="display: inline-block; background-color: purple; width: calc(100% / 170 * 16)" >N/A</div>
 </div>
 
+We meet just over half the criteria with "good" or "OK" ratings. In many of the "good" cases, this is because we're *not* doing something, like tracking or advertising, rather than because of proactive action.
+
+The "bad" section gives us a really good list of things to look into; there's plenty there I'd not considered before, which will help both sustainability and the general performance and behaviour of the application.
+
+The biggest wins are going to be around efficiency of 3d file processing transmission, and rendering, which I guess is pretty obvious simply from the nature of the app.
+
 |Rating|Criteria|
 |---|---|
 |🟢 Good|53|
@@ -45,6 +51,16 @@ At this point, I am not assessing against section 5 of the recommendations, whic
 |🔴 Bad|64|
 |🟣 N/A|16|
 |Total|170|
+
+Doing this assessment was an interesting process. WSG feels like a very big checklist, which creeps into other areas like governance, team methodology, and so on. In particular, it crosses over into areas of accessibility and security, which I would consider as "different" things, but I suppose the point is that everything has an impact on sustainability.
+
+I guess my feedback to the authors might be to be able to provide some shortcut guidance; so, for instance, if you're WCAG compliant at a certain level, skip certain sections or something.
+
+The results here are very very qualitative, with pretty much no numerical information. However, this does feel like I have some actionable outcomes that I can work on.
+
+This assessment is a baseline, really. I'll revisit this in perhaps six months with the same process, unless a more official one has come along in the interim. It'll be very interesting to see how it compares and whether we can show progress!
+
+I'll be open sourcing the markdown generator that I used for this page, and will link it here when it's available.
 
 ## Section 2. User-Experience Design
 
