@@ -345,9 +345,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Prioritize SEO at early design stages and throughout a product or service's lifecycle to improve content findability.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+We haven't considered SEO outside the approach of creating well-structured documents.
 
 ### 2.15. [Take a More Sustainable Approach to Image Assets](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets)
 
