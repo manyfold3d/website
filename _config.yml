@@ -24,6 +24,9 @@ callouts:
   info:
     title: Info
     color: blue
+  todo:
+    title: TODO
+    color: grey-lt
   good:
     title: Good
     color: green
@@ -33,6 +36,6 @@ callouts:
   bad:
     title: Bad
     color: red
-  not-assessed:
+  na:
     title: Not Assessed
     color: purple
