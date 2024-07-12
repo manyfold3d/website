@@ -63,9 +63,11 @@ The application is being developed through following our own instincts on what's
 
 Potential visitor constraints like the device age, operating system version, browser, and connection speeds are considered when designing user-experiences.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Barriers And Access
 
@@ -107,17 +109,21 @@ While some things require the use of electricity, during the early ideation phas
 
 Utilize wireframes, and rapid prototyping to quickly build consensus, reduce risk, and lower the number of resources needed to build features.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Participation And Testing
 
 Involve your users within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.5. [Account for Stakeholder Issues](https://w3c.github.io/sustyweb/#account-for-stakeholder-issues)
 
@@ -127,17 +133,21 @@ Brainstorming allows you to flush out ideas before you commit to pursuing a path
 
 In the brainstorming process, consider all stakeholders using a human-centered approach.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Ecological Brainstorming
 
 In the brainstorming process, take the planetary needs and ecological boundaries into account.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.6. [Create a Lightweight Experience by Default](https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default)
 
@@ -147,25 +157,31 @@ When providing the option to download, save, print, or access anything online, d
 
 The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Patterns For Efficiency
 
 Make your user-journey (when browsing an accessed website or service) as smooth as possible. User-research is key, as is building on established design patterns that people already understand.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Distraction-Free Design
 
 Visitors can complete tasks without distractions or non-essential features getting in the way.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Eliminate The Non-Essential
 
@@ -207,9 +223,11 @@ A primary purpose of the application is information management and organisation,
 
 Implementing an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### New Content
 
@@ -226,25 +244,31 @@ Time is precious, wasting a visitor's will cause frustration and lead to abandon
 
 Respect a visitor's attention by allowing them to easily control how (and when) they receive information.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Avoid Distraction
 
 Prioritize features that don't distract people or unnecessarily lengthen the time they spend using the product or service.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Avoid Attention-keeping
 
 Avoid using infinite scroll or related attention-keeping tactics.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.10. [Use Recognized Design Patterns](https://w3c.github.io/sustyweb/#use-recognized-design-patterns)
 
@@ -254,9 +278,11 @@ Visitors can identify patterns fairly easily, and they like browsing websites an
 
 Provide only essential components visible at the time they are needed. Where appropriate, interfaces should deploy visual styles (patterns) that are easily recognized and used.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.11. [Avoid Manipulative Patterns](https://w3c.github.io/sustyweb/#avoid-manipulative-patterns)
 
@@ -298,25 +324,31 @@ Everything produced by designers, developers, writers, and those involved with a
 
 The deliverables output, including documentation, are used upstream of the project and produced in ways that will allow it to be reused in subsequent projects.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Deliverables Documentation
 
 Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Deliverables Readability
 
 Ensure that developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.13. [Use a Design System To Prioritize Interface Consistency](https://w3c.github.io/sustyweb/#use-a-design-system-to-prioritize-interface-consistency)
 
@@ -326,9 +358,11 @@ Design systems allow common components and patterns to be formalized and managed
 
 Employ a design system based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.14. [Write With Purpose, in an Accessible, Easy To Understand Format](https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format)
 
@@ -345,9 +379,11 @@ We try to use simple concise language within the application, and our documentat
 
 Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Search Engine Optimization (SEO)
 
@@ -378,9 +414,11 @@ Models tend to contain images, which are often quite large. These should be opti
 
 Provide Lazy Loading to ensure image assets only load when they are required.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Sizing And Deactivation
 
@@ -393,9 +431,11 @@ This is not currently an option.
 
 Set up a media management and use policy to reduce the overall impact of images, with criteria for media compression and file formats.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.16. [Take a More Sustainable Approach to Media Assets](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets)
 
@@ -405,41 +445,51 @@ Video and audio-heavy websites are often those that can have significant sustain
 
 Assess the need for video or sound usage (including only when they add visitor value), and ban non-informative media (background media) including autoplaying functionality.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Optimize Media
 
 Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Lazy Loading
 
 Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Labels And Choice
 
 Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Management And Usage
 
 Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.17. [Take a More Sustainable Approach to Animation](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-animation)
 
@@ -449,25 +499,31 @@ Animation can be both CPU and GPU-intensive and have implications for accessibil
 
 Use animation only when it adds value to a visitor's experience, and not for decorative elements.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Avoid Overburdening
 
 Progressively display an appropriate quantity of animation so as not to overburden the visitor or diminish expected device behavior.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Control Animation
 
 Allow visitors to start, stop, pause, or otherwise control animated content.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.18. [Take a More Sustainable Approach to Typefaces](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces)
 
@@ -477,17 +533,21 @@ Since the advent of the modern web, the ability to include embedded fonts and pr
 
 Use standard system-level (web-safe / pre-installed) fonts as much as possible.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Font Optimization
 
 Ensure the number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.19. [Provide Suitable Alternatives to Web Assets](https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets)
 
@@ -504,9 +564,11 @@ We do not use any proprietary formats in our own work. The system can be used to
 
 All custom typefaces (using font-display) should be subsetted and offered as part of a font stack with a system font as a backup.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Alternative Text
 
@@ -544,9 +606,11 @@ We aim to do this, by including explanatory text in forms, help text for inputs,
 
 Avoid auto-completion / auto-suggest if it would prove unhelpful (to conserve bandwidth) whilst allowing autofill for ease of repeat entry (including the use of helpful tooling such as password managers).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.21. [Support Non-Graphic Ways To Interact With Content](https://w3c.github.io/sustyweb/#support-non-graphic-ways-to-interact-with-content)
 
@@ -567,9 +631,11 @@ Notifications whether through the browser or messaging can be potentially useful
 
 Remove non-essential notifications while justifying and reducing the practice of e-mailing or text messaging to what is strictly necessary. Useful notifications (such as alerts for new content) should be used with care and restraint.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Notification Control
 
@@ -582,9 +648,11 @@ At present, we only have emails for essential account actions like password rese
 
 Help visitors manage expectations by clearly explaining the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.23. [Reduce the Impact of Downloadable or Physical Documents](https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents)
 
@@ -608,17 +676,21 @@ We do not have any documents that fit this category at present.
 
 If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Labels And Choice
 
 Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.24. [Create a Stakeholder-Focused Testing & Prototyping Policy](https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy)
 
@@ -628,33 +700,41 @@ The organization has policies and practices in place to incorporate stakeholder-
 
 The organization has outlined processes it uses to prototype and test new features, product ideas, and user-interface components when applicable with real users who represent various stakeholder perspectives, including people with slow connection, with disabilities, with difficulties using digital services, and so on.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Resourcing And Viability
 
 The organization has appropriately resourced these processes to support its long-term product viability.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Training And Onboarding
 
 The organization has training materials to onboard new product team members to these practices.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Testing And Validation
 
 The organization regularly conducts extensive testing and user interviews to validate whether the released features are meeting both business goals and visitor needs.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.25. [Conduct Regular Audits, Regression, and Non-Regression Tests](https://w3c.github.io/sustyweb/#conduct-regular-audits-regression-and-non-regression-tests)
 
@@ -664,25 +744,31 @@ Products and services at any stage of a project can suffer bugs or issues that n
 
 Check your codebase for bugs, identify any performance issues, and account for accessibility or security problems at either monthly or quarterly timeframes (depending on your scheduling allowance).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Non-Regression Tests
 
 Non-regression tests are implemented for all important functionality.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Regression Tests
 
 Incorporate regression testing into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.26. [Incorporate Performance Testing Into Each Major Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-performance-testing-into-each-major-release-cycle)
 
@@ -692,17 +778,21 @@ Try to ethically measure how efficient a visitor's experience is by analyzing th
 
 Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Measurement And Compliance
 
 Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.27. [Incorporate Value Testing Into Each Major Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-value-testing-into-each-major-release-cycle)
 
@@ -712,9 +802,11 @@ Occasionally, you may find that features you have developed for a product or ser
 
 Consider visitor feedback and monitor adoption and churn rates of product or service features, incorporating insights into future releases.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.28. [Incorporate Usability Testing Into Each Minor Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-usability-testing-into-each-minor-release-cycle)
 
@@ -724,9 +816,11 @@ Researching a product or service and how it is used over time allows you to iter
 
 Incorporate usability testing into product cycles and measure the impact of these tests for future releases.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 2.29. [Incorporate Compatibility Testing Into Each Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle)
 
@@ -736,41 +830,51 @@ Compatibility is a critical part of the sustainability mindset and should be pri
 
 Establish a policy for compatibility with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Maintaining Compatibility
 
 Avoid planned obsolescence in software updates, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Frequent Testing
 
 Regularly test the product or service with weak connections, old browsers, and devices older than five years to ensure compatibility.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Mobile Friendly
 
 Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Progressive Web Applications (PWAs)
 
 Consider whether a PWA will be more sustainable and compatible over a native mobile application.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ## Section 3. Web Development
 
@@ -782,17 +886,21 @@ Performance is a key part of the sustainability mindset as reductions in loading
 
 Set goals that impact the environment and performance of the service, for example, HTTP requests, or the amount of DOM elements that need to be rendered.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Accountancy Types
 
 Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than CSS, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.2. [Minify Your HTML, CSS, and JavaScript](https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript)
 
@@ -860,25 +968,31 @@ Redundancy is the enemy of sustainability. Having systems in place to ensure tha
 
 Don't be afraid to remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Iteration Over Recreation
 
 Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Organize Code Arrangement
 
 Within CSS and JavaScript, use methodologies (like BEM) and systems like DRY and WET to optimize the arrangement and output of your source code.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.7. [Rigorously Assess Third-Party Services](https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services)
 
@@ -888,25 +1002,31 @@ Whether advertising, chatbots, maps, or other tooling; outsourcing your service 
 
 Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Third-party Implementation
 
 Third-party content (including plugins, widgets, feeds, maps, carousels, etc) should be placed behind a click-to-load delay screen (using the "import on interaction" pattern), while alternatives to automated solutions such as chatbots should be offered.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Libraries And Frameworks
 
 Large CSS libraries and JavaScript frameworks should only be used if a more performant alternative that achieves the same goal cannot be used instead.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Self-Hosting
 
@@ -919,17 +1039,21 @@ Manyfold doesn't include any external third party content.
 
 Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Third-party Preferences
 
 Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.8. [Use HTML Elements Correctly](https://w3c.github.io/sustyweb/#use-html-elements-correctly)
 
@@ -946,9 +1070,11 @@ Manyfold aims to always use clean and semantic HTML. But we can always do better
 
 Consider removing optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Avoid Non-standard Code
 
@@ -972,17 +1098,21 @@ The ability to work around render-blocking issues is a great addition to the web
 
 All external assets should be deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Priority Loading
 
 If external resources are required on load, ensure their priorities (delivery route) are set correctly.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.10. [Provide Code-Based Way-Finding Mechanisms](https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms)
 
@@ -992,24 +1122,31 @@ Helping visitors avoid wasting their time can reduce the number of emissions fro
 
 Optimize your metadata and microdata for search engines and social media.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Search Engines
 
 Assist search engines, while blocking any ill-intentioned robots and scripts.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Accessibility Aids
 
 Offer accessibility and usability aids to find content, such as skip links and signposts.
 
-{:.good}
-These were highlighted and added during our accessibility audit; we now have skip links and meaningful link signposting in use across the site.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.11. [Validate Form Errors and External Input](https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input)
 
@@ -1044,25 +1181,31 @@ Search engines and social networks make use of the content within a website, by 
 
 Include the required title element, plus any optional HTML head elements (such as link).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Meta Tags
 
 Include necessary meta tag references that search engines and social networks recognize, using a recognized name scheme such as Dublin Core Metadata Initiative (DCMI), Friend Of A Friend (FOAF), or RDFa.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Structured Data
 
 Embed Microdata, Structured Data (Schema), or Microformats within your pages.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.13. [Adapt to User Preferences](https://w3c.github.io/sustyweb/#adapt-to-user-preferences)
 
@@ -1104,9 +1247,11 @@ We've not looked into this at all, and I didn't even know it was possible. We sh
 
 Consider supporting other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected technology (watch, appliance, transport, etc).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.15. [Use Beneficial JavaScript and Its APIs](https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s)
 
@@ -1170,9 +1315,11 @@ Search engines and browsers regularly examine websites, requesting specific file
 
 Take advantage of the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.19. [Use Plaintext Formats When Appropriate](https://w3c.github.io/sustyweb/#use-plaintext-formats-when-appropriate)
 
@@ -1182,9 +1329,11 @@ Several small assets can be included within a website, conferring a range of ben
 
 Utilize standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.20. [Avoid Using Deprecated or Proprietary Code](https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code)
 
@@ -1194,17 +1343,21 @@ The Web is full of dead, often proprietary code, created using standards that ha
 
 Upgrading or avoiding deprecated formats is important, the only exception being if consumer support demands maintaining older standards to provide a functional product.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Outdated Code
 
 Don't use an older standard if a newer recommendation will do the same job as / or more effectively.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.21. [Align Technical Requirements With Sustainability Goals](https://w3c.github.io/sustyweb/#align-technical-requirements-with-sustainability-goals)
 
@@ -1214,17 +1367,21 @@ Every product or service is different, and each will require a different set of 
 
 List (and choose carefully) the requirements of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Optimized Methodology
 
 As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Static VS Dynamic
 
@@ -1237,17 +1394,21 @@ Our core application is inherently dynamic, so this cannot be applied, but our d
 
 Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Interface Impact
 
 Make sure all the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.22. [Use the Latest Stable Language Version](https://w3c.github.io/sustyweb/#use-the-latest-stable-language-version)
 
@@ -1257,17 +1418,21 @@ Languages evolve regularly, and it's important for security and performance reas
 
 Use the latest build of your chosen syntax language and its coupled framework.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Language Choice
 
 Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved or become too cost prohibitive.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.23. [Take Advantage of Native Features](https://w3c.github.io/sustyweb/#take-advantage-of-native-features)
 
@@ -1277,9 +1442,11 @@ Ensuring that your code is free of redundancy by using pre-existing functionalit
 
 Use native functions, APIs, and features over writing your own.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 3.24. [Run Fewer, Simpler Queries As Possible](https://w3c.github.io/sustyweb/#run-fewer-simpler-queries-as-possible)
 
@@ -1289,9 +1456,11 @@ Making multiple requests whether HTTP or within a database has a carbon cost as 
 
 If you need information that is stored in a database, and you require it (or it's likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ## Section 4. Hosting, Infrastructure And Systems
 
@@ -1303,41 +1472,51 @@ In addition to reducing the environmental impacts of a website, choose a hosting
 
 To assess the environmental impacts of hosting and detect overconsumption, some indicators should be monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators could be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They could be displayed to visitors for transparency and monitoring reasons.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Equipment Longevity
 
 Manage equipment responsibly by keeping them as long as possible, using them as efficiently as possible, making sure they are certified, and purchasing long-lifespan products.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Recycling Waste
 
 Recover, recycle, and upcycle waste including equipment.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Renewable Electricity
 
 Electricity comes entirely from sources with the lowest possible carbon intensity (ideally generated by wind or solar rather than from non-renewable sources). For example, Renewable Energy Credits (RECs) can help verify the source, or, ideally, prove that electricity comes directly from renewable sources.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Remaining Emissions
 
 Compensate remaining emissions, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.2. [Optimize Browser Caching](https://w3c.github.io/sustyweb/#optimize-browser-caching)
 
@@ -1347,17 +1526,21 @@ Browser caching reduces the requirement for files to need to be constantly reloa
 
 If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Offline Access
 
 Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to streamline the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.3. [Compress Your Files](https://w3c.github.io/sustyweb/#compress-your-files)
 
@@ -1367,17 +1550,21 @@ Every file will take up a certain amount of room on a server's hard drive, and t
 
 If using a CMS, install an applicable plugin to enable on-the-fly server-side compression, such as Brotli or GZIP. Otherwise, use the provided server configuration files to include and tweak the performance-related features to the requirements.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Media Compression
 
 Compress your various images, fonts, audio, and video; by reducing the quality and offering different resolutions / dimensions (sizes) before uploading to a server or content management system.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.4. [Use Error Pages and Redirects Carefully](https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully)
 
@@ -1387,17 +1574,21 @@ Navigation errors lead to mistakes, which lead to visitors wasting time trying t
 
 Maintain sites by ensuring links are correct, and if errors occur, provide suitable way-finding within optimized pages for each error type to ensure resources can be identified to help visitors complete the task they started.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Redirection
 
 Redirect websites, subdomains, and pages only when necessary. Proactively seek broken or outdated links and fix them. A redirect or search will often help reduce the number of pages a visitor needs to load.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.5. [Limit Usage of Additional Environments](https://w3c.github.io/sustyweb/#limit-usage-of-additional-environments)
 
@@ -1407,9 +1598,11 @@ Decommission or switch off additional environments, such as testing / Quality As
 
 Ensure no unused environment is available, balancing the cost of deploying an environment with the cost of keeping it online while unused.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.6. [Automate To Fit the Needs](https://w3c.github.io/sustyweb/#automate-to-fit-the-needs)
 
@@ -1419,33 +1612,41 @@ Any tasks, especially repetitive, that can be automated should be automated (com
 
 Every recurring task, such as deployment, testing, or compilation, can be run automatically, as recommended by continuous integration / continuous delivery best practices.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Necessitate Tasks
 
 To reduce wasted processing cycles, every automated task is only run when needed.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Automated Scaling
 
 Use automated scaling infrastructure to automatically increase the capacity of the web server and implement buffering / throttling to respond to visitor demand.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Security Tooling
 
 Web browsing from bots has been steadily increasing in recent years. As such, it is a growing concern for security, performance, and sustainability. Use security tools that automatically block bad actors and minimize bad behavior. This results in substantially less load on the server, fewer logs, less data, less effect due to compromise, and more. The result of compromised websites is a large increase in HTTP, email, and other traffic as malicious code attempts to infiltrate other resources and exfiltrate data. Compromised websites are typically identified by anomalous patterned behavior.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.7. [Maintain a Relevant Refresh Frequency](https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency)
 
@@ -1455,9 +1656,11 @@ Only send data from the server when the visitor needs it. As much as possible, y
 
 The frequency for refresh (of both the cache, locally stored data, and the page) is defined depending on visitor needs.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.8. [Be Mindful of Duplicate Data](https://w3c.github.io/sustyweb/#be-mindful-of-duplicate-data)
 
@@ -1467,9 +1670,11 @@ For security reasons and in accordance with a Service-Level Agreement (SLA), it 
 
 Backups of system and user data are both incremental and secure.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.9. [Enable Asynchronous Processing and Communication](https://w3c.github.io/sustyweb/#enable-asynchronous-processing-and-communication)
 
@@ -1479,25 +1684,31 @@ Depending on carbon intensity, some processes and communications should be delay
 
 By default, non-critical processes and communications are batched and launched only when carbon intensity is under a given threshold.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Protocol Usage
 
 Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Event-Driven Architecture
 
 When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the ESG variables involved) than traditional APIs in handling the server-side workload of your solution.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.10. [Consider CDNs and Edge Caching](https://w3c.github.io/sustyweb/#consider-cdn-s-and-edge-caching)
 
@@ -1507,41 +1718,51 @@ Edge caching and CDN delivery can help optimize the sustainable delivery of digi
 
 When building for a globally distributed audience, use a CDN to store and serve simple read-only, pre-generated resources in a fast and efficient manner. Although they definitely can increase performance, it is also another layer of infrastructure that needs to be considered for sustainability.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Sustainability Commitment
 
 Check the CDN to verify that it provides a commitment to sustainability.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Local Servers
 
 Choose a hosting provider with servers located close to the visitor.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Avoid Caching Inappropriate Resources
 
 Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Process Data Close to the Source
 
 All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.11. [Use the Lowest Infrastructure Tier Meeting Business Requirements](https://w3c.github.io/sustyweb/#use-the-lowest-infrastructure-tier-meeting-business-requirements)
 
@@ -1551,9 +1772,11 @@ Select infrastructure with minimal specifications meeting business requirements 
 
 Select infrastructure elements with the lowest requirements tier, meeting your service-level agreements. Avoid over-provisioning multi-datacenter, multi-zone, or distributed deployments if standalone instances meet the requirements. Also avoid provisioning infrastructure that will be under-utilized by provisioning for established average loads, ensuring reasonable resource utilization and autoscaling occurs as needed. Avoid provisioning for peak loads.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 ### Guideline 4.12. [Store Data According to Visitor Needs](https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs)
 
@@ -1563,46 +1786,58 @@ Optimize storage of data according to what is most important, relevant, and requ
 
 Remove unnecessary and redundant data from your servers, whether it is single-use (dark data) or abandoned.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Expiration Dates
 
 Create data with an expiration date. Excess data is a form of technical debt, and routinely cleaning up old data needs to be normalized.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Classify And Tag
 
 Use a data classification / tagging policy to make it easier to find, handle, and remove.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Justify Storage
 
 Store data only when it is difficult to recreate.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Optimize Logging
 
 Optimize log collection, storage (off-site), and rotation; scheduling during low-activity hours and using carbon-neutral backup providers.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
 
 #### Asset Downloads
 
 Ensure long-term assets, especially those of a large size, are made available for download.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
