@@ -160,9 +160,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Visitors see only information that is relevant to their experience, without non-essential information being displayed on the screen.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We try to only display directly relevant information in the UI. There isn't anything coming from any source that's not directly related to what the user is doing.
 
 #### User-Initiated Actionable Content
 
@@ -256,9 +255,8 @@ Manipulating the visitor into doing things you want them to is a short-term gain
 
 Avoid what are commonly known as dark patterns, deceptive design, or unethical coding techniques, which manipulate visitors into taking actions not necessarily in their best interest (anti-right click, no-copy, requiring an account to purchase, etc).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We do not use dark patterns to drive user actions; in fact, we try our utmost to do the opposite (for instance with the design of our [usage tracking system](/sysadmin/tracking)).
 
 #### Using Advertisements
 
@@ -515,17 +513,15 @@ All of
 
 Audio should provide text transcripts of conversations as an alternative to playing the media.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We have no audio content.
 
 #### Video Alternatives
 
 Video should provide text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We have no video content of this type.
 
 ### 2.20. [Provide Accessible, Usable, Minimal Web Forms](https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms)
 
@@ -575,9 +571,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Let the visitor control notifications (for example through the browser, SMS, or by email) and adjust messaging preferences, and the option to unsubscribe, logout, and close an account should be available and visible.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+At present, we only have emails for essential account actions like password resets. There are no optional notifications.
 
 #### Prompts And Responses
 
@@ -595,17 +590,15 @@ Printing or downloading documents can both be a net benefit and a net cost in te
 
 Design documents to limit the printing impact. If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We do not have any documents that fit this category at present.
 
 #### Optimize Documents
 
 Offer optimized, compressed documents in a variety of accessible file formats.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We do not have any documents that fit this category at present.
 
 #### Optimize Delivery
 
@@ -921,9 +914,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Prioritize self-hosted content over embedded content from third-party services.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Manyfold doesn't include any external third party content.
 
 #### Avoiding Dependency
 
@@ -1169,9 +1161,8 @@ While JavaScript may not cause the most website bloat, it can cause very high em
 
 Prevent developers from downloading and installing JavaScript libraries to run locally (client-side) when they are not needed by checking for unused dependencies and uninstalling those that aren't needed and removing them from your package.json file.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+All our Javascript is packaged up and delivered directly, without any downloads from third parties.
 
 #### Dependency Necessity
 
