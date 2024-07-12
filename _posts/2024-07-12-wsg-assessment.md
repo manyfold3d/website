@@ -35,15 +35,15 @@ At this point, I am not assessing against section 5 of the recommendations, whic
 ## Conclusions
 
 <div id="results" style="text-align: center; line-height: 2rem;">
-  <div id="good" style="display: inline-block; background-color: green; width: calc(100% / 170 * 48)" >Good</div><div id="ok" style="display: inline-block; background-color: yellow; width: calc(100% / 170 * 33)" >OK</div><div id="bad" style="display: inline-block; background-color: red; width: calc(100% / 170 * 47)" >Bad</div><div id="na" style="display: inline-block; background-color: purple; width: calc(100% / 170 * 8)" >N/A</div><div id="todo" style="display: inline-block; background-color: black; width: calc(100% / 170 * 33)" >TODO</div>
+  <div id="good" style="display: inline-block; background-color: green; width: calc(100% / 170 * 53)" >Good</div><div id="ok" style="display: inline-block; background-color: yellow; width: calc(100% / 170 * 37)" >OK</div><div id="bad" style="display: inline-block; background-color: red; width: calc(100% / 170 * 64)" >Bad</div><div id="na" style="display: inline-block; background-color: purple; width: calc(100% / 170 * 16)" >N/A</div>
 </div>
 
 |Rating|Criteria|
 |---|---|
-|🟢 Good|48|
-|🟡 OK|33|
-|🔴 Bad|47|
-|🟣 N/A|8|
+|🟢 Good|53|
+|🟡 OK|37|
+|🔴 Bad|64|
+|🟣 N/A|16|
 |Total|170|
 
 ## Section 2. User-Experience Design
@@ -434,7 +434,7 @@ We try to use simple concise language within the application, and our documentat
 
 Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on.
 
-{:ok}
+{:.ok}
 We try to do this, but a proper content designer could certainly improve things.
 
 #### Search Engine Optimization (SEO)
@@ -1913,7 +1913,7 @@ Criteria: 🟢 🔴 🟢 🟣 🟣 🟢
 
 Remove unnecessary and redundant data from your servers, whether it is single-use (dark data) or abandoned.
 
-{:.green}
+{:.good}
 Removal of duplicated data is a primary function of the app. It's highlighted to the user for easy removal.
 
 #### Expiration Dates
@@ -1927,7 +1927,7 @@ We could create a list of the oldest content to encourage users to review and di
 
 Use a data classification / tagging policy to make it easier to find, handle, and remove.
 
-{:.green}
+{:.good}
 This is within the app design itself, not infrastructure, but tagging and classifying data is a primary function of Manyfold.
 
 #### Justify Storage
@@ -1948,7 +1948,7 @@ We do not store any long-term logs.
 
 Ensure long-term assets, especially those of a large size, are made available for download.
 
-{:.green}
+{:.good}
 The whole app is about download of large assets kept for the long term. This is a primary function.
 
 </details>
