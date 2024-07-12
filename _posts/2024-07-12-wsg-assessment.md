@@ -25,14 +25,22 @@ WSG is a new set of draft recommendations for the sustainability of websites, in
 
 There isn't a formal grading process for WSG yet, so I'm taking a simple a red / amber / green approach, as follows:
 
-* 🔴 Bad : This is definitely a problem, or we've not considered it.
-* 🟡 OK : We're partway there, but there's plenty to improve.
 * 🟢 Good : We've got this pretty well covered (although there's always more to do).
+* 🟡 OK : We're partway there, but there's plenty to improve.
+* 🔴 Bad : This is definitely a problem, or we've not considered it.
 * 🟣 Not Applicable / Not Assessed : Not relevant to this application or organization, or we didn't understand.
 
 At this point, I am not assessing against section 5 of the recommendations, which covers Business Strategy and Product Management; it's not really appropriate for this project, and that section has been left out completely.
 
 ## Conclusions
+
+|Rating|Criteria|
+|---|---|
+|🟢 Good||
+|🟡 OK||
+|🔴 Bad||
+|🟣 N/A||
+|Total|170|
 
 ## Section 2. User-Experience Design
 
