@@ -25,13 +25,12 @@ WSG is a new set of draft recommendations for the sustainability of websites, in
 
 There isn't a formal grading process for WSG yet, so I'm taking a simple a red / amber / green approach, as follows:
 
-* Red / Bad : This is definitely a problem, or we've not considered it.
-* Amber / OK : We're partway there, but there's plenty to improve.
-* Green / Good : We've got this pretty well covered (although there's always more to do).
+* 🔴 Bad : This is definitely a problem, or we've not considered it.
+* 🟡 OK : We're partway there, but there's plenty to improve.
+* 🟢 Good : We've got this pretty well covered (although there's always more to do).
+* 🟣 Not Applicable / Not Assessed : Not relevant to this application or organization, or we didn't understand.
 
-At this point, I am not assessing against section 5 of the recommendations, which covers Business Strategy and Product Management; it's not really appropriate for this project. There are also plenty of parts of sections 2, 3 and 4 which aren't relevant either; those are included here but marked as  "not assessed".
-
-Each assessment criterion will have a RAG grade, and some textual detail of the assessment. Numerical details will be included where possible.
+At this point, I am not assessing against section 5 of the recommendations, which covers Business Strategy and Product Management; it's not really appropriate for this project, and that section has been left out completely.
 
 ## Conclusions
 
