@@ -42,7 +42,7 @@ Many variables can impact the user-experience, and a bunch of these can impact h
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### External Variables
@@ -60,7 +60,7 @@ When creating a product or service, identifying your target audience through use
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 ⚪ 🟡 🔴 🟡
 </summary>
 
 #### Identify And Define
@@ -109,7 +109,7 @@ If you provide physical goods or services, you may also have to account for the 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟣
 </summary>
 
 #### Non-Human Impact
@@ -189,7 +189,7 @@ When providing the option to download, save, print, or access anything online, d
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 🟢
 </summary>
 
 #### Efficient Paths
@@ -244,7 +244,7 @@ It's great to have a pretty-looking website or application but to ensure a susta
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢
 </summary>
 
 #### Decorative Design
@@ -262,7 +262,7 @@ Information architecture is a central part of the Web development process, and h
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🟢
 </summary>
 
 #### Navigation And Search
@@ -359,7 +359,7 @@ Manipulating the visitor into doing things you want them to is a short-term gain
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🟢 ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Dark and Deceptive Design Patterns
@@ -463,7 +463,7 @@ Everyone should be able to understand what you've written without wasting time s
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🔴
 </summary>
 
 #### Write Clearly
@@ -498,7 +498,7 @@ Of all the data that comprises the largest over-the-wire transfer rates within t
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🔴 ⚪<!--🔴🟡🟢🟣--> 🔴 ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Need For Images
@@ -683,7 +683,7 @@ Media, images, fonts, and documents enrich the Internet. The problem is that peo
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 ⚪<!--🔴🟡🟢🟣--> 🟡 🟣 🟣
 </summary>
 
 #### Open Formats
@@ -732,7 +732,7 @@ Understandably, businesses want to know more about their customers, but a key pa
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Form Simplicity
@@ -760,7 +760,7 @@ Certain visitors such as those with visual disabilities or speech agents (like A
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Alternative Interactions
@@ -778,7 +778,7 @@ Notifications whether through the browser or messaging can be potentially useful
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Notification Justification
@@ -816,21 +816,21 @@ Printing or downloading documents can both be a net benefit and a net cost in te
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟣 🟣 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Printing Documents
 
 Design documents to limit the printing impact. If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage.
 
-{:.good}
+{:.na}
 We do not have any documents that fit this category at present.
 
 #### Optimize Documents
 
 Offer optimized, compressed documents in a variety of accessible file formats.
 
-{:.good}
+{:.na}
 We do not have any documents that fit this category at present.
 
 #### Optimize Delivery
@@ -1120,7 +1120,7 @@ Whitespace holds no value when it's being presented to the visitor (unless they 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Minify Code
@@ -1138,7 +1138,7 @@ When dealing with heavy components (such as JavaScript), the ability to modulari
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### Code Splitting
@@ -1156,7 +1156,7 @@ Often when coding, projects can accumulate clutter and functions that are no lon
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Remove Redundancy
@@ -1174,7 +1174,7 @@ Not everyone can access services equally, being sustainable is also about being 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🟣
 </summary>
 
 #### Accessibility Compliance
@@ -1247,7 +1247,7 @@ Whether advertising, chatbots, maps, or other tooling; outsourcing your service 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Assess Third-Parties
@@ -1315,7 +1315,7 @@ HTML semantics are important. They don't just play a key role in making the Web 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🟢 🟢
 </summary>
 
 #### Semantic Code
@@ -1429,7 +1429,7 @@ Entering information on a page can lead to problems. If a visitor makes a mistak
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟢 🟢
 </summary>
 
 #### Error Validation
@@ -1502,7 +1502,7 @@ Sustainability benefits can be generated in numerous ways, by making sure that y
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Media and Preference Queries
@@ -1520,7 +1520,7 @@ Visitors approach our products and services on a wide variety of devices these d
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟡 🔴 ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Mobile-First
@@ -1562,7 +1562,7 @@ When new best practices or if beneficial scripting guidance exists that will imp
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🔴
 </summary>
 
 #### Beneficial JavaScript
@@ -1587,7 +1587,7 @@ The dangers of scripting are well known, and vulnerabilities are discovered with
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢
 </summary>
 
 #### Script Security
@@ -1605,7 +1605,7 @@ While JavaScript may not cause the most website bloat, it can cause very high em
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟡 🟢
 </summary>
 
 #### Dependency Management
@@ -1710,7 +1710,7 @@ Every product or service is different, and each will require a different set of 
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Identify Requirements
