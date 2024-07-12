@@ -45,9 +45,8 @@ Many variables can impact the user-experience, and a bunch of these can impact h
 
 List the negative external variables and identify where your product's sustainable impact can be diminished (systemic design).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+We have not identified externalities in any useful way; there are the obvious ones around energy and bandwidth use, but this isn't done in an organised fashion.
 
 ### 2.2. [Assess and Research Visitor Needs](https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs)
 
@@ -57,9 +56,8 @@ When creating a product or service, identifying your target audience through use
 
 Primary and secondary target visitors are identified, and their needs are defined through quantitative or qualitative research, testing, or analytics, ensuring your visitors and affected communities remain a close part of the research and testing process.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+The application is being developed through following our own instincts on what's useful, and listening to our community for their needs and feature requests. However, this is all very ad-hoc.
 
 #### Visitor Constraints
 
@@ -340,9 +338,8 @@ Everyone should be able to understand what you've written without wasting time s
 
 Write clearly, using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+We try to use simple concise language within the application, and our documentation is intended to be easy to read; however, as there is some level of technical detail involved, we can certainly do better.
 
 #### Content Formatting
 
@@ -367,17 +364,15 @@ Of all the data that comprises the largest over-the-wire transfer rates within t
 
 Assess the need for images considering the quantity, format, and size necessary for implementation.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Manyfold uses very few unnecessary images, with the exception of our logo and icons from Bootstrap Icons.
 
 #### Optimize Images
 
 Resize, optimize, and compress each image (outside the browser), offering different sizes (for each image) for different screen resolutions.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+Models tend to contain images, which are often quite large. These should be optimized and turned into different sizes; this is now possible with Shrine, our new storage engine, which should make this straightforward.
 
 #### Lazy Loading
 
@@ -391,9 +386,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Let the visitor select the display size, and provide the option to deactivate images.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+This is not currently an option.
 
 #### Management And Usage
 
@@ -519,7 +513,7 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 All images should provide meaningful alternative text for screen reader users (or when images fail to load) accessibility.
 
 {:.ok}
-All of
+All of our built-in imagery has alternative text, but the images included in catalogued models do not. We do have a "caption" field for files, which could be displayed as alt text, but that's not currently editable, or displayed for images.
 
 #### Audio Alternatives
 
@@ -543,9 +537,8 @@ Understandably, businesses want to know more about their customers, but a key pa
 
 Assess the need for forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+We aim to do this, by including explanatory text in forms, help text for inputs, and useful placeholders, but we can do it better and more consistently.
 
 #### Form Functionality
 
@@ -563,9 +556,8 @@ Certain visitors such as those with visual disabilities or speech agents (like A
 
 Support speech browsing and other non-graphical ways to interact with content that provide alternatives to a visual interface.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+Our accessibility audit did raise a number of issues with screen readers which have been addressed. However, a lot of the content that the site is intended to work with is inherently visual.
 
 ### 2.22. [Provide Useful Notifications To Improve The Visitor's Journey](https://w3c.github.io/sustyweb/#give-useful-notifications-to-improve-the-visitor-s-journey)
 
@@ -810,9 +802,8 @@ Whitespace holds no value when it's being presented to the visitor (unless they 
 
 All source code is minified upon compilation (including inline code).
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+Javascript code is minified, but HTML is not.
 
 ### 3.3. [Use Code-Splitting Within Projects](https://w3c.github.io/sustyweb/#use-code-splitting-within-projects)
 
@@ -822,9 +813,8 @@ When dealing with heavy components (such as JavaScript), the ability to modulari
 
 Breakdown bandwidth-heavy components into segments that can be loaded as required.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+We do have some code-splitting in that the renderer is in a separate background worker script, but there are definitely things that are pulled into every page that aren't always needed, like the bulk editor code, selectize for tag editing, and more.
 
 ### 3.4. [Apply Tree Shaking To Code](https://w3c.github.io/sustyweb/#apply-tree-shaking-to-code)
 
@@ -834,9 +824,8 @@ Often when coding, projects can accumulate clutter and functions that are no lon
 
 Identify and eliminate unused and dead code within CSS and JavaScript.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+We apply tree-shaking when compiling our Javascript bundle, but we're not doing the same for CSS.
 
 ### 3.5. [Ensure Your Solutions Are Accessible](https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible)
 
@@ -846,25 +835,22 @@ Not everyone can access services equally, being sustainable is also about being 
 
 Your website or application must conform to WCAG (at the necessary level), plus extend beyond to obey relevant laws and meet additional visitor accessibility requirements. Building inclusively means that people with permanent, temporary, or situational disabilities will be able to more quickly find what they are looking for, and not have to spend extra time searching for a way to use your product or service.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We recently had an accessibility audit performed and have addressed all the findings.
 
 #### Enhancing Accessibility
 
 Enhance your website or application with Accessible Rich Internet Applications (ARIA) ONLY if applicable or necessary, and accessibility enhancing features when useful or beneficial.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+ARIA attributes are only added if actually useful - wherever possible we just use core semantic HTML attributes.
 
 #### Electronic Inequalities
 
 Deploy solutions that fight against electronic inequalities in products and services.
 
 {:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+I'm not sure how to assess or apply this...
 
 ### 3.6. [Avoid Code Duplication](https://w3c.github.io/sustyweb/#avoid-code-duplication)
 
@@ -953,9 +939,8 @@ HTML semantics are important. They don't just play a key role in making the Web 
 
 Ensure content is marked up semantically using the right HTML element for the right job.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+Manyfold aims to always use clean and semantic HTML. But we can always do better, and we should explicitly check and validate this.
 
 #### Optional Features
 
@@ -969,17 +954,15 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Avoid using non-standard elements or attributes.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+All code conforms to web standards.
 
 #### Custom Code
 
 Only use custom elements or Web Components if you cannot utilize native HTML elements or if you need tightly regulated control over the implementation of design system components.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+We don't have any custom elements or Web Components.
 
 ### 3.9. [Resolve Render Blocking Content](https://w3c.github.io/sustyweb/#resolve-render-blocking-content)
 
@@ -1025,9 +1008,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 Offer accessibility and usability aids to find content, such as skip links and signposts.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+These were highlighted and added during our accessibility audit; we now have skip links and meaningful link signposting in use across the site.
 
 ### 3.11. [Validate Form Errors and External Input](https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input)
 
@@ -1037,25 +1019,22 @@ Entering information on a page can lead to problems. If a visitor makes a mistak
 
 Errors should be identified through live validation as well as upon submission.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+Most form validation only happens server-side.
 
 #### Label Elements
 
 Required elements should be clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Checked and improved as part of our accessibility audit.
 
 #### Allow Paste
 
 Always allow the pasting of content (including passwords) from external sources.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Pasting is allowed.
 
 ### 3.12. [Use Metadata Correctly](https://w3c.github.io/sustyweb/#use-metadata-correctly)
 
@@ -1093,9 +1072,8 @@ Sustainability benefits can be generated in numerous ways, by making sure that y
 
 Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also, consider the print & scripting CSS media queries if they will improve the sustainability of your website.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+Bootstrap handles a lot of these automatically, but we should look into `prefers-contrast`, `monochrome`, and particularly `prefers-reduced-data`, because those are definitely things we could apply to the 3d renderer.
 
 ### 3.14. [Develop a Mobile-First Layout](https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout)
 
@@ -1105,25 +1083,22 @@ Visitors approach our products and services on a wide variety of devices these d
 
 Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+Manyfold is mobile-friendly, but definitely not mobile-first. We can do better.
 
 #### Responsive Design
 
 Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+We use Bootstrap's responsive design to cope with different screen sizes, but there are some places where this doesn't work properly on small screens.
 
 #### Carbon Aware Design
 
 To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase or functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+We've not looked into this at all, and I didn't even know it was possible. We should find out more.
 
 #### Alternative Browsing
 
@@ -1141,17 +1116,15 @@ When new best practices or if beneficial scripting guidance exists that will imp
 
 Improve sustainability through accessible and performant code implementations.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+Performance is a goal and we've worked on it, though it could definitely be improved in many places. There are definitely parts of the code we know are taking far longer than they should.
 
 #### API Requests
 
 When using an API, make sure you only call it when necessary. On the other side, make sure no unrequired data is sent by the API.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.bad}
+While we do try to minimise it, Manyfold still transfers a lot of 3d data that's not strictly necessary - there are more efficient ways we could provide the same experience to a user, such as an image preview of a model.
 
 ### 3.16. [Ensure Your Scripts Are Secure](https://w3c.github.io/sustyweb/#ensure-your-scripts-are-secure)
 
@@ -1161,9 +1134,8 @@ The dangers of scripting are well known, and vulnerabilities are discovered with
 
 Check the code for vulnerabilities, exploits, header issues, and code injection.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Security audit was recently performed, and identified only a few issues, which have been fixes. Various code-scanning tools are also used to detect potential security issues.
 
 ### 3.17. [Manage Dependencies Appropriately](https://w3c.github.io/sustyweb/#manage-dependencies-appropriately)
 
@@ -1180,17 +1152,15 @@ All our Javascript is packaged up and delivered directly, without any downloads 
 
 Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript API instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.ok}
+There's almost certainly some code in the large libraries like THREE.js that we can avoid pulling in, but it should be removed by tree-shaking. We should be clearer on that though and make sure it's the case.
 
 #### Dependency Updates
 
 Regularly check dependencies and keep them up-to-date.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Dependencies are automatically maintained by Dependabot on GitHub, and pushed out with regular releases.
 
 ### 3.18. [Include Files That Are Automatically Expected](https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected)
 
@@ -1260,9 +1230,8 @@ Change paragraph class to "bad", "ok", or "good" to set the evaluation overall r
 
 If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries.
 
-{:.not-assessed}
-TODO: Write assessment detail here.
-Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
+{:.good}
+Our core application is inherently dynamic, so this cannot be applied, but our documentation site is fully statically-generated using Jekyll.
 
 #### Expandability Considerations
 
