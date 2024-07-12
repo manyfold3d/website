@@ -72,7 +72,7 @@ When creating a product or service, identifying your target audience through use
 
 <details markdown="block">
 <summary>
-Criteria: 🔴 ⚪ 🟡 🔴 🟡
+Criteria: 🔴 🔴 🟡 🔴 🟡
 </summary>
 
 #### Identify And Define
@@ -86,11 +86,8 @@ The application is being developed through following our own instincts on what's
 
 Potential visitor constraints like the device age, operating system version, browser, and connection speeds are considered when designing user-experiences.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not done any research on this or defined a policy.
 
 #### Barriers And Access
 
@@ -139,28 +136,22 @@ While some things require the use of electricity, during the early ideation phas
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 🟡
 </summary>
 
 #### Wireframes And Prototypes
 
 Utilize wireframes, and rapid prototyping to quickly build consensus, reduce risk, and lower the number of resources needed to build features.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+Most features are prototyped in the live code, but with just a single-person team that is quite a lightweight process.
 
 #### Participation And Testing
 
 Involve your users within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do try to expose users to new features for testing before release through our edge builds, social and support channels. User feedback and suggestions are incorporated into the feature lists for future improvements.
 
 </details>
 
@@ -170,28 +161,22 @@ Brainstorming allows you to flush out ideas before you commit to pursuing a path
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🔴
 </summary>
 
 #### Human-Centered Brainstorming
 
 In the brainstorming process, consider all stakeholders using a human-centered approach.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not considered this approach.
 
 #### Ecological Brainstorming
 
 In the brainstorming process, take the planetary needs and ecological boundaries into account.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not considered this approach.
 
 </details>
 
@@ -347,7 +332,7 @@ Manipulating the visitor into doing things you want them to is a short-term gain
 
 <details markdown="block">
 <summary>
-Criteria: 🟢 🟢 🟢 ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🟢 🟢
 </summary>
 
 #### Dark and Deceptive Design Patterns
@@ -375,11 +360,8 @@ Manyfold itself has no page tracking, or any way to add it in short of changing 
 
 Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do not attempt to manipulate search rankings, we just rely on well-structured and useful content to do the work.
 
 </details>
 
@@ -389,38 +371,28 @@ Everything produced by designers, developers, writers, and those involved with a
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟡 🟢
 </summary>
 
 #### Deliverables Reusability
 
 The deliverables output, including documentation, are used upstream of the project and produced in ways that will allow it to be reused in subsequent projects.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
-
+{:.good}
+We regularly make upstream contributions to open source software that we use, and have published a number of open source components of our own, both in terms of software but also things like technical specifications and proposals.
 #### Deliverables Documentation
 
 Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We try to write in a comprehensible way, but could always do better.
 
 #### Deliverables Readability
 
 Ensure that developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+Everything we do is open source for others to see and reuse.
 
 </details>
 
@@ -430,18 +402,15 @@ Design systems allow common components and patterns to be formalized and managed
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢
 </summary>
 
 #### Design System
 
 Employ a design system based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use the common Bootstrap design framework, which will be familiar to users from across the web, and incorporates a large amount of good design patterns and experience.
 
 </details>
 
@@ -451,7 +420,7 @@ Everyone should be able to understand what you've written without wasting time s
 
 <details markdown="block">
 <summary>
-Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🔴
+Criteria: 🟡 🟡 🔴
 </summary>
 
 #### Write Clearly
@@ -465,11 +434,8 @@ We try to use simple concise language within the application, and our documentat
 
 Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:ok}
+We try to do this, but a proper content designer could certainly improve things.
 
 #### Search Engine Optimization (SEO)
 
@@ -578,38 +544,29 @@ Animation can be both CPU and GPU-intensive and have implications for accessibil
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟡 🟢
 </summary>
 
 #### Need For Animation
 
 Use animation only when it adds value to a visitor's experience, and not for decorative elements.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+Animation is only used for 3d model preview, which is the primary purpose of the application.
 
 #### Avoid Overburdening
 
 Progressively display an appropriate quantity of animation so as not to overburden the visitor or diminish expected device behavior.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We have done a lot of work on making sure the 3d model displays are performant, but there's a lot more that can be done to make it smarter and only render what's absolutely required.
 
 #### Control Animation
 
 Allow visitors to start, stop, pause, or otherwise control animated content.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+3D models are fully user-controlled; image carousels do autoplay, but are under user control and correctly respond to `prefers-reduced-motion`.
 
 </details>
 
@@ -619,28 +576,22 @@ Since the advent of the modern web, the ability to include embedded fonts and pr
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢
 </summary>
 
 #### Default Typefaces
 
 Use standard system-level (web-safe / pre-installed) fonts as much as possible.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use a web-safe font stack that should always use fonts available on a visitor's computer.
 
 #### Font Optimization
 
 Ensure the number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We use a web-safe font stack that should always use fonts available on a visitor's computer.
 
 </details>
 
@@ -650,7 +601,7 @@ Media, images, fonts, and documents enrich the Internet. The problem is that peo
 
 <details markdown="block">
 <summary>
-Criteria: 🟢 ⚪<!--🔴🟡🟢🟣--> 🟡 🟣 🟣
+Criteria: 🟢 🟢 🟡 🟣 🟣
 </summary>
 
 #### Open Formats
@@ -664,11 +615,8 @@ We do not use any proprietary formats in our own work. The system can be used to
 
 All custom typefaces (using font-display) should be subsetted and offered as part of a font stack with a system font as a backup.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We have no custom fonts, and our web-safe font choices are backed with a font stack that includes system fonts.
 
 #### Alternative Text
 
@@ -774,7 +722,7 @@ Printing or downloading documents can both be a net benefit and a net cost in te
 
 <details markdown="block">
 <summary>
-Criteria: 🟣 🟣 🔴 🔴
+Criteria: 🟣 🟡 🔴 🔴
 </summary>
 
 #### Printing Documents
@@ -788,8 +736,8 @@ We do not have any documents that fit this category at present.
 
 Offer optimized, compressed documents in a variety of accessible file formats.
 
-{:.na}
-We do not have any documents that fit this category at present.
+{:.ok}
+We offer the ability to manually compress and optimize 3d assets, but not automatically. However, we do have plans to.
 
 #### Optimize Delivery
 
