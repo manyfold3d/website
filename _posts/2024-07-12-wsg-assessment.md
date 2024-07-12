@@ -22,6 +22,8 @@ At this point, I am not assessing against section 5 of the recommendations, whic
 
 Each assessment criterion will have a RAG grade, and some textual detail of the assessment. Numerical details will be included where possible.
 
+## Summary
+
 ## 2. User-Experience Design
 
 ### 2.1. [Undertake Systemic Impacts Mapping](https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping)
