@@ -201,38 +201,29 @@ When providing the option to download, save, print, or access anything online, d
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> 🟢 🟢
+Criteria: 🟡 🔴 🟡 🟢 🟢
 </summary>
 
 #### Efficient Paths
 
 The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+This is certainly something we aim for, though I'm not sure we achieve it yet.
 
 #### Patterns For Efficiency
 
 Make your user-journey (when browsing an accessed website or service) as smooth as possible. User-research is key, as is building on established design patterns that people already understand.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+As above, this is a definite aim, but we need to do some proper user testing and research to see if we're hitting it.
 
 #### Distraction-Free Design
 
 Visitors can complete tasks without distractions or non-essential features getting in the way.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do try to keep the user interface simple, so that each page has a particular purpose, and actions are clearly marked. We perhaps don't always achieve it though.
 
 #### Eliminate The Non-Essential
 
@@ -274,7 +265,7 @@ Information architecture is a central part of the Web development process, and h
 
 <details markdown="block">
 <summary>
-Criteria: 🟡 ⚪<!--🔴🟡🟢🟣--> 🟢
+Criteria: 🟡 🔴 🟢
 </summary>
 
 #### Navigation And Search
@@ -288,11 +279,8 @@ A primary purpose of the application is information management and organisation,
 
 Implementing an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We have not added sitemaps yet, either human or machine readable.
 
 #### New Content
 
@@ -309,38 +297,29 @@ Time is precious, wasting a visitor's will cause frustration and lead to abandon
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🟡
 </summary>
 
 #### Respecting Attention
 
 Respect a visitor's attention by allowing them to easily control how (and when) they receive information.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+Visitors are completely in control of what information they receive.
 
 #### Avoid Distraction
 
 Prioritize features that don't distract people or unnecessarily lengthen the time they spend using the product or service.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We have no interest in distracting people to do something they didn't intend to; the idea is to make a simple yet effective tool that helps people achieve what they want to do.
 
 #### Avoid Attention-keeping
 
 Avoid using infinite scroll or related attention-keeping tactics.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We don't have infinite scroll in the sense that many social media sites do, though we do have an "unpaged" mode for viewing models, which will allow people to scroll the entire collection. This will probably go away soon.
 
 </details>
 
@@ -350,18 +329,15 @@ Visitors can identify patterns fairly easily, and they like browsing websites an
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢
 </summary>
 
 #### Design Patterns
 
 Provide only essential components visible at the time they are needed. Where appropriate, interfaces should deploy visual styles (patterns) that are easily recognized and used.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do aim to use common design patterns for the site, whether in terms of visual design using Bootstrap, or in terms of the technical setup where we try to conform to the way that similar systems operate (e.g. linuxserver containers).
 
 </details>
 
@@ -510,7 +486,7 @@ Of all the data that comprises the largest over-the-wire transfer rates within t
 
 <details markdown="block">
 <summary>
-Criteria: 🟢 🔴 ⚪<!--🔴🟡🟢🟣--> 🔴 ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🔴 🔴 🔴 🔴
 </summary>
 
 #### Need For Images
@@ -531,11 +507,8 @@ Models tend to contain images, which are often quite large. These should be opti
 
 Provide Lazy Loading to ensure image assets only load when they are required.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We do load complex 3d assets on demand, but this is not properly enforced and checked across the site, especially for images.
 
 #### Sizing And Deactivation
 
@@ -548,11 +521,8 @@ This is not currently an option.
 
 Set up a media management and use policy to reduce the overall impact of images, with criteria for media compression and file formats.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We've not done this.
 
 </details>
 
@@ -562,58 +532,43 @@ Video and audio-heavy websites are often those that can have significant sustain
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🔴 🟢 🟢 🟣
 </summary>
 
 #### Need For Media
 
 Assess the need for video or sound usage (including only when they add visitor value), and ban non-informative media (background media) including autoplaying functionality.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do not have any non-informative media on the site, nor audio/video.
 
 #### Optimize Media
 
 Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We are sending original 3d files in their normal formats to the visitor's browser; this sends way too much data, which can be in very inefficient forms. We have a plan to create a more efficient progressive transmission file format that can efficiently stream model data on demand, to the required resolution. This should save a lot of data.
 
 #### Lazy Loading
 
 Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do this for 3d content by default, only auto-downloading and rendering smaller models. All this is controllable by the user.
 
 #### Labels And Choice
 
 Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do provide information on the size of media to be downloaded before the user clicks on it to trigger the download.
 
 #### Management And Usage
 
 Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.na}
+We do not handle audio or video.
 
 </details>
 
@@ -744,7 +699,7 @@ Understandably, businesses want to know more about their customers, but a key pa
 
 <details markdown="block">
 <summary>
-Criteria: 🟡 ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 🟡
 </summary>
 
 #### Form Simplicity
@@ -758,11 +713,8 @@ We aim to do this, by including explanatory text in forms, help text for inputs,
 
 Avoid auto-completion / auto-suggest if it would prove unhelpful (to conserve bandwidth) whilst allowing autofill for ease of repeat entry (including the use of helpful tooling such as password managers).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+In general we allow autocompletion on the client side. Tag editing involves loading a complete list of tags up front, which is pretty inefficient when we could fetch completions on demand instead.
 
 </details>
 
@@ -790,18 +742,15 @@ Notifications whether through the browser or messaging can be potentially useful
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> 🟢 ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 🟢 🔴
 </summary>
 
 #### Notification Justification
 
 Remove non-essential notifications while justifying and reducing the practice of e-mailing or text messaging to what is strictly necessary. Useful notifications (such as alerts for new content) should be used with care and restraint.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+At present, we only have emails for essential account actions like password resets. There are no optional notifications.
 
 #### Notification Control
 
@@ -814,11 +763,8 @@ At present, we only have emails for essential account actions like password rese
 
 Help visitors manage expectations by clearly explaining the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We try to do this, to provide useful context, but it's not good enough at the moment, especially in the area of error messages.
 
 </details>
 
@@ -828,7 +774,7 @@ Printing or downloading documents can both be a net benefit and a net cost in te
 
 <details markdown="block">
 <summary>
-Criteria: 🟣 🟣 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟣 🟣 🔴 🔴
 </summary>
 
 #### Printing Documents
@@ -849,22 +795,15 @@ We do not have any documents that fit this category at present.
 
 If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We're not currently doing any pre-generation or caching of this sort, but we should do.
 
 #### Labels And Choice
 
 Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
-
+{:.bad}
+We do embed rich content in the web pages, and we should display file details more clearly at all points where the user can download the file.
 </details>
 
 ### Guideline 2.24. [Create a Stakeholder-Focused Testing & Prototyping Policy](https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy)
@@ -873,48 +812,36 @@ The organization has policies and practices in place to incorporate stakeholder-
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🔴 🟡 🔴
 </summary>
 
 #### New Features And Perspectives
 
 The organization has outlined processes it uses to prototype and test new features, product ideas, and user-interface components when applicable with real users who represent various stakeholder perspectives, including people with slow connection, with disabilities, with difficulties using digital services, and so on.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't have a plan for this other than ad-hoc testing after release. We will need to get more organised about it at some point, certainly.
 
 #### Resourcing And Viability
 
 The organization has appropriately resourced these processes to support its long-term product viability.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+Manyfold is not yet financially sustainable. We're trying to build a donation and sponsorship base through OpenCollective, but for now we're dependent on grant funding.
 
 #### Training And Onboarding
 
 The organization has training materials to onboard new product team members to these practices.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We do have onboarding documentation that works for new developers, but it's fairly minimal and could do with being a lot more comprehensive.
 
 #### Testing And Validation
 
 The organization regularly conducts extensive testing and user interviews to validate whether the released features are meeting both business goals and visitor needs.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We only do this through ad-hoc user feedback.
 
 </details>
 
@@ -924,38 +851,28 @@ Products and services at any stage of a project can suffer bugs or issues that n
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡 🟡 🟢
 </summary>
 
 #### Regular Issue Testing
 
 Check your codebase for bugs, identify any performance issues, and account for accessibility or security problems at either monthly or quarterly timeframes (depending on your scheduling allowance).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We run continuous testing using automated tests, as well as automated accessibility and security checks where possible. We don't yet have automated performance testing, though it should be possible. Regular manual accessibility and security testing will depend upon future funding.
 
 #### Non-Regression Tests
 
 Non-regression tests are implemented for all important functionality.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
-
+{:.ok}
+Around 85% of the features are covered by automated tests - we should add the rest.
 #### Regression Tests
 
 Incorporate regression testing into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+Automated tests run on every commit to ensure that new code doesn't break old code.
 
 </details>
 
@@ -965,28 +882,22 @@ Try to ethically measure how efficient a visitor's experience is by analyzing th
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟢
 </summary>
 
 #### Performance Testing
 
 Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't currently do any structured performance testing, just manual and ad-hoc.
 
 #### Measurement And Compliance
 
 Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We don't collect any data from live services.
 
 </details>
 
@@ -996,18 +907,15 @@ Occasionally, you may find that features you have developed for a product or ser
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟡
 </summary>
 
 #### Usage Changes
 
 Consider visitor feedback and monitor adoption and churn rates of product or service features, incorporating insights into future releases.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We don't do this in a structured way, but do take feedback from users through support channels and GitHub issues, and feed that into the product.
 
 </details>
 
@@ -1017,18 +925,15 @@ Researching a product or service and how it is used over time allows you to iter
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴
 </summary>
 
 #### Usability Testing
 
 Incorporate usability testing into product cycles and measure the impact of these tests for future releases.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't have any structured usability testing or measures.
 
 </details>
 
@@ -1038,58 +943,42 @@ Compatibility is a critical part of the sustainability mindset and should be pri
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟡 🔴 🔴 🟢
 </summary>
 
 #### Compatibility Policy
 
 Establish a policy for compatibility with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We do not have a stated official policy at present.
 
 #### Maintaining Compatibility
 
 Avoid planned obsolescence in software updates, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.ok}
+We use semantic versioning for our releases, and hopefully soon will be at 1.0 where we can make the commitment to retain compatibility until version 2.0 comes along, which hopefully will never happen!
 
 #### Frequent Testing
 
 Regularly test the product or service with weak connections, old browsers, and devices older than five years to ensure compatibility.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We don't do this in any organised fashion (other than the fact that my main development laptop is currently 11 years old).
 
 #### Mobile Friendly
 
 Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
-
+{:.bad}
+We don't do mobile UI development first, it's a secondary thing.
 #### Progressive Web Applications (PWAs)
 
 Consider whether a PWA will be more sustainable and compatible over a native mobile application.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We don't create a native application, and if we ever did, it would likely be a PWA.
 
 </details>
 
@@ -1101,28 +990,22 @@ Performance is a key part of the sustainability mindset as reductions in loading
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🔴 🟢
 </summary>
 
 #### Performance Goals
 
 Set goals that impact the environment and performance of the service, for example, HTTP requests, or the amount of DOM elements that need to be rendered.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.bad}
+We haven't done this, but we should be able to come up with some.
 
 #### Accountancy Types
 
 Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than CSS, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+It's clear that the most energy-intensive part of Manyfold is the 3D file handling. Making this more efficient will give us the most reward.
 
 </details>
 
@@ -1218,28 +1101,22 @@ Redundancy is the enemy of sustainability. Having systems in place to ensure tha
 
 <details markdown="block">
 <summary>
-Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+Criteria: 🟢 ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
 </summary>
 
 #### Remove Or Simplify
 
 Don't be afraid to remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase).
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We regularly refactor old code to make it simpler and more efficient, with less duplication. Less code is better code. We use static analysis tools to highlight areas of code that need improving.
 
 #### Iteration Over Recreation
 
 Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact.
 
-{:.todo}
-Write assessment detail here.
-Change paragraph class to "bad", "ok", "good", or "na" to set the
-evaluation overall result, and set the relevant icon colour after
-the guideline summary.
+{:.good}
+We do take an iterative approach to development, and reuse code and third larty libraries wherever possible.
 
 #### Organize Code Arrangement
 
