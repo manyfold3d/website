@@ -10,6 +10,17 @@ This post is a self-assessment of Manyfold against the [Web Sustainability Guide
 
 WSG is a new set of draft recommendations for the sustainability of websites, intending to play a similar role to [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) for accessibility. As part of Manyfold's funding from NLNet / NGI Zero, I proposed doing a WSG audit alongside our security and accessibility audits.
 
+## Contents
+{: .no_toc }
+
+<details markdown="block">
+  <summary>
+    Expand
+  </summary>
+- TOC
+{:toc}
+</details>
+
 ## Methodology
 
 There isn't a formal grading process for WSG yet, so I'm taking a simple a red / amber / green approach, as follows:
