@@ -35,7 +35,7 @@ Each assessment criterion will have a RAG grade, and some textual detail of the 
 
 ## Conclusions
 
-## 2. User-Experience Design
+## Section 2. User-Experience Design
 
 ### 2.1. [Undertake Systemic Impacts Mapping](https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping)
 
@@ -780,7 +780,7 @@ Consider whether a PWA will be more sustainable and compatible over a native mob
 TODO: Write assessment detail here.
 Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
 
-## 3. Web Development
+## Section 3. Web Development
 
 ### 3.1. [Identify Relevant Technical Indicators](https://w3c.github.io/sustyweb/#identify-relevant-technical-indicators)
 
@@ -1324,7 +1324,7 @@ If you need information that is stored in a database, and you require it (or it'
 TODO: Write assessment detail here.
 Change paragraph class to "bad", "ok", or "good" to set the evaluation overall result.
 
-## 4. Hosting, Infrastructure And Systems
+## Section 4. Hosting, Infrastructure And Systems
 
 ### 4.1. [Choose a Sustainable Hosting Provider](https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider)
 
