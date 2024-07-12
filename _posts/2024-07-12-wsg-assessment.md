@@ -41,6 +41,11 @@ Each assessment criterion will have a RAG grade, and some textual detail of the 
 
 Many variables can impact the user-experience, and a bunch of these can impact how sustainable your website will be. Attempting to identify where you can make a difference to the visitor and give them a more sustainable experience will be beneficial.
 
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
+
 #### External Variables
 
 List the negative external variables and identify where your product's sustainable impact can be diminished (systemic design).
@@ -48,9 +53,16 @@ List the negative external variables and identify where your product's sustainab
 {:.bad}
 We have not identified externalities in any useful way; there are the obvious ones around energy and bandwidth use, but this isn't done in an organised fashion.
 
+</details>
+
 ### Guideline 2.2. [Assess and Research Visitor Needs](https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs)
 
 When creating a product or service, identifying your target audience through user-research, analytics, data collected using ethical anonymous methods, or feedback from and with visitors is important in being able to create a customized service for and with them that is tailor-made for their specific preferences, adapted for any needs they may have, and particularly useful in helping a website or application evolve its service to meet sustainability targets.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Identify And Define
 
@@ -90,9 +102,16 @@ When undertaking research, identifying needs, or conducting iterative design wor
 {:.ok}
 As an open source project run solely over the web, the "seat at the table" is in theory open to all equally. We acknowledge that that's not always true though, and have adopted the [Contributor Covenant](https://github.com/manyfold3d/manyfold?tab=coc-ov-file) as a way to hopefully show that we are a safe space for all contributors. We know there's more we can and should do.
 
+</details>
+
 ### Guideline 2.3. [Research Non-Visitor's Needs](https://w3c.github.io/sustyweb/#research-non-visitor-s-needs)
 
 If you provide physical goods or services, you may also have to account for the sustainability impact of delivery services. This can often be tricky, but courier companies may provide useful tooling to help you identify emissions data for routing.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Non-Human Impact
 
@@ -101,9 +120,16 @@ Consider and work with non-users and other stakeholders who might be passively i
 {:.na}
 No physical product involved.
 
+</details>
+
 ### Guideline 2.4. [Consider Sustainability in Early Ideation](https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation)
 
 While some things require the use of electricity, during the early ideation phase you could consider wireframing or rapid prototyping (using paper) among other offline tools to reduce energy consumption. Even the electronic versions of these may have a lower carbon cost than committing to building a full-blown experience for each idea.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Wireframes And Prototypes
 
@@ -125,9 +151,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.5. [Account for Stakeholder Issues](https://w3c.github.io/sustyweb/#account-for-stakeholder-issues)
 
 Brainstorming allows you to flush out ideas before you commit to pursuing a path. Being considerate of not just your visitors but other individuals who may be affected by your product or service (including non-humans, like the environment!) is a useful practical exercise as it may influence your decisions in how you scope your project.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Human-Centered Brainstorming
 
@@ -149,9 +182,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.6. [Create a Lightweight Experience by Default](https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default)
 
 When providing the option to download, save, print, or access anything online, defaulting to the most lightweight, least featureful version will reduce emissions through passive browsing; with non-essential information removed from the screen either to be shown when it's required or eliminated.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Efficient Paths
 
@@ -197,9 +237,16 @@ Ensure that actionable information such as pop-up or modal windows can only be i
 {:.good}
 Actionable elements are only displayed in response to direct user input.
 
+</details>
+
 ### Guideline 2.7. [Avoid Unnecessary or an Overabundance of Assets](https://w3c.github.io/sustyweb/#avoid-unnecessary-or-an-overabundance-of-assets)
 
 It's great to have a pretty-looking website or application but to ensure a sustainable design, it's important to avoid cluttering up the interface with too many visuals (which aren't necessary to the content). Keeping a clean design will reduce website rendering, and thereby emissions.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Decorative Design
 
@@ -208,9 +255,16 @@ Decorative design is used only when it improves the user-experience, and unneces
 {:.good}
 Manyfold's design is kept as clean and simple as possible, with as few assets as possible. The only decorative elements used are small icons from the [Bootstrap Icons](https://icons.getbootstrap.com/) set; everything else is functional.
 
+</details>
+
 ### Guideline 2.8. [Ensure Navigation and Way-Finding Are Well-Structured](https://w3c.github.io/sustyweb/#ensure-navigation-and-way-finding-are-well-structured)
 
 Information architecture is a central part of the Web development process, and how you structure a website ensures that people can way-find your content easily. Having appropriately marked-up links within your product or service allows visitors, search engines, and social networks to identify key information quickly.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Navigation And Search
 
@@ -236,9 +290,16 @@ Provide a way for visitors to find out about new content and services.
 {:.good}
 The main user dashboard page provides a list of recently uploaded content.
 
+</details>
+
 ### Guideline 2.9. [Respect the Visitor's Attention](https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention)
 
 Time is precious, wasting a visitor's will cause frustration and lead to abandonment or resentment. Additionally, the more time a visitor spends in front of a screen, the more energy they utilize. As such, throwing stuff in front of the visitor vying for their attention might sound like good business (even though we know due to banner blindness it rarely works), but it mostly damages the environment and dissuades the visitor.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Respecting Attention
 
@@ -270,9 +331,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.10. [Use Recognized Design Patterns](https://w3c.github.io/sustyweb/#use-recognized-design-patterns)
 
 Visitors can identify patterns fairly easily, and they like browsing websites and apps and feeling as if they know what they are dealing with. As such, focusing your efforts on producing a product or service that is clean and has key components in easy-to-recognize locations (and visuals) will allow faster user-experiences and fewer emissions.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Design Patterns
 
@@ -284,9 +352,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.11. [Avoid Manipulative Patterns](https://w3c.github.io/sustyweb/#avoid-manipulative-patterns)
 
 Manipulating the visitor into doing things you want them to is a short-term gain, long-term loss tactic tool. It's ethically bad, unsustainable, and should be avoided at all costs.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Dark and Deceptive Design Patterns
 
@@ -313,12 +388,22 @@ Manyfold itself has no page tracking, or any way to add it in short of changing 
 
 Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material.
 
-{:.good}
-Manyfold uses well-structured semantic HTML; any search engine ranking obtained thereby is purely as a result of the content being useful.
+{:.todo}
+Write assessment detail here.
+Change paragraph class to "bad", "ok", "good", or "na" to set the
+evaluation overall result, and set the relevant icon colour after
+the guideline summary.
+
+</details>
 
 ### Guideline 2.12. [Document and Share Project Outputs](https://w3c.github.io/sustyweb/#document-and-share-project-outputs)
 
 Everything produced by designers, developers, writers, and those involved with a project should be in an open format, well maintained, and curated in a common format (so everyone is working from the same model).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Deliverables Reusability
 
@@ -350,9 +435,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.13. [Use a Design System To Prioritize Interface Consistency](https://w3c.github.io/sustyweb/#use-a-design-system-to-prioritize-interface-consistency)
 
 Design systems allow common components and patterns to be formalized and managed within a website or application. By using such a tool, designers and developers can avoid reinventing existing tooling and thereby reduce wasted time (and emissions).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Design System
 
@@ -364,9 +456,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.14. [Write With Purpose, in an Accessible, Easy To Understand Format](https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format)
 
 Everyone should be able to understand what you've written without wasting time staring at a screen or jumping from page to page looking for answers, whether they have accessibility requirements or not. This also means avoiding using technical language (without explanations) and including enough information to help direct people (and search engines) from page to page.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Write Clearly
 
@@ -392,9 +491,16 @@ Prioritize SEO at early design stages and throughout a product or service's life
 {:.bad}
 We haven't considered SEO outside the approach of creating well-structured documents.
 
+</details>
+
 ### Guideline 2.15. [Take a More Sustainable Approach to Image Assets](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets)
 
 Of all the data that comprises the largest over-the-wire transfer rates within the average website or application, images are usually those that are responsible due to their quantity and usefulness. As such, doing all you can to reduce their size and unnecessary loading will be beneficial for sustainability.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Need For Images
 
@@ -437,9 +543,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.16. [Take a More Sustainable Approach to Media Assets](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets)
 
 Video and audio-heavy websites are often those that can have significant sustainability costs in terms of storage and carbon intensity for viewers who have to process the media with their devices to watch them (draining batteries). Optimizing such assets as much as possible is critical for a sustainable product or service.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Need For Media
 
@@ -491,9 +604,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.17. [Take a More Sustainable Approach to Animation](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-animation)
 
 Animation can be both CPU and GPU-intensive and have implications for accessibility. While visually appealing and useful in certain situations, care and attention should be taken when considering the use of a high emissions technology.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Need For Animation
 
@@ -525,9 +645,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.18. [Take a More Sustainable Approach to Typefaces](https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces)
 
 Since the advent of the modern web, the ability to include embedded fonts and provide a more customized experience has seen their use explode. They aren't always the most performant option (which poses emissions hazards) and come with a few issues such as Flash Of Unstyled Content (FOUC) / Flash Of Unstyled Text (FOUT) which should be addressed.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Default Typefaces
 
@@ -549,9 +676,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.19. [Provide Suitable Alternatives to Web Assets](https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets)
 
 Media, images, fonts, and documents enrich the Internet. The problem is that people may not want to watch a video, listen to an audio file, look at an image, or use a specific application. By providing alternative formats to anything you embed, you ensure the widest possible audience can benefit from it (and reduced carbon output will occur as the alternative text will induce less consumer hardware thrashing than its rich media alternative).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Open Formats
 
@@ -591,9 +725,16 @@ Video should provide text transcripts (at minimum), subtitles (using WebVTT), an
 {:.na}
 We have no video content of this type.
 
+</details>
+
 ### Guideline 2.20. [Provide Accessible, Usable, Minimal Web Forms](https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms)
 
 Understandably, businesses want to know more about their customers, but a key part of sustainability is being ethical towards visitors and as such, the right to privacy is considered paramount. Don't demand information when it's not required and not only will this help visitors complete transactions quicker (reducing emissions), it will help with legal compliance such as GDPR.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Form Simplicity
 
@@ -612,9 +753,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.21. [Support Non-Graphic Ways To Interact With Content](https://w3c.github.io/sustyweb/#support-non-graphic-ways-to-interact-with-content)
 
 Certain visitors such as those with visual disabilities or speech agents (like Amazon Alexa) may rely on an experience without the graphical part of an interface. As such, they potentially may use less data or may have a different carbon impact on the Web.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Alternative Interactions
 
@@ -623,9 +771,16 @@ Support speech browsing and other non-graphical ways to interact with content th
 {:.ok}
 Our accessibility audit did raise a number of issues with screen readers which have been addressed. However, a lot of the content that the site is intended to work with is inherently visual.
 
+</details>
+
 ### Guideline 2.22. [Provide Useful Notifications To Improve The Visitor's Journey](https://w3c.github.io/sustyweb/#give-useful-notifications-to-improve-the-visitor-s-journey)
 
 Notifications whether through the browser or messaging can be potentially useful, but only used in moderation. Spam and the lack of control are contributing sources of Internet emissions and as such, businesses should aim to reduce such actions.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Notification Justification
 
@@ -654,9 +809,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.23. [Reduce the Impact of Downloadable or Physical Documents](https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents)
 
 Printing or downloading documents can both be a net benefit and a net cost in terms of sustainability as it can reduce repeat requests to websites, but the act of printing (especially when unoptimized) wastes valuable ink and paper.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Printing Documents
 
@@ -692,9 +854,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.24. [Create a Stakeholder-Focused Testing & Prototyping Policy](https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy)
 
 The organization has policies and practices in place to incorporate stakeholder-focused testing and prototyping into its product development cycles.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### New Features And Perspectives
 
@@ -736,9 +905,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.25. [Conduct Regular Audits, Regression, and Non-Regression Tests](https://w3c.github.io/sustyweb/#conduct-regular-audits-regression-and-non-regression-tests)
 
 Products and services at any stage of a project can suffer bugs or issues that need to be resolved. Fixing these regressions also generates additional development and environmental costs. By resolving such issues, you can reduce the chances of a visitor giving up on a session and thereby reduce the amount of wasted energy your website emits overall.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Regular Issue Testing
 
@@ -770,9 +946,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.26. [Incorporate Performance Testing Into Each Major Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-performance-testing-into-each-major-release-cycle)
 
 Try to ethically measure how efficient a visitor's experience is by analyzing the performance of the website or application and how it has been constructed, by doing so you might be able to reduce any issues they may have encountered previously, decrease loading times, and reduce the burden of loading unnecessary pages.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Performance Testing
 
@@ -794,9 +977,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.27. [Incorporate Value Testing Into Each Major Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-value-testing-into-each-major-release-cycle)
 
 Occasionally, you may find that features you have developed for a product or service have little to no active users or could be better implemented to bring better value. Undertaking research to identify redundancy allows you to optimize your codebase (and reduce emissions).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Usage Changes
 
@@ -808,9 +998,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.28. [Incorporate Usability Testing Into Each Minor Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-usability-testing-into-each-minor-release-cycle)
 
 Researching a product or service and how it is used over time allows you to iterate and ensure the features and functionality being offered match how user-needs change over time. Doing so will help you reduce code redundancy further and reduce emissions through optimization.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Usability Testing
 
@@ -822,9 +1019,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 2.29. [Incorporate Compatibility Testing Into Each Release-Cycle](https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle)
 
 Compatibility is a critical part of the sustainability mindset and should be prioritized through all products and services. If individuals wish to use older devices (or cannot upgrade due to cost) or do not wish to upgrade as frequently, it will reduce the amount of e-waste that enters the system. If something doesn't work, it's also likely to result in visitors suffering a wasted effort, potentially leading to refused access to your service (and thereby emitting further emissions).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Compatibility Policy
 
@@ -876,11 +1080,18 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ## Section 3. Web Development
 
 ### Guideline 3.1. [Identify Relevant Technical Indicators](https://w3c.github.io/sustyweb/#identify-relevant-technical-indicators)
 
 Performance is a key part of the sustainability mindset as reductions in loading times can have a considerable impact on energy loads within CPU, GPU, RAM, and hard drive caching (among other variables), as such ensuring a performant product is essential.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Performance Goals
 
@@ -902,9 +1113,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.2. [Minify Your HTML, CSS, and JavaScript](https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript)
 
 Whitespace holds no value when it's being presented to the visitor (unless they view the source code), by using minification, valuable data savings can be made which will reduce loading times.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Minify Code
 
@@ -913,9 +1131,16 @@ All source code is minified upon compilation (including inline code).
 {:.ok}
 Javascript code is minified, but HTML is not.
 
+</details>
+
 ### Guideline 3.3. [Use Code-Splitting Within Projects](https://w3c.github.io/sustyweb/#use-code-splitting-within-projects)
 
 When dealing with heavy components (such as JavaScript), the ability to modularize them into smaller pieces that can be loaded as and when required reduces the amount of redundancy and serves as a great way to make your scripts more sustainable.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Code Splitting
 
@@ -924,9 +1149,16 @@ Breakdown bandwidth-heavy components into segments that can be loaded as require
 {:.bad}
 We do have some code-splitting in that the renderer is in a separate background worker script, but there are definitely things that are pulled into every page that aren't always needed, like the bulk editor code, selectize for tag editing, and more.
 
+</details>
+
 ### Guideline 3.4. [Apply Tree Shaking To Code](https://w3c.github.io/sustyweb/#apply-tree-shaking-to-code)
 
 Often when coding, projects can accumulate clutter and functions that are no longer used (due to newer, more effective features being developed). By utilizing tree shaking techniques, all the "dead wood" will be automatically dropped upon compilation, reducing a file's size.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Remove Redundancy
 
@@ -935,9 +1167,16 @@ Identify and eliminate unused and dead code within CSS and JavaScript.
 {:.ok}
 We apply tree-shaking when compiling our Javascript bundle, but we're not doing the same for CSS.
 
+</details>
+
 ### Guideline 3.5. [Ensure Your Solutions Are Accessible](https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible)
 
 Not everyone can access services equally, being sustainable is also about being accessible, fair, ethical, and ensuring that your product or service doesn't discriminate. As such, ensuring your website complies with best practices and relevant laws whilst meeting the needs of your visitors is critical as well as good business.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Accessibility Compliance
 
@@ -960,9 +1199,16 @@ Deploy solutions that fight against electronic inequalities in products and serv
 {:.na}
 I'm not sure how to assess or apply this...
 
+</details>
+
 ### Guideline 3.6. [Avoid Code Duplication](https://w3c.github.io/sustyweb/#avoid-code-duplication)
 
 Redundancy is the enemy of sustainability. Having systems in place to ensure that everyone can work from established patterns, the website or application remains clean and easy to use, and iteration over redesign is firmly in the mindset that will help promote sustainable practices. It's also worth being wary of abstracting code too early (see AHA methodology) or incorrectly, as while good abstractions can be more efficient, poor ones can waste effort and introduce complexity, bloat, and bugs to your codebase which can lead to emissions.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Remove Or Simplify
 
@@ -994,9 +1240,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.7. [Rigorously Assess Third-Party Services](https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services)
 
 Whether advertising, chatbots, maps, or other tooling; outsourcing your service to a third-party provider may be potentially useful in certain scenarios in reducing design or development time and redundancy (which can be a win for sustainability). Third-party services, however, come with issues, such as the lack of control over emissions, and they often can potentially suffer from latency and large file sizes which may not exist if you self-hosted or created the material.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Assess Third-Parties
 
@@ -1055,9 +1308,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.8. [Use HTML Elements Correctly](https://w3c.github.io/sustyweb/#use-html-elements-correctly)
 
 HTML semantics are important. They don't just play a key role in making the Web look the way it does, they have a function in accessibility, SEO, and even in sustainability. Ensuring that you markup your content correctly and avoid cluttering your markup wastefully will reduce emissions.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Semantic Code
 
@@ -1090,9 +1350,16 @@ Only use custom elements or Web Components if you cannot utilize native HTML ele
 {:.good}
 We don't have any custom elements or Web Components.
 
+</details>
+
 ### Guideline 3.9. [Resolve Render Blocking Content](https://w3c.github.io/sustyweb/#resolve-render-blocking-content)
 
 The ability to work around render-blocking issues is a great addition to the web. From deferring code, to lazy loading, to asynchronous loading, each has its use case and each can have the potential to reduce or give performance benefits to a website or application.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Asynchronous Code
 
@@ -1114,9 +1381,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.10. [Provide Code-Based Way-Finding Mechanisms](https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms)
 
 Helping visitors avoid wasting their time can reduce the number of emissions from time spent in front of a screen. As such, by using existing technologies like metadata, robots files, and accessibility-friendly aids within the page, improvements to the experience can be made.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Metadata And Microdata
 
@@ -1148,9 +1422,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.11. [Validate Form Errors and External Input](https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input)
 
 Entering information on a page can lead to problems. If a visitor makes a mistake along the way, it makes good sense to have systems in place to guide them through resolving the typos, confusion, and glitches that can occur which lead to abandonment and extra emissions through wasted device usage.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Error Validation
 
@@ -1173,9 +1454,16 @@ Always allow the pasting of content (including passwords) from external sources.
 {:.good}
 Pasting is allowed.
 
+</details>
+
 ### Guideline 3.12. [Use Metadata Correctly](https://w3c.github.io/sustyweb/#use-metadata-correctly)
 
 Search engines and social networks make use of the content within a website, by ensuring that your metadata is correctly marked up, you can reduce emissions by improving way-finding.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Required Elements
 
@@ -1207,9 +1495,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.13. [Adapt to User Preferences](https://w3c.github.io/sustyweb/#adapt-to-user-preferences)
 
 Sustainability benefits can be generated in numerous ways, by making sure that your website adheres to the requests made by a browser for specific conditions to be taken into account (such as CSS media and preference queries), you can unlock benefits for the visitor, and as a by-product reduce your emissions. It's worth noting that the introduction of user preferences and APIs has increased the risk of visitor fingerprinting and privacy issues.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Media and Preference Queries
 
@@ -1218,9 +1513,16 @@ Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-da
 {:.ok}
 Bootstrap handles a lot of these automatically, but we should look into `prefers-contrast`, `monochrome`, and particularly `prefers-reduced-data`, because those are definitely things we could apply to the 3d renderer.
 
+</details>
+
 ### Guideline 3.14. [Develop a Mobile-First Layout](https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout)
 
 Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. As such, visitors can actively choose to browse on devices that emit less carbon if they wish.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Mobile-First
 
@@ -1253,9 +1555,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.15. [Use Beneficial JavaScript and Its APIs](https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s)
 
 When new best practices or if beneficial scripting guidance exists that will improve the visitor experience, following it should be of the highest priority (only using scripts ethically should be promoted).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Beneficial JavaScript
 
@@ -1271,9 +1580,16 @@ When using an API, make sure you only call it when necessary. On the other side,
 {:.bad}
 While we do try to minimise it, Manyfold still transfers a lot of 3d data that's not strictly necessary - there are more efficient ways we could provide the same experience to a user, such as an image preview of a model.
 
+</details>
+
 ### Guideline 3.16. [Ensure Your Scripts Are Secure](https://w3c.github.io/sustyweb/#ensure-your-scripts-are-secure)
 
 The dangers of scripting are well known, and vulnerabilities are discovered with increasing regularity. As such, it's of ethical benefit for authors to ensure all code used regularly passes security processes.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Script Security
 
@@ -1282,9 +1598,16 @@ Check the code for vulnerabilities, exploits, header issues, and code injection.
 {:.good}
 Security audit was recently performed, and identified only a few issues, which have been fixes. Various code-scanning tools are also used to detect potential security issues.
 
+</details>
+
 ### Guideline 3.17. [Manage Dependencies Appropriately](https://w3c.github.io/sustyweb/#manage-dependencies-appropriately)
 
 While JavaScript may not cause the most website bloat, it can cause very high emissions in terms of CPU load due to the rendering process, thereby it makes sense to consider the use of dependencies and third-party code carefully.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Dependency Management
 
@@ -1307,9 +1630,16 @@ Regularly check dependencies and keep them up-to-date.
 {:.good}
 Dependencies are automatically maintained by Dependabot on GitHub, and pushed out with regular releases.
 
+</details>
+
 ### Guideline 3.18. [Include Files That Are Automatically Expected](https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected)
 
 Search engines and browsers regularly examine websites, requesting specific files by default (they expect them to exist). If the files don't exist, this will lead to potential errors and emissions being caused when they could be created, especially as the files offer SEO, user-experience, and other benefits to visitors.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Expected File Formats
 
@@ -1321,9 +1651,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.19. [Use Plaintext Formats When Appropriate](https://w3c.github.io/sustyweb/#use-plaintext-formats-when-appropriate)
 
 Several small assets can be included within a website, conferring a range of benefits upon the website or application that utilizes them. They each have a low carbon footprint, so while they do create emissions, it's worth including them for the benefits they provide.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Beneficial File Formats
 
@@ -1335,9 +1672,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.20. [Avoid Using Deprecated or Proprietary Code](https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code)
 
 The Web is full of dead, often proprietary code, created using standards that have been superseded or by groups that aren't recognized. By following recognized coding standards, you ensure that your code will be rendered properly by browsers (and reduce the potential for added emissions occurring from unmaintained rendering processes).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Deprecated Code
 
@@ -1359,9 +1703,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.21. [Align Technical Requirements With Sustainability Goals](https://w3c.github.io/sustyweb/#align-technical-requirements-with-sustainability-goals)
 
 Every product or service is different, and each will require a different set of tooling to accomplish the most sustainable result. Deciding whether to go with a bulky framework, Static Site Generator (SSG), or a Content Management System (CMS) takes careful planning based on client or service requirements.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Identify Requirements
 
@@ -1410,9 +1761,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.22. [Use the Latest Stable Language Version](https://w3c.github.io/sustyweb/#use-the-latest-stable-language-version)
 
 Languages evolve regularly, and it's important for security and performance reasons to keep on top of the technology stack you are using. It's also important to consider whether the language you are using is appropriate or optimized for the task you wish to use it for.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Versioning
 
@@ -1434,9 +1792,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.23. [Take Advantage of Native Features](https://w3c.github.io/sustyweb/#take-advantage-of-native-features)
 
 Ensuring that your code is free of redundancy by using pre-existing functionality provided by the web browser is important as it will help you to reduce the amount of time wasted, re-creating the same components, this offers obvious sustainability benefits in terms of time in front of the screen.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Native Over Custom
 
@@ -1448,9 +1813,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 3.24. [Run Fewer, Simpler Queries As Possible](https://w3c.github.io/sustyweb/#run-fewer-simpler-queries-as-possible)
 
 Making multiple requests whether HTTP or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Database Queries
 
@@ -1462,11 +1834,18 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ## Section 4. Hosting, Infrastructure And Systems
 
 ### Guideline 4.1. [Choose a Sustainable Hosting Provider](https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider)
 
 In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Monitor Metrics
 
@@ -1518,9 +1897,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.2. [Optimize Browser Caching](https://w3c.github.io/sustyweb/#optimize-browser-caching)
 
 Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have sustainability and performance benefits (for instance by greatly reducing Time-To-First-Byte).
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Server-side Caching
 
@@ -1542,9 +1928,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.3. [Compress Your Files](https://w3c.github.io/sustyweb/#compress-your-files)
 
 Every file will take up a certain amount of room on a server's hard drive, and this data will need to be sent across the wire to each visitor. Doing so will consume resources, but by using compression algorithms you can shrink each file to make its journey less impactful.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Server-side Compression
 
@@ -1566,9 +1959,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.4. [Use Error Pages and Redirects Carefully](https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully)
 
 Navigation errors lead to mistakes, which lead to visitors wasting time trying to resolve them, or abandoning a website altogether. Anything that can be done to interject, predict, and way-find around potential problems will reduce emissions over time.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Error Pages
 
@@ -1590,9 +1990,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.5. [Limit Usage of Additional Environments](https://w3c.github.io/sustyweb/#limit-usage-of-additional-environments)
 
 Decommission or switch off additional environments, such as testing / Quality Assurance QA) / re-production and other such environments when they are not useful.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Unused Environments
 
@@ -1604,9 +2011,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.6. [Automate To Fit the Needs](https://w3c.github.io/sustyweb/#automate-to-fit-the-needs)
 
 Any tasks, especially repetitive, that can be automated should be automated (compilation, deployment, tests, etc.) to reduce time at the computer being wasted by people.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Automate Tasks
 
@@ -1648,9 +2062,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.7. [Maintain a Relevant Refresh Frequency](https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency)
 
 Only send data from the server when the visitor needs it. As much as possible, you can rely on client-side or server-side cache and client-side / local storage. Rather than refreshing data on a given frequency, it might be up to the visitor to manually ask for a refresh.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Refresh Frequency
 
@@ -1662,9 +2083,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.8. [Be Mindful of Duplicate Data](https://w3c.github.io/sustyweb/#be-mindful-of-duplicate-data)
 
 For security reasons and in accordance with a Service-Level Agreement (SLA), it is often recommended to duplicate data to make sure it remains available if a problem occurs. This should be balanced with the cost of such duplication. Not all data is critical and, rather than overcompensating with multiple saves, duplication should be designed with efficiency in mind.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Data Backups
 
@@ -1676,9 +2104,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.9. [Enable Asynchronous Processing and Communication](https://w3c.github.io/sustyweb/#enable-asynchronous-processing-and-communication)
 
 Depending on carbon intensity, some processes and communications should be delayed and sometimes batched. This could also be a way to reduce the workload on a server or Virtual Machine (VM). In such cases, visitors should be warned that the process is asynchronous and notified when it is over.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Batch Processing
 
@@ -1710,9 +2145,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.10. [Consider CDNs and Edge Caching](https://w3c.github.io/sustyweb/#consider-cdn-s-and-edge-caching)
 
 Edge caching and CDN delivery can help optimize the sustainable delivery of digital services by optimizing how your website's traffic is transferred over the internet.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Content Delivery Networks (CDNs)
 
@@ -1764,9 +2206,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.11. [Use the Lowest Infrastructure Tier Meeting Business Requirements](https://w3c.github.io/sustyweb/#use-the-lowest-infrastructure-tier-meeting-business-requirements)
 
 Select infrastructure with minimal specifications meeting business requirements of performance, availability, etc.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Lowest Requirements
 
@@ -1778,9 +2227,16 @@ Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
 
+</details>
+
 ### Guideline 4.12. [Store Data According to Visitor Needs](https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs)
 
 Optimize storage of data according to what is most important, relevant, and required in service to visitors. This will help to avoid unnecessary storage of data that may not be useful or valuable, which will reduce required infrastructure, power, and data transfer.
+
+<details markdown="block">
+<summary>
+Criteria: ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣--> ⚪<!--🔴🟡🟢🟣-->
+</summary>
 
 #### Reduce Redundancy
 
@@ -1841,3 +2297,5 @@ Write assessment detail here.
 Change paragraph class to "bad", "ok", "good", or "na" to set the
 evaluation overall result, and set the relevant icon colour after
 the guideline summary.
+
+</details>
