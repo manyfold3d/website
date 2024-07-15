@@ -44,3 +44,15 @@ To request support for another file format, please [open a feature request](http
 |SVG|`*.svg`|`image/svg+xml`|✅|
 |TIFF|`*.tiff`, `*.tif`|`image/tiff`|✅|
 |WebP|`*.webp`|`image/webp`|✅|
+
+## Archives
+
+Supported and extracted by uploader, not on-disk indexing.
+
+|File type|Extensions|MIME type|
+|--|--|--|
+|7-Zip|`*.7z`|`application/x-7z-compressed`|
+|bzip2|`*.bz2`|`application/x-bzip2`|
+|gzip|`*.gzip`, `*.gz`|`application/gzip`|
+|RAR|`*.rar`|`application/x-rar-compressed`|
+|ZIP|`*.zip`|`application/zip`|
