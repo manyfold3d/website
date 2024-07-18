@@ -38,3 +38,11 @@ Model.find_each { |m| Scan::CheckModelJob.perform_later(m.id, scan: true) }
 ```
 
 This might take a while to run if you have a lot of models. The scans will run in the background once queued up.
+
+### Remove all missing files
+
+If you have a file clearout (for instance, deleting a load of pre-sliced files), you might end up with a lot of "missing files" problems in Manyfold after a rescan. Removing these all one by one can be difficult, so you can remove them all in one command by running:
+
+```ruby
+Problem.where(problematic_type: "ModelFile", category: :missing).each {|x| x.problematic.destroy}
+```
