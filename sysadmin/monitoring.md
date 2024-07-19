@@ -1,6 +1,6 @@
 ---
 title: Monitoring
-parent: Running Manyfold
+parent: Admin Guide
 layout: page
 nav_order: 2
 ---

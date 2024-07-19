@@ -1,6 +1,6 @@
 ---
 title: Tracking
-parent: Running Manyfold
+parent: Admin Guide
 layout: page
 nav_order: 4
 ---
