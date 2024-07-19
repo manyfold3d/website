@@ -1,8 +1,8 @@
 ---
 title: Supported Formats
-parent: Using Manyfold
+parent: User Guide
 layout: page
-nav_order: 1
+nav_order: 10
 ---
 
 Manyfold will index lots of different file formats. This page gives the full list, as well as what can be shown in the previews in the Web UI. Files not in these lists will be ignored.
