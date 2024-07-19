@@ -18,6 +18,7 @@ To request support for another file format, please [open a feature request](http
 |3MF|`*.3mf`|`model/3mf`|✅||
 |Alembic|`*.abc`|`model/x-alembic`|||
 |Blender|`*.blend`|`model/x-blender`|||
+|GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|||
 |Meshmixer|`*.mix`|`model/x-meshmixer`|||
 |OpenSCAD|`*.scad`|`model/x-openscad`|||
 |PLY|`*.ply`|`model/3mf`|✅||
