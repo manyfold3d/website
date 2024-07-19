@@ -1,7 +1,7 @@
 ---
 title: Unraid Server
-parent: Get Started
-layout: page
+logo_url: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/unraid.svg
+layout: installation
 ---
 
 {: .note }

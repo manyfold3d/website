@@ -13,6 +13,10 @@ collections:
   posts:
     output: true
     permalink: /news/:year/:month/:day/:title:output_ext
+  installation:
+    output: true
+    permalink: "/get-started/:path"
+    sort_by: order
 
 callouts:
   important:

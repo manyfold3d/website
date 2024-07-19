@@ -1,7 +1,7 @@
 ---
 title: Synology NAS
-parent: Get Started
-layout: page
+logo_url: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/synology.svg
+layout: installation
 ---
 
 {: .important }

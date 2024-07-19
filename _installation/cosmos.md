@@ -1,7 +1,7 @@
 ---
 title: Cosmos
-parent: Get Started
-layout: page
+logo_url: https://cosmos-cloud.io/Logo.png
+layout: installation
 ---
 
 [![Cosmos: Install Server](https://img.shields.io/badge/Cosmos-Install%20Server-violet)](https://cosmos-cloud.io/proxy#cosmos-ui/market-listing/cosmos-cloud/Manyfold)

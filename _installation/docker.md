@@ -1,8 +1,8 @@
 ---
-title: Docker Compose
-parent: Get Started
-layout: page
-nav_order: 1
+title: Docker
+logo_url: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/docker-moby.svg
+layout: installation
+order: 1
 ---
 
 {: .warning }
