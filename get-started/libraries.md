@@ -14,8 +14,6 @@ You can create a library in either:
 
 In both cases, Manyfold will organise and name the files and folders in your library storage for you. It will also scan and index any files that are in that location that it doesn't know about.
 
-![Folder structure](/images/get-started/folders.png){:.screenshot}
-
 So, if you have an existing big folder of models, you set it up as a library and Manyfold will take care of it from there. Or, you can create a library in an empty folder and upload everything through the website.
 
 You can add more libraries later on, but you need to add at least one before Manyfold can operate properly.
@@ -45,3 +43,11 @@ Note that Manyfold will treat the entire bucket as its library, so don't use one
 
 If you're using a non-Amazon S3 provider, you will need to set the endpoint URL, and you may not need to specify a particular region; refer
 to your provider's documentation for the details.
+
+<hr/>
+
+<p>
+	Once your first library is created, you're pretty much done - time to start organising!
+</p>
+
+<a class='btn btn-purple' href='/get-started/first-scan'>Next step &raquo;</a>
