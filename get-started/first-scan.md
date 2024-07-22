@@ -31,7 +31,7 @@ In the screenshot above, you can see that each of the models in the folders ment
 
 # Next steps
 
-There are lots more things you can do with Manyfold, but that should get you up and running! We hope you love it!
+There are lots more things you can do with Manyfold, but that should get you up and running! We hope you find it useful!
 
 Check out the [(still-growing) user manual](/manual) for more information on the various features that you now have available, or the [administration guide](/sysadmin) for more on how to configure and look after your instance!
 
