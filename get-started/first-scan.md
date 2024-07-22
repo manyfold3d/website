@@ -1,5 +1,5 @@
 ---
-title: Scanning your files
+title: First scan
 parent: Get Started
 layout: page
 nav_order: 4
