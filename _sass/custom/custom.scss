@@ -105,3 +105,10 @@ div.feature {
 	}
 
 }
+
+.screenshot {
+	width: calc(100% - 4em);
+	margin: 2em;
+	border-radius: 1em;
+	box-shadow: 0 0 3em white;
+}
