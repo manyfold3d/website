@@ -24,4 +24,4 @@ You'll need to set:
 	After you've set up a secure password, it's time to add your first library!
 </p>
 
-<a class='btn btn-purple' href='/get-started/administrator'>Next step &raquo;</a>
+<a class='btn btn-purple' href='/get-started/libraries'>Next step &raquo;</a>
