@@ -9,6 +9,8 @@ Scanning is the process of checking Manyfold's storage location and detecting an
 
 To run a scan, click the "Scan" button and choose "Scan for changes". The scan button will become inactive and show a spinning icon while the scan runs. You can always tell if a scan is in progress by the state of the button.
 
+![Scan button and menu](/images/manual/scan-button.png){:.screenshot}
+
 A scan will:
 
 1. create new models for anything folder that has been added to the storage location outside Manyfold (for instance, by manual copying);
@@ -21,6 +23,10 @@ A scan will:
 1. detect which files are supported or unsupported, and attempt to match them together;
 1. analyse individual files to measure size and detect duplicates;
 1. if enabled, run geometric analysis on files to detect mesh errors.
+
+You can see how the scan is progressing in the background by clicking the "activity" icon in the navigation bar. The page shows which jobs have been queued, run, completed, or failed in the last 24 hours.
+
+![Activity screen](/images/manual/activity.png){:.screenshot}
 
 # Checking existing models
 
