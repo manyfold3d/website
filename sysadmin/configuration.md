@@ -25,7 +25,7 @@ To get your user and group IDs, run `id` and look at the `uid` and `gid` values.
 
 ### `SECRET_KEY_BASE`
 
-A secret key used to sign browser cookies; normally a 128-digit hexadecimal number, but any long random string will do. If you have the code checked out, you can generate one with `rake secret`. Changing this will invalidate all user cookies and sessions.
+A secret key used to sign browser cookies; normally a 128-digit hexadecimal number, but any long random string will do. If you have the code checked out, you can generate one with `bundle exec rails secret`. Changing this will invalidate all user cookies and sessions.
 
 ### `REDIS_URL`
 <small>`manyfold` image only, not required for `manyfold-solo`</small>
