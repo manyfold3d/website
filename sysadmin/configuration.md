@@ -181,12 +181,12 @@ server, but if you have lots of CPU and memory available, you can increase this 
 ### `MAX_FILE_EXTRACT_SIZE`
 <small>Version 0.69.0+</small>
 
-The maximum individual file size (in bytes) that will be extracted from uploaded archives. 1GiB by default.
+The maximum individual file size (written as an integer number of bytes) that will be extracted from uploaded archives. `1073741824` (1GiB) by default.
 
 ### `MAX_FILE_UPLOAD_SIZE`
 <small>Version 0.69.0+</small>
 
-The maximum individual file size (in bytes) that can be uploaded. 1GiB by default.
+The maximum individual file size (written as an integer number of bytes) that can be uploaded. `1073741824` (1GiB) by default.
 
 ### `USAGE_REPORTING_URL`
 <small>Version 0.67.0+</small>
