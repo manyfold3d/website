@@ -16,7 +16,7 @@ The docker images support `linux/amd64`, `linux/arm/v7` and `linux/arm64` archit
 
 You can install and run all the dependencies in one go using `docker compose`:
 
-1. Create a file called `docker-compose.yml`, and paste the appropriate (standard or solo) example file below into it. Change the paths, secret key, and database details as necessary.
+1. Create a file called `docker-compose.yml`, and paste the appropriate (standard or solo) example file below into it. Change the paths, secret key, and database details as necessary. For Autostart, uncomment the "restart: unless-stopped" settings, and comment the "restart: on-failure" settings (if existing)
 
 2. Run `docker-compose up`
 
@@ -46,6 +46,8 @@ services:
       PGID: 1000
       # For details of other optional environment variables, including features such
       # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
+    #restart: unless-stopped
+    # uncomment above for autostart
     depends_on:
       - postgres-server
       - redis-server
@@ -70,12 +72,16 @@ services:
       POSTGRES_USER: manyfold
       POSTGRES_PASSWORD: password
     restart: on-failure
+    # comment obove and uncomment below for autostart
+    #restart: unless-stopped
     networks:
       - manyfold
 
   redis-server:
     image: redis:7
     restart: on-failure
+    # comment obove and uncomment below for autostart
+    #resart: unless-stopped
     networks:
       - manyfold
 
@@ -101,6 +107,8 @@ services:
       SECRET_KEY_BASE: a_nice_long_random_string
       PUID: 1000
       PGID: 1000
+    #restart: unless-stopped
+    # uncomment above for autostart
     # Optional, but recommended for better security
     security_opt:
       - no-new-privileges:true
