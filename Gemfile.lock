@@ -15,10 +15,10 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
-    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
-    google-protobuf (4.27.3-x86_64-darwin)
+    google-protobuf (4.27.3-arm64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.3-x86_64-linux)
@@ -83,6 +83,8 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.8-arm64-darwin)
+      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86_64-darwin)
       google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86_64-linux-gnu)
@@ -98,7 +100,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x86_64-darwin-22
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
