@@ -93,6 +93,8 @@ Set to `enabled` to put the entire site into the demo mode used on [try.manyfold
 
 If `MULTIUSER` is enabled, set to `enabled` to allow new users to sign up for account. If disabled, users will need to be invited by an admin. Off by default.
 
+Users can be invited by navigating to `Settings` -> `Advanced Administration` > `Users` > `New User`
+
 ### `MULTIUSER`
 <small>Version 0.59.0+</small>
 
