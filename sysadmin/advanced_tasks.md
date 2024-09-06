@@ -46,3 +46,11 @@ If you have a file clearout (for instance, deleting a load of pre-sliced files),
 ```ruby
 Problem.where(problematic_type: "ModelFile", category: :missing).each {|x| x.problematic.destroy}
 ```
+
+### Debugging invalid files
+
+Due to the occasional bug, it's possible that a file (or other) record might get in a bad state. To print out details of any with errors, run:
+
+```ruby
+ModelFile.find_each { |x| puts "#{x.model.name} / #{x.name}" if !x.valid? }
+````
