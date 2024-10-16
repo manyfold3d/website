@@ -108,6 +108,35 @@ You should set a secure administrator password before turning on multiuser mode.
 
 Set to `enabled` to turn on cross-server ActivityPub federation features such as remote following, webfinger discovery, etc. If you want your Manyfold instance to be part of the [Fediverse](https://fediverse.to), this is the setting for you. Make sure that `PUBLIC_HOST` and `PUBLIC_PORT` are set, and `HTTPS_ONLY` is highly recommended. Note that at present, only public content will be federated.
 
+## Authentication
+
+Manyfold supports single sign-on using OpenID Connect (OIDC), using the following environment variables:
+
+### `OIDC_CLIENT_ID`
+<small>Version 0.83.0+</small>
+
+A valid client ID from your OIDC provider.
+
+### `OIDC_CLIENT_SECRET`
+<small>Version 0.83.0+</small>
+
+The corresponding client secret from your OIDC provider.
+
+### `OIDC_ISSUER`
+<small>Version 0.83.0+</small>
+
+The full "issuer" string of your OIDC prover, including scheme and any trailing slashes. This should be *exactly* as shown in your OIDC provider's documentation or dashboard.
+
+### `OIDC_NAME`
+<small>Version 0.83.0+</small>
+
+Shown in the OIDC login button; set to the name of your provider (e.g. "Authentik") to customise the button text. Shows "OpenID Connect" by default.
+
+### `FORCE_OIDC`
+<small>Version 0.83.0+</small>
+
+Set to `enabled` to disable logging in with local accounts, and force all login to use your OIDC provider.
+
 ## Network
 
 ### `HTTPS_ONLY`
@@ -182,6 +211,23 @@ job processing. 4 by default.
 The number of high-performance worker threads to run. High-performance workers run intensive jobs like geometric analysis and
 file conversion, and use a lot of memory and CPU power. Set to 1 by default, so that demanding jobs don't saturate the Manyfold
 server, but if you have lots of CPU and memory available, you can increase this to process more jobs in parallel.
+
+## Customisation
+
+### `SITE_NAME`
+<small>Version 0.83.0+</small>
+
+Set the name of your site to whatever you want, e.g. "Bob's 3D Stash"; it's "Manyfold" by default.
+
+### `SITE_TAGLINE`
+<small>Version 0.83.0+</small>
+
+Customise the tagline shown on the homepage; shown below the site name, above the search box.
+
+### `SITE_ICON`
+<small>Version 0.83.0+</small>
+
+Customise the site icon shown in the navigation bar. Set it to a URL to your logo, which will be displayed 40 pixels high.
 
 ## Miscellaneous
 
