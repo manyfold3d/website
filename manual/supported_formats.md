@@ -18,9 +18,11 @@ To request support for another file format, please [open a feature request](http
 |3MF|`*.3mf`|`model/3mf`|✅||
 |Alembic|`*.abc`|`model/x-alembic`|||
 |Blender|`*.blend`|`model/x-blender`|||
+|BRep|`*.brep`|`model/x-brep`|||
+|FreeCAD|`*.fcstd`|`model/x-freecad`|||
 |GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|||
 |Meshmixer|`*.mix`|`model/x-meshmixer`|||
-|OpenSCAD|`*.scad`|`model/x-openscad`|||
+|OpenSCAD|`*.scad`|`application/x-openscad`|||
 |PLY|`*.ply`|`model/3mf`|✅||
 |STEP|`*.step`, `*.stp`|`model/x-step`|||
 |STL|`*.stl`|`model/stl`|✅|✅|
@@ -45,6 +47,23 @@ To request support for another file format, please [open a feature request](http
 |SVG|`*.svg`|`image/svg+xml`|✅|
 |TIFF|`*.tiff`, `*.tif`|`image/tiff`|✅|
 |WebP|`*.webp`|`image/webp`|✅|
+
+## Video
+
+|File type|Extensions|MIME type|Preview|
+|--|--|--|
+
+|MP4|`*.mp4`, `*.m4v`|`video/mp4`|✅|
+|MPEG|`*.mpeg`, `*.mpg`, `*.mpe`|`video/mpeg`|✅|
+|WebM|`*.webm`|`video/webm`|✅|
+
+## Documents
+|File type|Extensions|MIME type|Preview|
+|--|--|--|
+
+|Markdown|`*.md`|`text/markdown`|✅|
+|PDF|`*.pdf`|`application/pdf`|✅|
+|Text|`*.txt`, `*.text`|`text/plain`|✅|
 
 ## Archives
 
