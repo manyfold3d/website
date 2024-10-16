@@ -103,6 +103,11 @@ Set to `enabled` to turn on multiuser features such as account login, signup (wi
 {:.important}
 You should set a secure administrator password before turning on multiuser mode. Manyfold should prompt you to do so when you first access version 0.59.0 or above.
 
+### `FEDERATION`
+<small>Version 0.75.0+</small>
+
+Set to `enabled` to turn on cross-server ActivityPub federation features such as remote following, webfinger discovery, etc. If you want your Manyfold instance to be part of the [Fediverse](https://fediverse.to), this is the setting for you. Make sure that `PUBLIC_HOST` and `PUBLIC_PORT` are set, and `HTTPS_ONLY` is highly recommended. Note that at present, only public content will be federated.
+
 ## Network
 
 ### `HTTPS_ONLY`
