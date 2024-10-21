@@ -10,7 +10,7 @@ Manyfold is [Open Source software](https://opensource.org/osd), published under 
 
 ## Contributions
 
-As part of Manyfold's development, we've contributed Open Source code back to the community, by releasing a number of our own packages openly:
+As part of Manyfold's development, we've contributed Open Source code back to the community, by releasing a number of our own packages openly (as well as the source code of Manyfold itself):
 
 * [caber](https://github.com/manyfold3d/caber) - a ReBAC / Zanzibar Ruby gem for fine-grained permission control, written for and released by Manyfold.
 * [threejs-webworker-3mf-loader](https://github.com/manyfold3d/threejs-webworker-3mf-loader) - webworker-compatible fork of the Three.js 3MF loader
