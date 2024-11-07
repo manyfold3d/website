@@ -15,18 +15,33 @@ To request support for another file format, please [open a feature request](http
 
 |File type|Extensions|MIME type|Preview|Analyse|
 |--|--|--|--|
+|3D Studio|`*.3ds`, `*.max`|`application/x-3ds`, `image/x-3ds`|||
 |3MF|`*.3mf`|`model/3mf`|✅||
+|AMF|`*.amf`|`application/x-amf`|||
 |Alembic|`*.abc`|`model/x-alembic`|||
-|Blender|`*.blend`|`model/x-blender`|||
+|Autodesk DWG|`*.dwg`|`image/vnd.dwg`|||
+|Autodesk DXF|`*.dxf`|`image/vnd.dxf`|||
 |BRep|`*.brep`|`model/x-brep`|||
+|Blender|`*.blend`|`model/x-blender`|||
+|Cheetah3D|`*.jas`|`model/x-cheetah3d`|||
+|Collada|`*.dae`|`model/vnd.collada+xml`|||
+|Filmbox|`*.fbx`|`model/x-fbx`|||
 |FreeCAD|`*.fcstd`|`model/x-freecad`|||
 |GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|||
+|IGES|`*.iges`, `*.igs`|`model/iges`|||
+|Maya|`*.ma`, `*.mb`|`model/x-maya`|||
 |Meshmixer|`*.mix`|`model/x-meshmixer`|||
+|Modo|`*.lxo`|`model/x-modo`|||
 |OpenSCAD|`*.scad`|`application/x-openscad`|||
-|PLY|`*.ply`|`model/3mf`|✅||
+|PLY|`*.ply`|`model/x-ply`|✅||
 |STEP|`*.step`, `*.stp`|`model/x-step`|||
 |STL|`*.stl`|`model/stl`|✅|✅|
-|Wavefront OBJ|`*.obj`|`model/obj`|✅|✅|
+|Sketchup|`*.skp`|`model/x-sketchup`|||
+|Speedtree|`*.spm`|`model/x-speedtree`|||
+|VRML|`*.wrl`|`model/vrml`|||
+|Wavefront OBJ|`*.obj`, `*.mtl`|`model/obj`|✅|✅|
+|X3D|`*.x3d`|`model/x3d`|||
+
 
 ## Print & Slicer files
 
@@ -52,22 +67,19 @@ To request support for another file format, please [open a feature request](http
 
 |File type|Extensions|MIME type|Preview|
 |--|--|--|
-
 |MP4|`*.mp4`, `*.m4v`|`video/mp4`|✅|
 |MPEG|`*.mpeg`, `*.mpg`, `*.mpe`|`video/mpeg`|✅|
 |WebM|`*.webm`|`video/webm`|✅|
 
 ## Documents
-|File type|Extensions|MIME type|Preview|
-|--|--|--|
 
+|File type|Extensions|MIME type|Preview|
+|--|--|--|--|
 |Markdown|`*.md`|`text/markdown`|✅|
 |PDF|`*.pdf`|`application/pdf`|✅|
 |Text|`*.txt`, `*.text`|`text/plain`|✅|
 
 ## Archives
-
-Supported and extracted by uploader, not on-disk indexing.
 
 |File type|Extensions|MIME type|
 |--|--|--|
