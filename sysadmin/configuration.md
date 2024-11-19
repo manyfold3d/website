@@ -52,6 +52,11 @@ Specifies the type of database being connected to. Supported values are:
 
 The hostname of your database server. Not required for `sqlite3`.
 
+### `DATABASE_PORT`
+<small>Version 0.89.0+</small>
+
+A custom port number for your database server connection. Not required for `sqlite3`, or if you're using the default port for your database.
+
 ### `DATABASE_USER`
 <small>Version 0.60.0+</small>
 

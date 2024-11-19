@@ -37,6 +37,7 @@ services:
     environment:
       DATABASE_ADAPTER: postgresql # mysql2 or sqlite3 are also supported
       DATABASE_HOST: postgres-server
+      DATABASE_PORT: 5432 # only needed for non-standard ports
       DATABASE_NAME: manyfold # or the path to the database file if using sqlite3
       DATABASE_USER: manyfold
       DATABASE_PASSWORD: password
