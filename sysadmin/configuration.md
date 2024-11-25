@@ -98,7 +98,7 @@ Set to `enabled` to put the entire site into the demo mode used on [try.manyfold
 
 If `MULTIUSER` is enabled, set to `enabled` to allow new users to sign up for account. If disabled, users will need to be invited by an admin. Off by default.
 
-Users can be invited by navigating to `Settings` -> `Advanced Administration` > `Users` > `New User`
+You can require moderator approval for new accounts, and create new users manually in the site settings area.
 
 ### `MULTIUSER`
 <small>Version 0.59.0+</small>
@@ -106,7 +106,7 @@ Users can be invited by navigating to `Settings` -> `Advanced Administration` > 
 Set to `enabled` to turn on multiuser features such as account login, signup (with `REGISTRATION` option), permissions, roles, and so on. By default this is off, and Manyfold operates in single-user mode without any login necessary; however, if you're exposing your Manyfold instance on the public Internet, even if you intend to only use it yourself, it's probably a good idea to enable multiuser for security.
 
 {:.important}
-You should set a secure administrator password before turning on multiuser mode. Manyfold should prompt you to do so when you first access version 0.59.0 or above.
+You should set a secure administrator password before turning on multiuser mode. Manyfold will prompt you to do so when you first access version 0.59.0 or above.
 
 ### `FEDERATION`
 <small>Version 0.75.0+</small>
