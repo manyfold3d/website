@@ -23,7 +23,9 @@ The complete payload is:
 	"id":"fdb45536-cba8-4204-b352-71fc1062fd95",
 	"version": {
 		"app":"v0.67.0",
-		"sha":"f8d09c9be141e9fb367b08099308dd8b93aa92b2"
+		"sha":"f8d09c9be141e9fb367b08099308dd8b93aa92b2",
+		"image":"ghcr.io/manyfold3d/manyfold",
+		"arch":"arm-linux-musleabihf"
 	}
 }
 ```
@@ -33,6 +35,8 @@ These fields are:
 * `id`: A randomly-generated UUID unique to your system. If tracking is disabled, this ID is immediately deleted from your system, and if you enabled tracking again, a new one is generated. Before you turn on tracking, this will be `null`.
 * `app`: The version of Manyfold that you're running, as shown in the footer. This will be the Docker tag you're using, or "unknown" if you're running a development version.
 * `sha`: The git SHA of the running code, again as shown in the app footer. This specifies the precise software version, and is really just a double-check on the `app` number.
+* `image`: The name of the prebuilt docker image you're running. This could be the standard image, `manyfold-solo`, or the linuxserver image. If you build your own, nothing will show here.
+* `arch`: The system architecture as reported by Ruby's built-in RUBY_PLATFORM constant.
 
 No other information is sent in the request payload. You can verify this by sending the data to your own endpoint by setting the `USAGE_REPORTING_URL` environment variable. For instance, you could send it to something like a [RequestBin](https://requestbin.myworkato.com/) and see exactly what arrives.
 
