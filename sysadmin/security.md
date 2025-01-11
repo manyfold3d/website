@@ -116,3 +116,9 @@ volumes:
   - /var/manyfold/app_tmp:/usr/src/app/tmp
   - /var/manyfold/log:/usr/src/app/log
 ```
+
+Be sure to set the sticky bit for the volume mounted to `/tmp`. Using the example above, you can run this command on the host system:
+
+```shell
+chmod 1777 /var/manyfold/sys_tmp/
+```
