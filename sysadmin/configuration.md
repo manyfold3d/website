@@ -169,6 +169,11 @@ The hostname of your SMTP server, e.g. `smtp.example.com`. The default port 25 w
 
 If the server supports TLS, it will be used automatically with `STARTTLS`, but otherwise an unencrypted connection will be used. See [ActionMailer's SMTP documentation](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration) for details. Defaults to `localhost`.
 
+### `SMTP_PORT`
+<small>Version 0.95.0+</small>
+
+Port number of your SMTP server, if non-standard. Defaults to port 25.
+
 ### `SMTP_USERNAME`
 <small>Version 0.61.0+</small>
 
@@ -183,6 +188,32 @@ The password for your mail server, if authentication is required.
 <small>Version 0.61.0+</small>
 
 The email address that mails should appear to be sent from. If not set, mail is sent from `notifications@{PUBLIC_HOSTNAME}`.
+
+### `SMTP_DOMAIN`
+<small>Version 0.95.0+</small>
+
+SMTP_DOMAIN - HELO domain, if required by your server. Defaults to nil.
+
+### `SMTP_AUTHENTICATION`
+<small>Version 0.95.0+</small>
+
+Authentication method, if required. Set to one of "plain" (the default), "login", or "cram_md5".
+
+### `SMTP_OPENSSL_VERIFY_MODE`
+<small>Version 0.95.0+</small>
+
+If connecting to your mail server over SSL, should the server identity be verified? Set to "none" to disable, for things like
+self-signed SSL certificates, or "peer" to enable verification (which is the default).
+
+### `SMTP_OPEN_TIMEOUT`
+<small>Version 0.95.0+</small>
+
+The number of seconds to wait for connection to the SMTP server (default 5).
+
+### `SMTP_READ_TIMEOUT`
+<small>Version 0.95.0+</small>
+
+The number of seconds to wait for reads from the SMTP server (default 5).
 
 ### `PUBLIC_HOSTNAME`
 <small>Version 0.61.0+</small>
