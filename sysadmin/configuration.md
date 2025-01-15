@@ -165,7 +165,7 @@ In order to send mail, you need an SMTP server to send through; this could be yo
 ### `SMTP_SERVER`
 <small>Version 0.61.0+</small>
 
-The hostname of your SMTP server, e.g. `smtp.example.com`. The default port 25 will be used.
+The hostname of your SMTP server, e.g. `smtp.example.com`.
 
 If the server supports TLS, it will be used automatically with `STARTTLS`, but otherwise an unencrypted connection will be used. See [ActionMailer's SMTP documentation](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration) for details. Defaults to `localhost`.
 
