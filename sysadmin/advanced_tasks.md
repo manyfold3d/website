@@ -54,3 +54,11 @@ Due to the occasional bug, it's possible that a file (or other) record might get
 ```ruby
 ModelFile.find_each { |x| puts "#{x.model.name} / #{x.name}" if !x.valid? }
 ````
+
+### Test email settings
+
+When setting up an instance for the first time, it can be helpful to test the email settings and adjust as necessary. We can test with the account approved message to the first user account created on the server (`id: 1`). The rails console will report any errors encountered.
+
+```ruby
+UserMailer.with(user: User.find(1)).account_approved.deliver_now
+```
