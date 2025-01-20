@@ -281,3 +281,8 @@ The maximum individual file size (written as an integer number of bytes) that ca
 <small>Version 0.67.0+</small>
 
 Set this URL in order to redirect anonymous usage tracking to your own endpoint; mainly if you want to verify what we're sending. See [the tracking page](tracking.html) for more details.
+
+### `MIN_PASSWORD_SCORE`
+<small>Version 0.95.0+</small>
+
+Set this to a number from `0` (insecure) to `4` (most secure), to make password requirements [more or less strict](https://github.com/bitzesty/devise_zxcvbn?tab=readme-ov-file#devise_zxcvbn). *You should never use a value below 3 on a publicly-accessible instance*. Default is 4.
