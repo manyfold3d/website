@@ -17,7 +17,7 @@ In order to increase security, and so that all the created files aren't owned by
 
 If these are set, the container will start and set up as root, but then drop to this less privileged user when actually running the app.
 
-If not set, the application will run as root, but will continuously warn admins to fix it, and will fail to start in a future release, probably v1.0.0.
+If not set, the application will run as root, but will continuously warn admins to fix it. If you 100% know what you're doing and accept the security risk, you can disable that warning by setting the intentionally-scary-sounding `SUDO_RUN_UNSAFELY` environment variable to `enabled` (on v0.98.0+ only). This may be appropriate on some PaaS systems that don't provide the ability to as a specific non-privileged user.
 
 To get your user and group IDs, run `id` and look at the `uid` and `gid` values.
 
