@@ -1,6 +1,6 @@
 {
 	"@context": {
-		"@version": 0.1,
+		"@version": 1.1,
 		"f3di": "http://purl.org/f3di/ns#",
 		"concreteType": {
 			"@id": "f3di:concreteType",
