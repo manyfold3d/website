@@ -20,6 +20,19 @@ docker exec -it manyfold /usr/src/app/bin/rails console
 
 You should get an `irb` prompt, and then you're ready.
 
+### Reset admin password
+
+In single user mode, the admin account should already be authenticated and you can browse to `<instance_url>/admin/users` to edit the password of the user. In multiuser mode which should be enabled for public facing sites, this is not possible without risking giving administrative access to anyone accessing the site.
+
+To reset the admin password, perform the following commands in the rails console. Be sure to replace the email and password:
+
+```ruby
+u = User.find_by(email: 'root@localhost')
+u.password = 'P@$$w0rd!'
+u.password_confirmation = 'P@$$w0rd!'
+u.save!
+```
+
 ### Remove all tags
 
 Sometimes scanning an existing library can produce a load of tags you don't want, or just far too many. To remove all tags:
@@ -45,6 +58,14 @@ If you have a file clearout (for instance, deleting a load of pre-sliced files),
 
 ```ruby
 Problem.where(problematic_type: "ModelFile", category: :missing).each {|x| x.problematic.destroy}
+```
+
+### Remove empty collections
+
+Until the administrative UI can properly handle this, you can delete collections without models included by running:
+
+```ruby
+Collection.all.map { |c| unless Model.where(collection_id: c.id).size > 0; c.destroy  end }
 ```
 
 ### Debugging invalid files
