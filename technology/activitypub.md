@@ -39,7 +39,7 @@ A boolean flag to indicate if a Note is posted for compatibility reasons. See th
 
 Manyfold exposes the following ActivityPub actors, any of which can be discovered and followed *if they are publicly visible to logged-out users*.
 
-|ActivityPub actor type|f3di:concreteType|Manyfold class|Description|
+|Actor type|f3di:concreteType|Manyfold class|Description|
 |-|-|-|-|
 |`Service`|`3DModel`|Model|A 3d model (a coherent set of files and metadata)|
 |`Person`|`Creator`|Creator|An entity (individual or organisation) that publishes models|
@@ -52,12 +52,12 @@ Using a combination of the Actor type and the concreteType, a remote Manyfold-co
 
 A 3D model, which in Manyfold terms is a collection of one or more 3d files that are intended to be used together, along with associated metadata.
 
-|Property|Data type|Description|Manyfold database field|Example|Note|
+|Property|Data type|Description|Manyfold DB field|Example|Note|
 |-|-|-|-|-|-|
 |`type`|string|Actor type||always `"Service"`||
 |`f3di:concreteType`|string|Domain-specific type||always `"3DModel"`||
 |`name`|string|Display name|`name`|`"Tablet Stand"`||
-|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these for models at present|
+|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these for models at present, as they are not intended to be used directly.|
 |`summary`|string|Short-form textual description; allows HTML|caption||Manyfold creates HTML from Markdown. Appears as bio on Mastodon.|
 |`content`|string|Longer-form description; allows HTML|notes||Manyfold creates HTML from Markdown. Not shown on Mastodon.|
 |`attachment`|object[]|standard ActivityStreams [attachment](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment)|links|<code>[<br>&nbsp;{<br>&nbsp;&nbsp;"type":&nbsp;"Link",<br>&nbsp;&nbsp;"href":&nbsp;"https://example.com"<br>&nbsp;}<br>]</code>|Manyfold only creates and parses `Link` attachments at present|
@@ -95,7 +95,7 @@ A collection of models.
 |`type`|string|Actor type||always `"Group"`||
 |`f3di:concreteType`|string|Domain-specific type||always `"Collection"`||
 |`name`|string|Display name|`name`|`"Household items"`||
-|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these at present|
+|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these at present, as they are not intended to be used directly.|
 |`summary`|string|Short-form textual description; allows HTML|caption||Manyfold creates HTML from Markdown. Appears as bio on Mastodon.|
 |`content`|string|Longer-form description; allows HTML|notes||Manyfold creates HTML from Markdown. Not shown on Mastodon.|
 |`attachment`|object[]|standard ActivityStreams [attachment](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment)|links|<code>[<br>&nbsp;{<br>&nbsp;&nbsp;"type":&nbsp;"Link",<br>&nbsp;&nbsp;"href":&nbsp;"https://example.com"<br>&nbsp;}<br>]</code>|Manyfold only creates and parses `Link` attachments at present|
@@ -111,7 +111,7 @@ An individual user account. These will follow the above actors, but in general, 
 |`type`|string|Actor type||always `"Person"`||
 |`f3di:concreteType`|string|Domain-specific type||always `"User"`||
 |`name`|string|Display name|`name`|`"James"`||
-|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these at present|
+|`preferredUsername`|string|Fediverse account username|`username`|`"fjtcb1xl"`|Manyfold randomly generates these at present, as they are not intended to be used directly.|
 
 Standard Actor [properties](https://www.w3.org/ns/activitystreams#activitypub) (e.g. `inbox`) are also included and use the standard semantics.
 
@@ -129,38 +129,25 @@ Manyfold will post and receive activities as follows.
 
 ### Notes
 
-Much of Manyfold's activity is based around actions that are happening to the Actors themselves; for instance
-"This Creator has been updated". However, in a microblog-style application, this would not be visible, or at best would
-just appear as a change in the profile information. Therefore, for compatibility with microblog-style services, Manyfold
-also posts `Note` objects, just as an application such as Mastodon would.
+Much of Manyfold's activity is based around actions that are happening to the Actors themselves; for instance "This Creator has been updated". However, in a microblog-style application, this would not be visible, or at best would just appear as a change in the profile information. Therefore, for compatibility with microblog-style services, Manyfold also posts `Note` objects, just as an application such as Mastodon would.
 
-These notes contain a textual summary of what an activity, which can be displayed in lieu of the actual activity itself.
-For instance, in the scenario where a new Model is added by a particular Creator:
+These notes contain a textual summary of an activity, which can be displayed in lieu of the actual activity itself. For instance, in the scenario where a new Model is added by a particular Creator:
 
-1. The creator posts a `Create` activity, where the object is the new `Service/3DModel`. It will be posted to the creator's
-   followers, and Manyfold (and compatible) instances can respond can create their own Model object with the received information.
-2. The creator also posts a `Create` activity with a `Note` object. The note contains a text description of the change, in this case
-   announcing that a new model has been posted, including a link to the model and other microblog compatible data. Manyfold instances
-   will ignore this note, as they are getting the "real" create activity, but other Fediverse platforms will receive and display it in
-   users timelines. These notes are posted with a `f3di:compatibilityNote` property set to `true`, so they can be ignored by platforms that
-   don't need them.
+1. The creator posts a `Create` activity, where the object is the new `Service/3DModel`. It will be posted to the creator's followers, and Manyfold (and compatible) instances can respond can create their own Model object with the received information.
+2. The creator also posts a `Create` activity with a `Note` object. The note contains a text description of the change, in this case announcing that a new model has been posted, including a link to the model and other microblog compatible data. The note is posted with the `f3di:compatibilityNote` property set to `true`, which lets Manyfold-compatible instances ignore it, while other Fediverse platforms will receive and display it in timelines.
 
-Note that by default, this means that each change will be posted twice to all followers. An instance may use NodeInfo extension data (see below)
-to determine which activities and actors a remote server supports, and only send the appropriate activity. Manyfold has not yet implemented this
-filtering, but will do soon.
+Note that by default, this means that each change will be posted twice to all followers. An instance may use NodeInfo extension data (see below) to determine which activities and actors a remote server supports, and only send the appropriate activity. Manyfold has not yet implemented this filtering, but will do soon.
 
 ## NodeInfo
 
 Manyfold supports the [NodeInfo](https://nodeinfo.diaspora.software/) standard for exposing server capabilities.
 
 {:.note}
-The following information is proposed, and not yet implemented by Manyfold.
+The following extension definition method is proposed, and not yet implemented by Manyfold.
 
-Support for extension types is indicated in the `operations` field of the nodeinfo response following the
-method proposed in [FEP-9fde](https://codeberg.org/fediverse/fep/src/branch/main/fep/9fde/fep-9fde.md)
+Support for extension types is indicated in the `operations` field of the nodeinfo response following the method proposed in [FEP-9fde](https://codeberg.org/fediverse/fep/src/branch/main/fep/9fde/fep-9fde.md)
 
-Currently `f3di.accept.3dmodel` is proposed as the extension name, though this is subject to change as the FEP and
-behaviour evolves.
+Currently `f3di.accept.3dmodel` is proposed as the extension name, though this is subject to change as the FEP and behaviour evolves.
 
 ```json
 {
@@ -182,8 +169,7 @@ behaviour evolves.
 
 ## Technical implementation
 
-Manyfold's ActivityPub support is built using the [Federails](https://gitlab.com/experimentslabs/federails) Ruby gem, which is a reusable
-Rails engine for adding ActivityPub support to existing Rails apps.
+Manyfold's ActivityPub support is built using the [Federails](https://gitlab.com/experimentslabs/federails) Ruby gem, which is a reusable Rails engine for adding ActivityPub support to existing Rails apps.
 
 {:.info}
 Many thanks to [Bookwyrm](https://docs.joinbookwyrm.com/activitypub.html) and [Pixelfed](https://docs.pixelfed.org/spec/ActivityPub.html) for their excellent ActivityPub implementation docs, which this page is heavily based on.
