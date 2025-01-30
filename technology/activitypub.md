@@ -11,17 +11,19 @@ Manyfold instances use the [ActivityPub](http://activitypub.rocks/) protocol to 
 
 Manyfold uses the following extensions in its ActivityPub messages, specified in the JSON-LD `@context`:
 
-* `as`: https://www.w3.org/ns/activitystreams, used for [hashtags](https://swicg.github.io/miscellany/#Hashtag) and [sensitive]https://swicg.github.io/miscellany/#sensitive).
-* `f3di`: http://purl.org/f3di/ns#, a custom namespace for federation of 3d content; see next section for details.
-* `sec`: https://w3id.org/security/v1, used for public keys.
-* `spdx`: http://spdx.org/rdf/terms#, used to specify license information.
-* `toot`: http://joinmastodon.org/ns#, used for [attributionDomains](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/).
+|Namespace|URI|Notes|
+|-|-|-|
+|`as`|https://www.w3.org/ns/activitystreams|used for [hashtags](https://swicg.github.io/miscellany/#Hashtag) and [sensitive]https://swicg.github.io/miscellany/#sensitive).
+|`f3di`|http://purl.org/f3di/ns#|a custom namespace for federation of 3d content; see next section for details.
+|`sec`|https://w3id.org/security/v1|used for public keys.
+|`spdx`|http://spdx.org/rdf/terms#|used to specify license information.
+|`toot`|http://joinmastodon.org/ns#|used for [attributionDomains](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/).
 
 ### JSON-LD `f3di` namespace
 
 In order to support 3d content over ActivityPub, we extend the vocabulary to support required concepts. The namespace is called `f3di` instead of a more application-specific one like `manyfold`, because we hope that other platforms will also adopt and help shape this specification to federate 3d content.
 
-#### `f3di:concreteType`
+#### f3di:concreteType
 
 In ActivityPub, an [Actor](https://www.w3.org/TR/activitypub/#actors) is (basically) any [Object](https://www.w3.org/TR/activitypub/#obj) that can perform an activity, and which has an inbox and outbox. In theory, Actors can have any `type`; they could be any defined object type, or a custom one. However, in practice, some Fediverse software only handles messages from certain types of Actor. Specifically, Mastodon (the dominant platform at present) only supports a limited set of Actors. Because of this, for compatibility, we choose to use Actor types from this limited subset.
 
@@ -29,7 +31,7 @@ However, we still need to know exactly what type of object is being represented,
 
 For examples, see the actor documentation below.
 
-#### `f3di:compatibilityNote`
+#### f3di:compatibilityNote
 
 A boolean flag to indicate if a Note is posted for compatibility reasons. See the [Notes](#Notes) section below for details.
 
@@ -151,7 +153,8 @@ filtering, but will do soon.
 
 Manyfold supports the [NodeInfo](https://nodeinfo.diaspora.software/) standard for exposing server capabilities.
 
-{:.note} The following information is proposed, and not yet implemented by Manyfold.
+{:.note}
+The following information is proposed, and not yet implemented by Manyfold.
 
 Support for extension types is indicated in the `operations` field of the nodeinfo response following the
 method proposed in [FEP-9fde](https://codeberg.org/fediverse/fep/src/branch/main/fep/9fde/fep-9fde.md)
