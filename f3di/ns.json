@@ -2,6 +2,10 @@
 	"@context": {
 		"@version": 1.1,
 		"f3di": "http://purl.org/f3di/ns#",
-		"concreteType": "f3di:concreteType"
+		"concreteType": "f3di:concreteType",
+		"compatibilityNote": {
+			"@id": "f3di:compatibilityNote",
+			"@type": "xsd:boolean"
+		}
 	}
 }
