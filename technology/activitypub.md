@@ -19,9 +19,7 @@ Manyfold uses the following extensions in its ActivityPub messages, specified in
 
 ### JSON-LD `f3di` namespace
 
-In order to support 3d content over ActivityPub, we extend the vocabulary to support required concepts. Currently, the `f3di` namespace only defines a single field, though in time this will likely expand.
-
-The namespace is called `f3di` instead of a more application-specific one like `manyfold`, because we hope that other platforms will also adopt and help shape this specification to federate 3d content.
+In order to support 3d content over ActivityPub, we extend the vocabulary to support required concepts. The namespace is called `f3di` instead of a more application-specific one like `manyfold`, because we hope that other platforms will also adopt and help shape this specification to federate 3d content.
 
 #### `f3di:concreteType`
 
