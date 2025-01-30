@@ -119,13 +119,16 @@ Standard Actor [properties](https://www.w3.org/ns/activitystreams#activitypub) (
 
 Manyfold will post and receive activities as follows.
 
-|Actor/concreteType|Create|Update|Delete|Flag|Follow|Accept|Undo|
-|-|-|-|-|-|-|-|-|
-|`Service/3DModel`|both|both|both|receive|receive|send|receive|
-|`Person/Creator`|both|both|both|receive|receive|send|receive|
-|`Group/Collection`|both|both|both|receive|receive|send|receive|
-|`Person/User`||||both|send|receive|send|
-|`Note` (see below)|send|send|send|receive|||||
+||`3DModel`|`Creator`|`Collection`|`User`|`Note` (see below)|
+|-|-|-|-|-|-|
+|Create|both|both|both||send|
+|Update|both|both|both||send|
+|Delete|both|both|both||send|
+|Flag|recv|recv|recv|both|recv|
+|Follow|recv|recv|recv|send||
+|Accept|send|send|send|recv||
+|Undo|recv|recv|recv|send||
+
 
 ### Notes
 
