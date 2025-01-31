@@ -83,3 +83,11 @@ When setting up an instance for the first time, it can be helpful to test the em
 ```ruby
 UserMailer.with(user: User.find(1)).account_approved.deliver_now
 ```
+
+### Get current version of a loaded Gem
+
+In the course of troubleshooting a specific Gem's functionality, you may need to get the version to confirm that the one loaded in the docker container is the correctly intended version. Adjust the `if` statement with the Gem's name:
+
+```ruby
+Gem::Specification.each {|g| puts g.version if g.name == "aws-sdk-s3"};
+```
