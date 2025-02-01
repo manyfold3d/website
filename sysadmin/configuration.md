@@ -5,7 +5,7 @@ layout: page
 nav_order: 1
 ---
 
-Most global configuration for Manyfold is via environment variables. These could be set in your docker configuration as shown in [Get Started](/get-started/docker-compose.html), in a `.env` file for local development, or in some other way that makes sense for your deployment setup.
+Most global configuration for Manyfold is via environment variables. These could be set in your docker configuration as shown in [Get Started](/get-started/docker), in a `.env` file for local development, or in some other way that makes sense for your deployment setup.
 
 This page lists the available environment variables, and describes the effect of each one.
 
