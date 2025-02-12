@@ -18,7 +18,7 @@ You can install and run all the dependencies in one go using `docker compose`:
 
 1. Create a file called `docker-compose.yml`, and paste the appropriate (standard or solo) example file below into it. Change the paths, secret key, and database details as necessary.
 
-2. Run `docker-compose up`
+2. Run `docker compose up`
 
 3. Open Manyfold at <http://localhost:3214>
 

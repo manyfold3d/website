@@ -68,7 +68,7 @@ On the docker command line, you can set these options using the following argume
 
 `--security-opt=no-new-privileges:true --cap-drop=ALL --cap-add=CHOWN,DAC_OVERRIDE,SETUID,SETGID`
 
-Or, if you're using docker-compose:
+Or, if you're using docker compose:
 
 ```yaml
 security_opt:
@@ -90,7 +90,7 @@ On the docker command line:
 
 `--read-only`
 
-In docker-compose:
+In your docker-compose file:
 
 ```yaml
 read_only: true
