@@ -27,6 +27,7 @@ We could not have built Manyfold without standing on the shoulders of all the ot
 * [Three.js](https://threejs.org) - 3D rendering in the browser
 * [Federails](https://gitlab.com/experimentslabs/federails) - Rails engine for ActivityPub federation
 * [Bootstrap](https://getbootstrap.com) - CSS framework and icons
+* [Bootswatch](https://bootswatch.com) - Themes for Bootstrap
 * [Shrine](https://shrinerb.com) - File management library
 * [Uppy](https://uppy.io/) - File uploader
 * [Mittsu](https://github.com/daninithepanini/mittsu) - a Ruby port of Three.js for server-side 3D code
