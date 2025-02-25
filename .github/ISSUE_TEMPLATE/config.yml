@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Matrix Chat
-    url: https://matrix.to/#/#manyfold:one.ems.host
+    url: https://matrix.to/#/#manyfold:matrix.org
     about: Come and talk to us with problems, ideas, questions, anything!
   - name: Social Media
     url: https://3dp.chat/@manyfold
