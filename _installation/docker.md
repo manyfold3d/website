@@ -33,7 +33,12 @@ services:
     ports:
       - 3214:3214
     volumes:
-      - /path/to/your/libraries:/libraries
+      # Uncomment to add a filesystem volume for your model library (or multiple if
+      # you want multiple libraries), in the form <local_path>:<container_path>.
+      # The local path could be a folder that already contains models, in which case Manyfold
+      # will scan and import them, or it could be empty.
+      # The container path can be anything; you will need to enter it in the "new library" form.
+      # - /local/path/to/your/models:/models
     environment:
       DATABASE_ADAPTER: postgresql # mysql2 or sqlite3 are also supported
       DATABASE_HOST: postgres-server
@@ -97,8 +102,15 @@ services:
     ports:
       - 3214:3214
     volumes:
-      - /path/to/your/database/file:/config
-      - /path/to/your/libraries:/libraries
+      # Uncomment to add a volume where a database file should be created.
+      # Don't change the part after the colon, it needs to be at /config
+      # - /local/path/to/your/database:/config
+      # Uncomment to add a filesystem volume for your model library (or multiple if
+      # you want multiple libraries), in the form <local_path>:<container_path>.
+      # The local path could be a folder that already contains models, in which case Manyfold
+      # will scan and import them, or it could be empty.
+      # The container path can be anything; you will need to enter it in the "new library" form.
+      # - /local/path/to/your/models:/models
     environment:
       SECRET_KEY_BASE: a_nice_long_random_string
       PUID: 1000
