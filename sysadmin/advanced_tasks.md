@@ -14,9 +14,10 @@ These commands are for advanced use only and are somewhat risky. You can easily 
 
 All the commands below are run in the Rails console. To open the console, run something like this on the machine hosting your Manyfold server, substituting the appropriate paths and container names for your system:
 
-```sh
-docker exec -it manyfold /usr/src/app/bin/rails console
-```
+|Release|Command|
+|--|--|
+|Offical (standard or solo)|`docker exec -it manyfold /usr/src/app/bin/rails console`|
+|Linuxserver|`docker exec -it manyfold sh -c "cd /app/www && bundle exec bin/rails console"`|
 
 You should get an `irb` prompt, and then you're ready.
 
