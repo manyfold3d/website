@@ -93,17 +93,10 @@ A single string that combines all the information necessary to connect to your d
 
 Set to `enabled` to put the entire site into the demo mode used on [try.manyfold.app](https://try.manyfold.app). In this mode, all deletion, upload, and advanced admin features are disabled, even in single-user mode and for administrator users. You're pretty unlikely to need it, though perhaps you could use it as a sort of "emergency lockdown" mode.
 
-### `REGISTRATION`
-<small>Version 0.59.0+</small>
-
-If `MULTIUSER` is enabled, set to `enabled` to allow new users to sign up for account. If disabled, users will need to be invited by an admin. Off by default.
-
-You can require moderator approval for new accounts, and create new users manually in the site settings area.
-
 ### `MULTIUSER`
 <small>Version 0.59.0+</small>
 
-Set to `enabled` to turn on multiuser features such as account login, signup (with `REGISTRATION` option), permissions, roles, and so on. By default this is off, and Manyfold operates in single-user mode without any login necessary; however, if you're exposing your Manyfold instance on the public Internet, even if you intend to only use it yourself, it's probably a good idea to enable multiuser for security.
+Set to `enabled` to turn on multiuser features such as account login, signup, permissions, roles, and so on. By default this is off, and Manyfold operates in single-user mode without any login necessary; however, if you're exposing your Manyfold instance on the public Internet, even if you intend to only use it yourself, it's probably a good idea to enable multiuser for security.
 
 {:.important}
 You should set a secure administrator password before turning on multiuser mode. Manyfold will prompt you to do so when you first access version 0.59.0 or above.
@@ -254,23 +247,6 @@ job processing. 4 by default.
 The number of high-performance worker threads to run. High-performance workers run intensive jobs like geometric analysis and
 file conversion, and use a lot of memory and CPU power. Set to 1 by default, so that demanding jobs don't saturate the Manyfold
 server, but if you have lots of CPU and memory available, you can increase this to process more jobs in parallel.
-
-## Customisation
-
-### `SITE_NAME`
-<small>Version 0.83.0+</small>
-
-Set the name of your site to whatever you want, e.g. "Bob's 3D Stash"; it's "Manyfold" by default.
-
-### `SITE_TAGLINE`
-<small>Version 0.83.0+</small>
-
-Customise the tagline shown on the homepage; shown below the site name, above the search box.
-
-### `SITE_ICON`
-<small>Version 0.83.0+</small>
-
-Customise the site icon shown in the navigation bar. Set it to a URL to your logo, which will be displayed 40 pixels high.
 
 ## Miscellaneous
 
