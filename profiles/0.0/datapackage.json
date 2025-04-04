@@ -1,0 +1,123 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema#",
+	"title": "Manyfold 3D Data Package Profile",
+	"type": "object",
+	"allOf": [
+		{
+			"$ref": "https://datapackage.org/profiles/2.0/datapackage.json"
+		},
+		{
+			"$ref": "#/$defs/3DModel"
+		}
+	],
+	"$defs": {
+		"3DModel": {
+			"type": "object",
+			"properties": {
+				"resources": {
+					"type": "array",
+					"item": {
+						"$ref": "#/$defs/3DModelFile"
+					}
+				},
+				"caption": {
+					"type": "string"
+				},
+				"links": {
+					"type": "array",
+					"item": {
+						"$ref": "#/$defs/Link"
+					}
+				},
+				"collections": {
+					"type": "array",
+					"item": {
+						"$ref": "#/$defs/Collection"
+					}
+				},
+				"sensitive": {
+					"type": "boolean"
+				}
+			}
+		},
+		"3DModelFile": {
+			"type": "object",
+			"required": [],
+			"properties": {
+				"caption": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"presupported": {
+					"type": "boolean"
+				},
+				"up": {
+					"type": "string",
+					"enum": [
+						"+x",
+						"-x",
+						"+y",
+						"-y",
+						"+z",
+						"-z"
+					]
+				}
+			}
+		},
+		"Contributor": {
+			"type": "object",
+			"required": [],
+			"properties": {
+				"caption": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"links": {
+					"type": "array",
+					"item": {
+						"$ref": "#/$defs/Link"
+					}
+				}
+			}
+		},
+		"Collection": {
+			"type": "object",
+			"required": [],
+			"properties": {
+				"title": {
+					"type": "string"
+				},
+				"path": {
+					"type": "string"
+				},
+				"caption": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"links": {
+					"type": "array",
+					"item": {
+						"$ref": "#/$defs/Link"
+					}
+				}
+			}
+		},
+		"Link": {
+			"type": "object",
+			"required": [
+				"path"
+			],
+			"properties": {
+				"path": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
