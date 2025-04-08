@@ -35,6 +35,9 @@ callouts:
   todo:
     title: TODO
     color: grey-lt
+  devquote:
+    title: Quote from developer
+    color: grey-lt
   good:
     title: Good
     color: green
