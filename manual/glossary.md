@@ -14,7 +14,7 @@ _Naming things is hard.  -- James, creator of Manyfold_
 
 A library is a path to a folder on disk or an S3-compatible bucket. It's used to store, sort, and catalogue models.
 
-Libraries are shown on the title bar of the UI. This can be hidden by administrators and hiding libraries useful for multi-user instances where the storage locations could be confusing.
+Libraries are hidden by default. Administrators can turn on the option to show the libraries in the top menu bar of the UI.
 
 Adminstrators can change settings and see statistics of libraries in **Site Settings** -> **Libraries**.
 
