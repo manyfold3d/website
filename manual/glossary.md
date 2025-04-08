@@ -62,7 +62,7 @@ Collections can also be used to help sort things:
 -- Private
 ```
 
-Collections can be followed on the Fediverse.
+Collections can be followed on the Fediverse if made public.
 
 ## Tags
 
