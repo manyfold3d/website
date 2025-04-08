@@ -40,7 +40,7 @@ A Creator is a named entity that can be assigned as a Creator of a model. User a
 
 Creators can have a tagline, description, and links associated with them. This is helpful for pointing to specific project websites where models have been downloaded previously.
 
-Creators can be followed on the Fediverse.
+Creators can be followed on the Fediverse if made public.
 
 ## Collection
 
