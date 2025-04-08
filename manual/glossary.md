@@ -26,7 +26,7 @@ When uploading multiple files related to the same model, compressing it into a s
 
 Models can be edited to have a preview image, description, a license, links and more. Models can be associated with a [Creator](#creator) and be added to a [Collection](#collection).
 
-Models can be followed on the Fediverse.
+Models can be followed on the Fediverse if made public.
 
 ### Model File
 
