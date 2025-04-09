@@ -269,3 +269,8 @@ Set this URL in order to redirect anonymous usage tracking to your own endpoint;
 <small>Version 0.95.0+</small>
 
 Set this to a number from `0` (insecure) to `4` (most secure), to make password requirements [more or less strict](https://github.com/bitzesty/devise_zxcvbn?tab=readme-ov-file#devise_zxcvbn). *You should never use a value below 3 on a publicly-accessible instance*. Default is 4.
+
+### `MANYFOLD_LOG_LEVEL`
+<small>Version 0.107.0+</small>
+
+Controls log verbosity. Set to `debug`, `info`, `warn`, `error`, `fatal` or `unknown` (in order of decreasing verbosity). Default is `info`.
