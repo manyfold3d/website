@@ -5,11 +5,11 @@ layout: page
 nav_order: 4
 ---
 
-Once your library is set up, Manyfold will automatically trigger a scan. You can also trigger a scan any time using the button in the navigation menu.
+Once your library is set up, Manyfold will automatically trigger a scan. You can also trigger a scan at any time using the button in the navigation menu.
 
 Scanning for changes detects any files that Manyfold doesn't know about in your library storage, and adds them to its index.
 
-Manyfold works on the assumption that each folder that contains 3d model files is a single model with multiple parts. Individual files in the root folder are not be scanned. If it detects a model inside what it thinks is already a model, it will flag up a warning - this is normal on newly-scanned libraries, especially if you organise your files a different way.
+Manyfold works on the assumption that each folder that contains 3d model files is a single model with multiple parts. Individual files in the root folder are not scanned. If it detects a model inside what it thinks is already a model, it will flag up a warning - this is normal on newly-scanned libraries, especially if you organise your files in a different way.
 
 ![Folder structure](/images/get-started/folders.png){:.screenshot}
 
@@ -23,11 +23,11 @@ The homepage shows a list of recently-added models; once your scan has picked up
 
 ## Model list
 
-If you click through to a library, or to the main model list, you will then see the models that have been scanned, along with a 3d or image preview for each.
+If you click through to a library, or to the main model list, you will then see the models that have been scanned, along with a 3d or image preview for each one.
 
 ![Model list](/images/get-started/models.png){:.screenshot}
 
-In the screenshot above, you can see that each of the models in the folders mentioned above have been indexed. Click "open" on the relevant model to view all its files.
+In the screenshot above, you can see that each of the models in the folders mentioned above have been indexed. Click "Open" on the relevant model to view all its files.
 
 # Next steps
 
