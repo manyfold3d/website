@@ -45,7 +45,7 @@ ActsAsTaggableOn::Tag.delete_all
 
 ### Rescan all models
 
-If parsing metadata from path during scan didn't work as you intended, you might want to force a full rescan to try it again. First, you'll want to remove all tags, otherwise metadata won't be populated; then, run:
+If parsing metadata from path during scan didn't work as you intended, you might want to force a full rescan to try it again:
 
 ```ruby
 Model.find_each { |m| Scan::Model::ParseMetadataJob.perform_later(m.id, scan: true) }
