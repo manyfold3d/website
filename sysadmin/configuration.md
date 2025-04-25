@@ -104,7 +104,7 @@ You should set a secure administrator password before turning on multiuser mode.
 ### `FEDERATION`
 <small>Version 0.75.0+</small>
 
-Set to `enabled` to turn on cross-server ActivityPub federation features such as remote following, webfinger discovery, etc. If you want your Manyfold instance to be part of the [Fediverse](https://fediverse.to), this is the setting for you. Make sure that `PUBLIC_HOSTNAME` and `PUBLIC_PORT` are set, and `HTTPS_ONLY` is highly recommended. Note that at present, only public content will be federated.
+Set to `enabled` to turn on cross-server ActivityPub federation features such as remote following, webfinger discovery, etc. If you want your Manyfold instance to be part of the Fediverse, this is the setting for you. Make sure that `PUBLIC_HOSTNAME` and `PUBLIC_PORT` are set, and `HTTPS_ONLY` is highly recommended. Note that at present, only public content will be federated.
 
 {:.important}
 Federated sites *must* be at the domain root; you can't use `RAILS_RELATIVE_URL_ROOT` to use a reverse proxy to mount a federated Manyfold instance on a subpath.
