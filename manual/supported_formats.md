@@ -14,8 +14,8 @@ To request support for another file format, please [open a feature request](http
 ## 3D Models
 
 |File type|Extensions|MIME type|Preview|Analyse|
-|--|--|--|--|
-|3D Studio|`*.3ds`, `*.max`|`application/x-3ds`, `image/x-3ds`|||
+|--|--|--|--|--|
+|3D Studio|`*.3ds`, `*.max`|`application/x-3ds`, `image/x-3ds`|✅||
 |3MF|`*.3mf`|`model/3mf`|✅||
 |AMF|`*.amf`|`application/x-amf`|||
 |Alembic|`*.abc`|`model/x-alembic`|||
@@ -25,10 +25,12 @@ To request support for another file format, please [open a feature request](http
 |Blender|`*.blend`|`model/x-blender`|||
 |Cheetah3D|`*.jas`|`model/x-cheetah3d`|||
 |Collada|`*.dae`|`model/vnd.collada+xml`|||
-|Filmbox|`*.fbx`|`model/x-fbx`|||
+|DRACO|`*.drc`|`model/vnd.google.draco`|✅||
+|Filmbox|`*.fbx`|`model/x-fbx`|✅||
 |FreeCAD|`*.fcstd`|`model/x-freecad`|||
-|GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|||
+|GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|✅||
 |IGES|`*.iges`, `*.igs`|`model/iges`|||
+|LDraw|`*.ldr`, `*.mpd`|`application/x-ldraw`|✅||
 |Maya|`*.ma`, `*.mb`|`model/x-maya`|||
 |Meshmixer|`*.mix`|`model/x-meshmixer`|||
 |Modo|`*.lxo`|`model/x-modo`|||
@@ -46,15 +48,15 @@ To request support for another file format, please [open a feature request](http
 ## Print & Slicer files
 
 |File type|Extensions|MIME type|Preview|
-|--|--|--|
+|--|--|--|--|
 |Chitubox|`*.chitubox`, `*.ctb`|`model/x-chitubox`||
-|GCode|`*.gcode`|`model/x-gcode`||
+|GCode|`*.gcode`|`model/x-gcode`|✅|
 |Lychee|`*.lys`, `*.lyt`|`model/x-lychee`||
 
 ## Images
 
 |File type|Extensions|MIME type|Preview|
-|--|--|--|
+|--|--|--|--|
 |BMP|`*.bmp`|`image/bmp`|✅|
 |GIF|`*.gif`|`image/gif`|✅|
 |JPEG|`*.jpg`, `*.jpeg`, `*.jpe`, `*.pjpeg`|`image/jpeg`|✅|
@@ -66,7 +68,7 @@ To request support for another file format, please [open a feature request](http
 ## Video
 
 |File type|Extensions|MIME type|Preview|
-|--|--|--|
+|--|--|--|--|
 |MP4|`*.mp4`, `*.m4v`|`video/mp4`|✅|
 |MPEG|`*.mpeg`, `*.mpg`, `*.mpe`|`video/mpeg`|✅|
 |WebM|`*.webm`|`video/webm`|✅|
@@ -88,3 +90,9 @@ To request support for another file format, please [open a feature request](http
 |gzip|`*.gzip`, `*.gz`|`application/gzip`|
 |RAR|`*.rar`|`application/x-rar-compressed`|
 |ZIP|`*.zip`|`application/zip`|
+
+## Other
+
+|File type|Extensions|MIME type|
+|--|--|--|
+|Binary blobs|`*.bin`|`application/octet-stream`|
