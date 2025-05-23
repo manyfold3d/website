@@ -31,7 +31,7 @@ The `datapackage.json` file should contain a number of general metadata fields, 
 
 ```json
 {
-	"$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+	"$schema": "https://manyfold.app/profiles/0.0/datapackage.json",
 	"name": "40k-deployment-zone-markers",
 	"title": "40k Deployment Zone Markers",
 	"description": "A set of boundary markers that you can use for deployment zones in 40k games.\n\nPrinting four corners, four curves and maybe twelve straights will be enough for a two deployment zones.",
