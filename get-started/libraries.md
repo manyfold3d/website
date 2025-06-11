@@ -44,6 +44,19 @@ Note that Manyfold will treat the entire bucket as its library, so don't use one
 If you're using a non-Amazon S3 provider, you will need to set the endpoint URL, and you may not need to specify a particular region; refer
 to your provider's documentation for the details.
 
+You will also need to make sure that the CORS policy for your bucket is set correctly. Use the AWS CLI or `s3cmd` to apply this XML policy:
+
+```xml
+<CORSConfiguration>
+	<CORSRule>
+		<AllowedOrigin>https://{your_domain_here}</AllowedOrigin>
+		<AllowedMethod>GET</AllowedMethod>
+		<AllowedMethod>HEAD</AllowedMethod>
+		<AllowedHeader>*</AllowedHeader>
+	</CORSRule>
+</CORSConfiguration>
+```
+
 <hr/>
 
 <p>
