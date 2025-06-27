@@ -9,9 +9,9 @@ plugins:
   - jekyll-feed
 
 aux_links:
-  Source Code: https://github.com/manyfold3d/manyfold
-  API: https://try.manyfold.app/api
-  Roadmap: https://github.com/orgs/manyfold3d/projects/4/views/1
+  Help: /community
+  Donate: /donate
+  Source: https://github.com/manyfold3d/manyfold
 
 collections:
   posts:
