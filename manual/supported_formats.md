@@ -96,3 +96,6 @@ To request support for another file format, please [open a feature request](http
 |File type|Extensions|MIME type|
 |--|--|--|
 |Binary blobs|`*.bin`|`application/octet-stream`|
+|Excellon|`*.drl`|`application/x-excellon`|
+|Gerber|`*.grb`, `*.gerber`, `*.geb`, `*.gb`, `*.grbjob`|`application/x-gerber`, `application/vnd.gerber`, `application/x-gerber-job`|
+|KiCad|`*.kicad_pro`, `*.kicad_mod`, `*.kicad_pcb`, `*.kicad_sym`, `*.kicad_sch`, `*.kicad_wks`|`application/x-kicad-*`|
