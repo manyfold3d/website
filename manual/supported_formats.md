@@ -21,6 +21,7 @@ To request support for another file format, please [open a feature request](http
 |Alembic|`*.abc`|`model/x-alembic`|||
 |Autodesk DWG|`*.dwg`|`image/vnd.dwg`|||
 |Autodesk DXF|`*.dxf`|`image/vnd.dxf`|||
+|Autodesk Inventor|`*.iam`, `*.ipt`|`model/x-inventor-part`, `model/x-inventor-assembly`|||
 |BRep|`*.brep`|`model/x-brep`|||
 |Blender|`*.blend`|`model/x-blender`|||
 |Cheetah3D|`*.jas`|`model/x-cheetah3d`|||
@@ -28,7 +29,9 @@ To request support for another file format, please [open a feature request](http
 |DRACO|`*.drc`|`model/vnd.google.draco`|✅||
 |Filmbox|`*.fbx`|`model/x-fbx`|✅||
 |FreeCAD|`*.fcstd`|`model/x-freecad`|||
+|Fusion360|`*.f3d`, `*.f3z`|`model/x-fusion`|||
 |GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|✅||
+|HueForge|`*.hfp`|`model/x-hfp`|||
 |IGES|`*.iges`, `*.igs`|`model/iges`|||
 |LDraw|`*.ldr`, `*.mpd`|`application/x-ldraw`|✅||
 |Maya|`*.ma`, `*.mb`|`model/x-maya`|||
@@ -39,6 +42,7 @@ To request support for another file format, please [open a feature request](http
 |STEP|`*.step`, `*.stp`|`model/x-step`|||
 |STL|`*.stl`|`model/stl`|✅|✅|
 |Sketchup|`*.skp`|`model/x-sketchup`|||
+|Solidworks|`*.sldprt`|`model/x-solidworks-part`|||
 |Speedtree|`*.spm`|`model/x-speedtree`|||
 |VRML|`*.wrl`|`model/vrml`|||
 |Wavefront OBJ|`*.obj`, `*.mtl`|`model/obj`|✅|✅|
@@ -77,7 +81,9 @@ To request support for another file format, please [open a feature request](http
 
 |File type|Extensions|MIME type|Preview|
 |--|--|--|--|
+|HTML|`*.html`|`text/html`||
 |Markdown|`*.md`|`text/markdown`|✅|
+|Microsoft Word|`*.doc`, `*.docx`|`application/msword`, `application/vnd.openxmlformats-officedocument.wordprocessingml.document`||
 |PDF|`*.pdf`|`application/pdf`|✅|
 |Text|`*.txt`, `*.text`|`text/plain`|✅|
 
