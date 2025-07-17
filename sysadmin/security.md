@@ -7,6 +7,12 @@ nav_order: 3
 
 This page describes how to configure your Manyfold instance to run securely. Some things are built-in options, and some are changes to your Docker configuration that you'll need to apply yourself.
 
+## Indexers and crawlers (robots.txt)
+
+By default, Manyfold disallows all crawlers. As of version v0.115, administrators [now have the ability](https://github.com/manyfold3d/manyfold/pull/4400) to set a `robots.txt` policy.
+
+To allow crawlers to index your site, go to **Site Settings**, check the box **Allow web crawlers**, and save settings.
+
 ## `PUID` and `PGID`
 
 By default, Docker containers run as root. This is a security concern, especially for an application that manipulates files on disk!
