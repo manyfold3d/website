@@ -64,7 +64,7 @@ Different sites support different capabilities; the tables below summarises what
 
 </details>
 
-More sites and features will be added over time as we implement them, and as APIs become available. If you know a particular request we should look at, file a [feature request](https://github.com/manyfold3d/manyfold/issues/new?template=feature_request.md)!
+More sites and features will be added over time as we implement them, and as APIs become available. If you know a particular request we should look at, file a [feature request](https://github.com/manyfold3d/manyfold/issues/new?template=feature_request.md&labels=feature,integrations)!
 
 ## Configuration
 
