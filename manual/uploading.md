@@ -2,7 +2,7 @@
 title: Uploading Content
 parent: User Guide
 layout: page
-nav_order: 1
+nav_order: 3
 ---
 
 You can add content to Manyfold by uploading compressed archives, or individual 3d files. Many of the most popular archive formats are [supported](/manual/supported_formats), including ZIP, RAR, 7-Zip, bzip2 and gzip.
