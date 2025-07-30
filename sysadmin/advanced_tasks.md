@@ -26,6 +26,7 @@ The available commands are:
 |`creators prune`|Removes all creators with no models|
 |`email test_email`|Sends a test email to the main admin account address, to check email delivery is working|
 |`links deduplicate`|Removes duplicated links. The same link in different models/creators/collections is kept, but any of the same link in the same object will be removed.|
+|`links sync`|Run synchronisation process for links to other sites; add `--match=...` to only sync links that match the supplied text (e.g. `--match=thingiverse.com`).|
 |`models update_metadata`|Rerun metadata parsing for all models. If parsing metadata from path during scan didn't work as you intended, you might want to force a full rescan to try it again. This might take a while to run if you have a lot of models. The scans will run in the background once queued up. Add the `--search="..."` option to specify a subset of models to update, using the same query syntax as the built-in search box|
 |`model pregenerate_downloads`|Generate ZIP download files for all models, including all download variants. This will easily at least double your disk usage, so use with caution. Add the `--search="..."` option to specify a subset of models to pregenerate, using the same query syntax as the built-in search box|
 |`problems prune`|Remove any problems that don't have an associated object; this can happen sometimes due to old bugs or database manipulation.|
