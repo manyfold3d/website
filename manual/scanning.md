@@ -7,7 +7,7 @@ nav_order: 2
 
 Scanning is the process of checking Manyfold's storage location and detecting any changes or problems.
 
-To run a scan, click the "Scan" button and choose "Scan for changes". The scan button will become inactive and show a spinning icon while the scan runs. You can always tell if a scan is in progress by the state of the button.
+To run a scan, click the "Scan" button and choose "Scan for new files". The scan button will become inactive and show a spinning icon while the scan runs. You can always tell if a scan is in progress by the state of the button.
 
 ![Scan button and menu](/images/manual/scan-button.png){:.screenshot}
 
@@ -28,15 +28,18 @@ You can see how the scan is progressing in the background by clicking the "activ
 
 ![Activity screen](/images/manual/activity.png){:.screenshot}
 
-# Checking existing models
+# Rescanning models
 
-Alternatively, you can choose "Check existing models" in the scan menu; this will not detect new files, but will run integrity checks across all the models currently in your library.
+Alternatively, you can choose "Rescan all models" in the scan menu; this will not detect completely new models, but will run integrity checks and metadata parsing across all the models currently in your library.
 
 The check will:
 
 1. detect any problems with all existing models, such as missing images, files, or models that are nested inside each other;
+1. parse metadata from local sources, like files, path templates, etc.
 1. detect which files are supported or unsupported, and attempt to match them together;
 1. analyse individual files to measure size and detect duplicates;
 1. if enabled, run geometric analysis on files to detect mesh errors.
 
 The check will also remove any problems that no longer apply.
+
+If you're working with a filtered subset of models (e.g. via a search result, tag filter, etc), you will also have the option in the menu to "Rescan filtered models" which will just run the process on the current result set.
