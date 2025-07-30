@@ -11,7 +11,7 @@ plugins:
 aux_links:
   Help: /community
   Donate: /donate
-  Source: https://github.com/manyfold3d/manyfold
+  Open Source: https://github.com/manyfold3d/manyfold
 
 collections:
   posts:
@@ -50,3 +50,14 @@ callouts:
   na:
     title: Not Assessed
     color: purple
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      excerpt_separator: "
+
+      "
