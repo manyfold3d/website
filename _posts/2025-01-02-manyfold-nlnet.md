@@ -1,10 +1,6 @@
 ---
 title: Manyfold ❤️ NLNet
 date: 2025-01-01 12:00:00 UTC
-layout: post
-excerpt_separator: "
-
-"
 ---
 During 2024, Manyfold development was supported by a grant from [NLNet](https://nlnet.nl/), as part of the EU [NGI Zero](https://ngi.eu/ngi-projects/ngi-zero/) R&D programme. That support took the product from a side project to something *real*, with a whole load of instances, federation, file conversion, and so many other features.
 

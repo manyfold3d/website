@@ -1,10 +1,6 @@
 ---
 title: JRRF; One Week Later
 date: 2025-06-22 09:36:00 UTC
-layout: post
-excerpt_separator: "
-
-"
 ---
 
 It's been one week since the [Japan RepRap Festival](https://www.japanreprapfestival.com/), an event held to celebrate, meet, and share ideas with other 3D printing enthusiasts. The turnout was incredible and far exceeded our expectations. I'm Matthew, a contributor, and I wanted to talk about the experience at the Japan RepRap Festival and how the Manyfold project was represented.

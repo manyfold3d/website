@@ -1,10 +1,6 @@
 ---
 title: The European Union must keep funding free software
 date: 2024-07-17 08:00:00 UTC
-layout: post
-excerpt_separator: "
-
-"
 ---
 Over the last six months, Manyfold has been the beneficiary of open source funding from the European Commission's [Next Generation Internet](https://www.ngi.eu/) programme, via [NLNet](https://nlnet.nl). The project was awarded €35000, which has let us change from a small part-time side project into a full-time effort with a burgeoning user and contributor community. We've also applied for another round to keep that success going.
 
