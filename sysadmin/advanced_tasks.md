@@ -25,6 +25,7 @@ The available commands are:
 |`collections prune`|Removes all empty collections|
 |`creators prune`|Removes all creators with no models|
 |`email test_email`|Sends a test email to the main admin account address, to check email delivery is working|
+|`libraries scan`|Run a filesystem scan on all libraries. To scan a single library, add `--name=...` with the name of the library to scan.|
 |`links deduplicate`|Removes duplicated links. The same link in different models/creators/collections is kept, but any of the same link in the same object will be removed.|
 |`links sync`|Run synchronisation process for links to other sites; add `--match=...` to only sync links that match the supplied text (e.g. `--match=thingiverse.com`).|
 |`models update_metadata`|Rerun metadata parsing for all models. If parsing metadata from path during scan didn't work as you intended, you might want to force a full rescan to try it again. This might take a while to run if you have a lot of models. The scans will run in the background once queued up. Add the `--search="..."` option to specify a subset of models to update, using the same query syntax as the built-in search box|
@@ -32,8 +33,8 @@ The available commands are:
 |`problems prune`|Remove any problems that don't have an associated object; this can happen sometimes due to old bugs or database manipulation.|
 |`problems purge`|Remove all problem records. Problems that are still valid will reappear on rescan, but this can be helpful if you've made large changes to your library and have a lot of "missing file" problems.|
 |`tags purge`|Remove all tags. Sometimes scanning an existing library can produce a load of tags you don't want, or just far too many. You may want to do this if you've run metadata extraction with the wrong path template and ended up with loads of tags you don't want.|
-|`user approve --email={account_email}`|Approve a pending user account if you can't access the UI in order to do so in the normal way.|
-|`user password --email={account_email}`|Set the password for the specified account; this includes the ability to reset the password for the administrator account.|
+|`users approve --email={account_email}`|Approve a pending user account if you can't access the UI in order to do so in the normal way.|
+|`users password --email={account_email}`|Set the password for the specified account; this includes the ability to reset the password for the administrator account.|
 
 ## Rails Console Commands
 
