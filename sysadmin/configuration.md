@@ -274,3 +274,8 @@ Set this to a number from `0` (insecure) to `4` (most secure), to make password 
 <small>Version 0.107.0+</small>
 
 Controls log verbosity. Set to `debug`, `info`, `warn`, `error`, `fatal` or `unknown` (in order of decreasing verbosity). Default is `info`.
+
+### `EXPERIMENTAL_LANGUAGES`
+<small>Version 0.126.0+</small>
+
+Set to `enabled` to show less-translated languages in the main interface.
