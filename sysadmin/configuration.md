@@ -73,18 +73,13 @@ The password used to authenticate to your database server. Not required for `sql
 For `postgresql` and `mysql2`, this should be the name of the database you want to use. For `sqlite3`, this
 should specify the absolute path of the database file, e.g. `/config/manyfold.sqlite3`
 
-### `DATABASE_CONNECTION_POOL`
-<small>Version 0.70.0+</small>
-
-Specifies the number of database connections to share across the application. Defaults to `RAILS_MAX_THREADS` or `16`, which should be fine in most cases.
-
 ### `DATABASE_URL`
 
 A single string that combines all the information necessary to connect to your database. This will override any other information specified in the other `DATABASE_*` variables. The exact format varies slightly depending on the database adapter you want to use:
 
-* [PostgreSQL](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS): `postgresql://{username}:{password}@{database_server}/{database_name}?pool={pool_size}`
-* [MySQL/MariaDB](https://dev.mysql.com/doc/refman/8.0/en/connecting-using-uri-or-key-value-pairs.html): `mysql2://{username}:{password}@{database_server}/{database_name}?pool={pool_size}`
-* [SQLite](https://www.sqlite.org/c3ref/open.html#urifilenamesinsqlite3open): `sqlite3:{absolute_path_of_database_file}?pool={pool_size}`
+* [PostgreSQL](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS): `postgresql://{username}:{password}@{database_server}/{database_name}`
+* [MySQL/MariaDB](https://dev.mysql.com/doc/refman/8.0/en/connecting-using-uri-or-key-value-pairs.html): `mysql2://{username}:{password}@{database_server}/{database_name}`
+* [SQLite](https://www.sqlite.org/c3ref/open.html#urifilenamesinsqlite3open): `sqlite3:{absolute_path_of_database_file}`
 
 ## Features
 
@@ -248,6 +243,12 @@ The number of high-performance worker threads to run. High-performance workers r
 file conversion, and use a lot of memory and CPU power. Set to 1 by default, so that demanding jobs don't saturate the Manyfold
 server, but if you have lots of CPU and memory available, you can increase this to process more jobs in parallel.
 
+### Database connections
+
+If under heavy load, Manyfold *could* use up to `(WEB_CONCURRENCY * RAILS_MAX_THREADS) + DEFAULT_WORKER_CONCURRENCY + PERFORMANCE_WORKER_CONCURRENCY` database connections (though this is unlikely). Ensure that you set the connection maximum on your database server appropriately if you increase these values.
+
+By default, this could be up to 69 connections: `(4 * 16) + 4 + 1 = 69`.
+
 ## Miscellaneous
 
 ### `MAX_FILE_EXTRACT_SIZE`
@@ -279,3 +280,12 @@ Controls log verbosity. Set to `debug`, `info`, `warn`, `error`, `fatal` or `unk
 <small>Version 0.126.0+</small>
 
 Set to `enabled` to show less-translated languages in the main interface.
+
+## Deprecated options
+
+### `DATABASE_CONNECTION_POOL`
+
+Deprecated in version 0.130.2
+{: .label .label-red }
+
+Specified the maximum number of database connections across the application. Deprecated because limiting the pool size no longer serves a useful purpose.
