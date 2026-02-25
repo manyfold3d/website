@@ -25,6 +25,7 @@ We could not have built Manyfold without standing on the shoulders of all the ot
 
 * [Ruby on Rails](https://rubyonrails.org) - Application framework
 * [Three.js](https://threejs.org) - 3D rendering in the browser
+* [F3D](https://f3d.app) - Fast and minimalist 3D viewer
 * [Federails](https://gitlab.com/experimentslabs/federails) - Rails engine for ActivityPub federation
 * [Bootstrap](https://getbootstrap.com) - CSS framework and icons
 * [Bootswatch](https://bootswatch.com) - Themes for Bootstrap
