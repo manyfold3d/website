@@ -13,40 +13,40 @@ To request support for another file format, please [open a feature request](http
 
 ## 3D Models
 
-|File type|Extensions|MIME type|Preview|Analyse|
+|File type|Extensions|MIME type|Static preview|3D view|Analyse|
 |--|--|--|--|--|
-|3D Studio|`*.3ds`, `*.max`|`application/x-3ds`, `image/x-3ds`|✅||
-|3MF|`*.3mf`|`model/3mf`|✅||
-|AMF|`*.amf`|`application/x-amf`|||
-|Alembic|`*.abc`|`model/x-alembic`|||
-|Autodesk DWG|`*.dwg`|`image/vnd.dwg`|||
-|Autodesk DXF|`*.dxf`|`image/vnd.dxf`|||
-|Autodesk Inventor|`*.iam`, `*.ipt`|`model/x-inventor-part`, `model/x-inventor-assembly`|||
-|BRep|`*.brep`|`model/x-brep`|||
-|Blender|`*.blend`|`model/x-blender`|||
-|Cheetah3D|`*.jas`|`model/x-cheetah3d`|||
-|Collada|`*.dae`|`model/vnd.collada+xml`|||
-|DRACO|`*.drc`|`model/vnd.google.draco`|✅||
-|Filmbox|`*.fbx`|`model/x-fbx`|✅||
-|FreeCAD|`*.fcstd`|`model/x-freecad`|||
-|Fusion360|`*.f3d`, `*.f3z`|`model/x-fusion`|||
-|GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|✅||
-|HueForge|`*.hfp`|`model/x-hfp`|||
-|IGES|`*.iges`, `*.igs`|`model/iges`|||
-|LDraw|`*.ldr`, `*.mpd`|`application/x-ldraw`|✅||
-|Maya|`*.ma`, `*.mb`|`model/x-maya`|||
-|Meshmixer|`*.mix`|`model/x-meshmixer`|||
-|Modo|`*.lxo`|`model/x-modo`|||
-|OpenSCAD|`*.scad`|`application/x-openscad`|||
-|PLY|`*.ply`|`model/x-ply`|✅||
-|STEP|`*.step`, `*.stp`|`model/x-step`|||
-|STL|`*.stl`|`model/stl`|✅|✅|
-|Sketchup|`*.skp`|`model/x-sketchup`|||
-|Solidworks|`*.sldprt`|`model/x-solidworks-part`|||
-|Speedtree|`*.spm`|`model/x-speedtree`|||
-|VRML|`*.wrl`|`model/vrml`|||
-|Wavefront OBJ|`*.obj`, `*.mtl`|`model/obj`|✅|✅|
-|X3D|`*.x3d`|`model/x3d`|||
+|3D Studio|`*.3ds`, `*.max`|`application/x-3ds`, `image/x-3ds`|✅|✅||
+|3MF|`*.3mf`|`model/3mf`|✅|✅||
+|AMF|`*.amf`|`application/x-amf`||||
+|Alembic|`*.abc`|`model/x-alembic`|✅|||
+|Autodesk DWG|`*.dwg`|`image/vnd.dwg`||||
+|Autodesk DXF|`*.dxf`|`image/vnd.dxf`|✅|||
+|Autodesk Inventor|`*.iam`, `*.ipt`|`model/x-inventor-part`, `model/x-inventor-assembly`||||
+|BRep|`*.brep`|`model/x-brep`||||
+|Blender|`*.blend`|`model/x-blender`||||
+|Cheetah3D|`*.jas`|`model/x-cheetah3d`||||
+|Collada|`*.dae`|`model/vnd.collada+xml`|✅|||
+|DRACO|`*.drc`|`model/vnd.google.draco`|✅|||
+|Filmbox|`*.fbx`|`model/x-fbx`|✅|✅||
+|FreeCAD|`*.fcstd`|`model/x-freecad`||||
+|Fusion360|`*.f3d`, `*.f3z`|`model/x-fusion`||||
+|GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|✅|✅||
+|HueForge|`*.hfp`|`model/x-hfp`||||
+|IGES|`*.iges`, `*.igs`|`model/iges`||||
+|LDraw|`*.ldr`, `*.mpd`|`application/x-ldraw`|✅|||
+|Maya|`*.ma`, `*.mb`|`model/x-maya`||||
+|Meshmixer|`*.mix`|`model/x-meshmixer`||||
+|Modo|`*.lxo`|`model/x-modo`||||
+|OpenSCAD|`*.scad`|`application/x-openscad`||||
+|PLY|`*.ply`|`model/x-ply`|✅|✅||
+|STEP|`*.step`, `*.stp`|`model/x-step`||||
+|STL|`*.stl`|`model/stl`|✅|✅|✅|
+|Sketchup|`*.skp`|`model/x-sketchup`||||
+|Solidworks|`*.sldprt`|`model/x-solidworks-part`||||
+|Speedtree|`*.spm`|`model/x-speedtree`||||
+|VRML|`*.wrl`|`model/vrml`|✅|||
+|Wavefront OBJ|`*.obj`, `*.mtl`|`model/obj`|✅|✅|✅|
+|X3D|`*.x3d`|`model/x3d`||||
 
 
 ## Print & Slicer files
