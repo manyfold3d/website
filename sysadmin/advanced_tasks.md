@@ -25,6 +25,7 @@ The available commands are:
 |`collections prune`|Removes all empty collections|
 |`creators prune`|Removes all creators with no models|
 |`email test`|Sends a test email to the main admin account address, to check email delivery is working|
+|`jobs unlock`|Remove stale exclusivity locks that might be preventing background jobs running.
 |`libraries scan`|Run a filesystem scan on all libraries. To scan a single library, add `--name=...` with the name of the library to scan.|
 |`links deduplicate`|Removes duplicated links. The same link in different models/creators/collections is kept, but any of the same link in the same object will be removed.|
 |`links purge`|Remove all links that match the supplied text (e.g. `--match=localhost`).|
