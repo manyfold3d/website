@@ -1,3 +1,11 @@
+- name: 💰 Financial support
+  description: Manyfold is a full-time job; you can help pay the bills by becoming a <a href="/about/supporters">supporter</a> with a regular or one-off financial contribution. And if you're using Manyfold for a business, please consider becoming an official sponsor!
+  wanted:
+  - regular organisational sponsors
+  - information about funding opportunities
+  links:
+  - text: Donate on OpenCollective
+    url: https://opencollective.com/manyfold/contribute
 - name: 🧑‍💻 Coding
   description: New code contributors are very welcome (<a href="">no AI</a> though). Manyfold is mostly built in Ruby on Rails with some Typescript, but there's lots of other aspects too.
   wanted:
@@ -57,11 +65,3 @@
     url: https://github.com/manyfold3d/manyfold/issues/new?template=bug_report.md
   - text: Support chat (on Matrix)
     url: https://matrix.to/#/#manyfold-support:matrix.org
-- name: 💰 Financial support
-  description: Manyfold is a full-time job; you can help pay the bills by becoming a <a href="/about/supporters">supporter</a> with a regular or one-off financial contribution. And if you're using Manyfold for a business, please consider becoming an official sponsor!
-  wanted:
-  - regular organisational sponsors
-  - funding opportunities
-  links:
-  - text: Donate on OpenCollective
-    url: https://opencollective.com/manyfold/contribute
