@@ -9,9 +9,8 @@ plugins:
   - jekyll-feed
 
 aux_links:
-  Help: /community
-  Donate: /donate
   Roadmap: /features
+  Contribute: /about/contribute
   Source: https://github.com/manyfold3d/manyfold
 
 collections:
