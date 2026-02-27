@@ -7,7 +7,7 @@ nav_order: 1
 Manyfold is under continuous development - there's a lot it can already do, but there's a lot more to come. Why not <a href="/donate">support us</a> to help make all this a reality?
 
 ## Now
-<div class="card-list" id="now">
+<div class="card-list col-2" id="now">
 	{% for feature in site.data.features.now %}
 		<div>
 			<div>
@@ -20,7 +20,7 @@ Manyfold is under continuous development - there's a lot it can already do, but 
 </div>
 
 ## Next
-<div class="card-list" id="next">
+<div class="card-list col-2" id="next">
 	{% for feature in site.data.features.next %}
 		<div>
 			<div>
@@ -38,7 +38,7 @@ Manyfold is under continuous development - there's a lot it can already do, but 
 </div>
 
 ## Later
-<div class="card-list" id="later">
+<div class="card-list col-2" id="later">
 	{% for feature in site.data.features.later %}
 		<div>
 			<div>
