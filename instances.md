@@ -1,7 +1,7 @@
 ---
 title: Instances
 layout: page
-nav_order: 6
+nav_order: 7
 ---
 Manyfold instances aren't all public, but some of them are! Here's a few sharing their content publicly. Visit to take a look, or follow on the Fediverse!
 

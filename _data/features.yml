@@ -1,0 +1,67 @@
+now:
+  - name: Previews
+    description: Generate rendered previews for models in <a href="/manual/supported_formats.html">loads of formats</a>, and view them in full interactive 3D.
+  - name: Organisation
+    description: Scan models on disk, organise with tags, creators, and collections, and manage folder structure.
+  - name: Problem detection
+    description: Analyse files for problems including inefficient formats, missing metadata, and more.
+  - name: Multiuser
+    description: Run a private single user instance, or set up multiple users (including OIDC support).
+  - name: Access control
+    description: Keep models private, publish them publicly, or use fine-grained permissions for anything in between.
+  - name: Federation
+    description: Link up your instance with others. Follow remote models from within Manyfold, or share your own to other Fediverse software like Mastodon.
+  - name: REST API
+    description: Automate your instance with our comprehensive API, including permissions and sharing to help you manage access control.
+  - name: External services
+    description: Import model metadata (and sometimes files) from other hosting sites like MyMiniFactory, Thingiverse, and Cults3D.
+next:
+  - name: Lists & collections
+    description: Create flexible lists of models (e.g. a TODO list), and organise models in multiple collections.
+    when: Q1 2026
+    link: https://github.com/manyfold3d/manyfold/issues/485
+  - name: Commenting
+    description: Discuss your models with other users, either locally or across the Fediverse!
+    when: Q1 2026
+    link: https://github.com/manyfold3d/manyfold/issues/4254
+  - name: Custom viewers
+    description: Use different viewers for different files, including swapping the built-in renderer.
+    when: Q2 2026
+    link: https://github.com/manyfold3d/manyfold/issues/4965
+  - name: Likes & boosts
+    description: Show your appreciation with likes, and re-post models to your own followers with boosts.
+    when: Q2 2026
+    link: https://github.com/manyfold3d/manyfold/issues/5624
+  - name: Plugin system
+    description: A system allowing third-party plugins, to add optional features on your Manyfold instance.
+    when: Q2 2026
+    link: https://github.com/manyfold3d/manyfold/issues/5626
+  - name: File organisation
+    description: More powerful file organisation options, from fully automatic to fully manual.
+    when: Q2 2026
+    link: https://github.com/manyfold3d/manyfold/issues/2024
+later:
+  - name: Relationships
+    description: Links models together as remixes, or for files, link the same content across different file formats.
+    when: Q3 2026
+    link: https://github.com/manyfold3d/manyfold/issues/4259
+  - name: Printer APIs
+    description: Send sliced files directly to your printer, via the Octoprint, Moonraker and Repetier APIs.
+    when: Q3 2026
+    link: https://github.com/manyfold3d/manyfold/issues/3230
+  - name: Version control
+    description: Store every change to your models over time with a built-in version control system.
+    when: Q3 2026
+    link: https://github.com/manyfold3d/manyfold/issues/4274
+  - name: Built-in slicer
+    description: Perform basic slicing without leaving Manyfold.
+    when: Q4 2026
+    link: https://github.com/manyfold3d/manyfold/issues/3330
+  - name: Assembly mode
+    description: Load multiple files at once into the same 3D scene, to "assemble" them into a complete model.
+    when: 2027
+    link: https://github.com/manyfold3d/manyfold/issues/3393
+  - name: Efficient model streaming
+    description: Quickly load low-resolution models, then stream detail in over time.
+    when: 2027
+    link: https://github.com/manyfold3d/manyfold/issues/2970

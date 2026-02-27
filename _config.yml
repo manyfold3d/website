@@ -11,7 +11,8 @@ plugins:
 aux_links:
   Help: /community
   Donate: /donate
-  Open Source: https://github.com/manyfold3d/manyfold
+  Roadmap: /features
+  Source: https://github.com/manyfold3d/manyfold
 
 collections:
   posts:
