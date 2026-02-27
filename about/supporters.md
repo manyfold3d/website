@@ -3,6 +3,8 @@ title: Supporters
 layout: page
 parent: About
 nav_order: 3
+redirect_from:
+  - /donate
 ---
 
 Manyfold is 100% open source, and always will be. That's only made possible by the support of our community!

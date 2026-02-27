@@ -3,6 +3,8 @@ title: Instances
 parent: About
 layout: page
 nav_order: 4
+redirect_from:
+  - /instances
 ---
 Manyfold instances aren't all public, but some of them are! Here's a few sharing their content publicly. Visit to take a look, or follow on the Fediverse!
 

@@ -3,6 +3,8 @@ title: Contact
 parent: About
 layout: page
 nav_order: 10
+redirect_from:
+  - /community
 ---
 If you need help, want to get involved, or just talk to us, get in touch!
 
