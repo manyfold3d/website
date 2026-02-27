@@ -123,10 +123,22 @@ div.feature {
 	box-shadow: 0 0 3em white;
 }
 
-.feature-list {
+.card-list {
 
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% 50%;
+
+	summary {
+		font-size: large;
+	}
+
+	h3 {
+		margin: 0 0 1rem 0;
+	}
+
+	details {
+		list-style-type: none;
+	}
 
 	>div {
 		background: #222;
@@ -149,9 +161,10 @@ div.feature {
 		text-align: end;
 		font-size: small;
 		justify-self: flex-end;
+		margin-top: 0.5rem;
 	}
 
-	p {
+	div.description {
 		flex: auto;
 	}
 

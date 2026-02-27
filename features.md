@@ -7,27 +7,27 @@ nav_order: 1
 Manyfold is under continuous development - there's a lot it can already do, but there's a lot more to come. Why not <a href="/donate">support us</a> to help make all this a reality?
 
 ## Now
-<div class="feature-list" id="now">
+<div class="card-list" id="now">
 	{% for feature in site.data.features.now %}
 		<div>
 			<div>
 				<div class="when">✔ Available now</div>
-				<strong>{{ feature.name }}</strong>
+				<h3>{{ feature.name }}</h3>
 			</div>
-			<p>{{ feature.description }}</p>
+			<div class="description">{{ feature.description }}</div>
 		</div>
 	{% endfor %}
 </div>
 
 ## Next
-<div class="feature-list" id="next">
+<div class="card-list" id="next">
 	{% for feature in site.data.features.next %}
 		<div>
 			<div>
 				<div class="when">⧗ {{ feature.when }}</div>
-				<strong>{{ feature.name }}</strong>
+				<h3>{{ feature.name }}</h3>
 			</div>
-			<p>{{ feature.description }}</p>
+			<div class="description">{{ feature.description }}</div>
 			{% if feature.link %}
 				<div class="discussion-link">
 					💬 <a href="{{feature.link}}">Discuss on GitHub</a>
@@ -38,14 +38,14 @@ Manyfold is under continuous development - there's a lot it can already do, but 
 </div>
 
 ## Later
-<div class="feature-list" id="later">
+<div class="card-list" id="later">
 	{% for feature in site.data.features.later %}
 		<div>
 			<div>
 				<div class="when">⏲ {{ feature.when }}</div>
-				<strong>{{ feature.name }}</strong>
+				<h3>{{ feature.name }}</h3>
 			</div>
-			<p>{{ feature.description }}</p>
+			<div class="description">{{ feature.description }}</div>
 			{% if feature.link %}
 				<div class="discussion-link">
 					💬 <a href="{{feature.link}}">Discuss on GitHub</a>
