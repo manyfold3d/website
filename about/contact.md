@@ -1,6 +1,8 @@
 ---
-title: Community
+title: Contact
+parent: About
 layout: page
+nav_order: 10
 ---
 If you need help, want to get involved, or just talk to us, get in touch!
 

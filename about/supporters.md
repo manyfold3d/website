@@ -1,9 +1,11 @@
 ---
-title: Donate
+title: Supporters
 layout: page
+parent: About
+nav_order: 3
 ---
 
-Manyfold is 100% open source, and always will be. That's only made possible by your support!
+Manyfold is 100% open source, and always will be. That's only made possible by the support of our community!
 
 If you like what we're doing and find Manyfold useful, please considering helping us out with a one-off or regular donation or company sponsorship!
 

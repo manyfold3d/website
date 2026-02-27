@@ -1,6 +1,8 @@
 ---
 title: FAQ
 layout: page
+parent: About
+nav_order: 5
 ---
 
 More questions to come no doubt, but for now, just the one!
