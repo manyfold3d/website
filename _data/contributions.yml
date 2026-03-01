@@ -57,7 +57,7 @@
   - text: Website source code
     url: https://github.com/manyfold3d/website
   - text: Documentation chat (on Matrix)
-    url: https://matrix.to/#/#manyfold-documentation:matrix.org
+    url: https://matrix.to/#/#manyfold-docs:matrix.org
 - name: 🐛 Bug reporting & community support
   description: Just using Manyfold and reporting bugs is a really valuable contribution, as is helping out other users in our support channel.
   links:
