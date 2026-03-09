@@ -19,7 +19,7 @@ next:
   - name: Better Collections
     description: Organise models in multiple collections, and add cover art.
     when: Q1 2026
-    link: https://github.com/manyfold3d/manyfold/issues/485
+    link: https://github.com/manyfold3d/manyfold/issues/4256
   - name: Commenting
     description: Discuss your models with other users, either locally or across the Fediverse!
     when: Q1 2026
