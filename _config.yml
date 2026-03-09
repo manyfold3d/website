@@ -3,6 +3,7 @@ description: Organise and share your 3d print files
 theme: just-the-docs
 color_scheme: dark
 logo: "/images/roundel.svg"
+favicon_ico: "/images/roundel.svg"
 url: https://manyfold.app
 
 plugins:
