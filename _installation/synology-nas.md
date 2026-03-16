@@ -52,7 +52,7 @@ services:
       db:
         condition: service_healthy
 
-	redis:
+  redis:
     image: redis:7
     command:
       - /bin/sh
