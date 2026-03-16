@@ -115,6 +115,8 @@ services:
       SECRET_KEY_BASE: a_nice_long_random_string
       PUID: 1000
       PGID: 1000
+      # For details of other optional environment variables, including features such
+      # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
     restart: unless-stopped
     # Optional, but recommended for better security
     security_opt:
