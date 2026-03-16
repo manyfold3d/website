@@ -38,7 +38,9 @@ services:
     ports:
       - 7214:3214
     volumes:
-      - /volume1/homes/<YOUR USER NAME>/<YOUR FOLDER FULL OF STUFF>:/libraries:rw
+      - type: bind
+        source: /volume1/homes/<YOUR USER NAME>/<YOUR FOLDER FULL OF STUFF>
+        target: /libraries
     environment:
       REDIS_URL: redis://:redispass@manyfold-redis:6379/1
       DATABASE_URL: postgresql://manyfolduser:manyfoldpass@manyfold-db/manyfold?pool=5
@@ -71,7 +73,9 @@ services:
     healthcheck:
       test: ["CMD-SHELL", "redis-cli ping || exit 1"]
     volumes:
-      - /volume1/docker/manyfold/redis:/data:rw
+      - type: bind
+        source: /volume1/docker/manyfold/redis
+        target: /data
     restart: on-failure:5
 
   db:
@@ -88,7 +92,9 @@ services:
       interval: 10s
       retries: 10
     volumes:
-      - /volume1/docker/manyfold/db:/var/lib/postgresql/data:rw
+      - type: bind
+        source: /volume1/docker/manyfold/db
+        target: /var/lib/postgresql/data
     environment:
       POSTGRES_DB: manyfold
       POSTGRES_USER: manyfolduser
