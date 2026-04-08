@@ -1,6 +1,6 @@
 ---
 title: Security
-parent: Technology
+parent: About
 layout: page
 nav_order: 4
 ---
