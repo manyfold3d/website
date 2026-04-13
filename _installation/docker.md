@@ -10,9 +10,34 @@ Before trying to get the app running using this method, we strongly suggest you 
 
 [![Built with Depot](https://depot.dev/badges/built-with-depot.svg)](https://depot.dev?utm_source=manyfold)
 
-You can run the latest release in docker by using the image `ghcr.io/manyfold3d/manyfold:latest`. The app also needs a separate database and Redis servers for best performance, but if you're just running a small instance and don't want to run these separately, you can use our all-in-one solo image instead: `ghcr.io/manyfold3d/manyfold-solo:latest`.
+There are two separate docker images: standard and "solo":
 
-The docker images support `linux/amd64` and `linux/arm64` architectures, so you should be able to run it on pretty much any computer (PC, Raspberry Pi, Mac, etc).
+<div class="card-list col-2" id="now">
+  <div>
+    <div>
+      <h3>Standard: scalable performance</h3>
+      <code>ghcr.io/manyfold3d/manyfold:latest</code>
+    </div>
+    <div>
+      <p>Requires connection to separately-managed database and Redis servers</p>
+    </div>
+    <p>
+    </p>
+  </div>
+  <div>
+    <div>
+      <h3>Solo: the simplest setup</h3>
+      <code>ghcr.io/manyfold3d/manyfold-solo:latest</code>
+    </div>
+    <div>
+      <p>
+        A single all-in-one container that runs everything you need, including database and Redis
+      </p>
+    </div>
+  </div>
+</div>
+
+All docker images support `linux/amd64` and `linux/arm64` architectures, so you should be able to run it on pretty much any computer (PC, Raspberry Pi, Mac, etc).
 
 You can install and run all the dependencies in one go using `docker compose`:
 
