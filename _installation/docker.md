@@ -12,7 +12,7 @@ Before trying to get the app running using this method, we strongly suggest you 
 
 You can run the latest release in docker by using the image `ghcr.io/manyfold3d/manyfold:latest`. The app also needs a separate database and Redis servers for best performance, but if you're just running a small instance and don't want to run these separately, you can use our all-in-one solo image instead: `ghcr.io/manyfold3d/manyfold-solo:latest`.
 
-The docker images support `linux/amd64`, `linux/arm/v7` and `linux/arm64` architectures, so you should be able to run it on pretty much any computer (PC, Raspberry Pi, Mac, etc).
+The docker images support `linux/amd64` and `linux/arm64` architectures, so you should be able to run it on pretty much any computer (PC, Raspberry Pi, Mac, etc).
 
 You can install and run all the dependencies in one go using `docker compose`:
 
