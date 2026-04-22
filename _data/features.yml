@@ -11,6 +11,8 @@ now:
     description: Keep models private, publish them publicly, or use fine-grained permissions for anything in between.
   - name: Federation
     description: Link up your instance with others. Follow remote models from within Manyfold, or share your own to other Fediverse software like Mastodon.
+  - name: Social features
+    description: Show your appreciation with likes, add comments, and share models to your followers across the Fediverse.
   - name: REST API
     description: Automate your instance with our comprehensive API, including permissions and sharing to help you manage access control.
   - name: External services
@@ -20,18 +22,10 @@ next:
     description: Organise models in multiple collections, and add cover art.
     when: Q1 2026
     link: https://github.com/manyfold3d/manyfold/issues/4256
-  - name: Commenting
-    description: Discuss your models with other users, either locally or across the Fediverse!
-    when: Q1 2026
-    link: https://github.com/manyfold3d/manyfold/issues/4254
   - name: Custom viewers
     description: Use different viewers for different files, including swapping the built-in renderer.
     when: Q2 2026
     link: https://github.com/manyfold3d/manyfold/issues/4965
-  - name: Likes & boosts
-    description: Show your appreciation with likes, and re-post models to your own followers with boosts.
-    when: Q2 2026
-    link: https://github.com/manyfold3d/manyfold/issues/5624
   - name: Plugin system
     description: A system allowing third-party plugins, to add optional features on your Manyfold instance.
     when: Q2 2026
