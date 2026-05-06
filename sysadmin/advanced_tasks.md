@@ -26,6 +26,7 @@ The available commands are:
 |`creators prune`|Removes all creators with no models|
 |`email test`|Sends a test email to the main admin account address, to check email delivery is working|
 |`jobs unlock`|Remove stale exclusivity locks that might be preventing background jobs running.
+|`libraries create --name={name} --path={path}`|Create a library (local filesystem only). Can be used instead of interactive web setup.|
 |`libraries scan`|Run a filesystem scan on all libraries. To scan a single library, add `--name=...` with the name of the library to scan.|
 |`links deduplicate`|Removes duplicated links. The same link in different models/creators/collections is kept, but any of the same link in the same object will be removed.|
 |`links purge`|Remove all links that match the supplied text (e.g. `--match=localhost`).|
@@ -36,7 +37,8 @@ The available commands are:
 |`problems purge`|Remove all problem records. Problems that are still valid will reappear on rescan, but this can be helpful if you've made large changes to your library and have a lot of "missing file" problems.|
 |`tags purge`|Remove all tags. Sometimes scanning an existing library can produce a load of tags you don't want, or just far too many. You may want to do this if you've run metadata extraction with the wrong path template and ended up with loads of tags you don't want.|
 |`users approve --email={account_email}`|Approve a pending user account if you can't access the UI in order to do so in the normal way.|
-|`users password --email={account_email}`|Set the password for the specified account; this includes the ability to reset the password for the administrator account.|
+|`users create --email={account_email} --username={account_username} --password={password}`|Creates a user account. Add `--role={role}` to set a specific role, one of "administrator", "moderator", "contributor" or "member". Can be used to create admin account instead of interactive web setup.|
+|`users password --email={account_email}`|Set the password for the specified account; this will send a reset email if possible, or allow settings the password interactively if not. Use `--interactive=true` to force interactive mode. Includes the ability to reset the password for the administrator account.|
 
 ## Rails Console Commands
 
