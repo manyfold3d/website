@@ -12,6 +12,7 @@ task :download_release_notes do
 ---
 title: Release #{release.name}
 date: #{release.published_at}
+category: releases
 ---
 #{fix_links release.body}
 
