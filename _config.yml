@@ -15,6 +15,10 @@ aux_links:
   Contribute: /about/contribute
   Source: https://github.com/manyfold3d/manyfold
 
+feed:
+  categories:
+    - releases
+
 collections:
   posts:
     output: true
