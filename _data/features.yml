@@ -18,10 +18,6 @@ now:
   - name: External services
     description: Import model metadata (and sometimes files) from other hosting sites like MyMiniFactory, Thingiverse, and Cults3D.
 next:
-  - name: Better Collections
-    description: Organise models in multiple collections, and add cover art.
-    when: Q1 2026
-    link: https://github.com/manyfold3d/manyfold/issues/4256
   - name: Custom viewers
     description: Use different viewers for different files, including swapping the built-in renderer.
     when: Q2 2026
