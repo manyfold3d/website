@@ -16,7 +16,7 @@ There are two separate docker images: standard and "solo":
   <div>
     <div>
       <h3>Standard: scalable performance</h3>
-      <code>ghcr.io/manyfold3d/manyfold:latest</code>
+      <code>manyfold3d/manyfold:latest</code>
     </div>
     <div>
       <p>Requires connection to separately-managed database and Redis servers</p>
@@ -27,7 +27,7 @@ There are two separate docker images: standard and "solo":
   <div>
     <div>
       <h3>Solo: the simplest setup</h3>
-      <code>ghcr.io/manyfold3d/manyfold-solo:latest</code>
+      <code>manyfold3d/manyfold-solo:latest</code>
     </div>
     <div>
       <p>
@@ -54,7 +54,7 @@ You can install and run all the dependencies in one go using `docker compose`:
 ```docker
 services:
   app:
-    image: ghcr.io/manyfold3d/manyfold:latest
+    image: manyfold3d/manyfold:latest
     ports:
       - 3214:3214
     volumes:
@@ -123,7 +123,7 @@ networks:
 ```docker
 services:
   app:
-    image: ghcr.io/manyfold3d/manyfold-solo:latest
+    image: manyfold3d/manyfold-solo:latest
     ports:
       - 3214:3214
     volumes:

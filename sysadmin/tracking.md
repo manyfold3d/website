@@ -24,7 +24,7 @@ The complete payload is:
 	"version": {
 		"app":"v0.67.0",
 		"sha":"f8d09c9be141e9fb367b08099308dd8b93aa92b2",
-		"image":"ghcr.io/manyfold3d/manyfold",
+		"image":"manyfold3d/manyfold",
 		"arch":"arm-linux-musleabihf"
 	}
 }

@@ -19,7 +19,7 @@ The following configuration is tested and working on a DiskStation 923+ with lot
 version: "3.9"
 services:
   manyfold:
-    image: ghcr.io/manyfold3d/manyfold:latest
+    image: manyfold3d/manyfold:latest
     container_name: Manyfold
     hostname: manyfold
     mem_limit: 8g

@@ -21,7 +21,7 @@ By default, Docker containers run as root. This is a security concern, especiall
 
 In order to increase security, and so that all the created files aren't owned by root, Manyfold should be run as a less-privileged user. In line with the [Linuxserver approach](https://docs.linuxserver.io/general/understanding-puid-and-pgid/), this is done by setting the user and group ID to run as using the `PUID` and `PGID` environment variables.
 
- `docker create -e PUID=1000 -e PGID=1000 ghcr.io/manyfold3d/manyfold:latest`
+ `docker create -e PUID=1000 -e PGID=1000 manyfold3d/manyfold:latest`
 
 If these are set, the container will start and set up as root, but then drop to this less privileged user when actually running the app.
 
