@@ -16,7 +16,10 @@ There are two separate docker images: standard and "solo":
   <div>
     <div>
       <h3>Solo: the simplest setup</h3>
-      <code>manyfold3d/manyfold-solo:latest</code>
+      <ul>
+        <li><code>manyfold3d/manyfold-solo:latest</code></li>
+        <li><code>ghcr.io/manyfold3d/manyfold-solo:latest</code></li>
+      </ul>
     </div>
     <div>
       <p>
@@ -27,7 +30,10 @@ There are two separate docker images: standard and "solo":
   <div>
     <div>
       <h3>Standard: scalable performance</h3>
-      <code>manyfold3d/manyfold:latest</code>
+      <ul>
+        <li><code>manyfold3d/manyfold:latest</code></li>
+        <li><code>ghcr.io/manyfold3d/manyfold:latest</code></li>
+      </ul>
     </div>
     <div>
       <p>Requires connection to separately-managed database and Redis servers</p>
@@ -54,6 +60,7 @@ A single all-in-one container that runs everything you need, including database 
 ```yaml
 services:
   app:
+    # See above for a full list of other image sources, e.g. GHCR
     image: manyfold3d/manyfold-solo:latest
     ports:
       - 3214:3214
@@ -93,6 +100,7 @@ Requires connection to separately-managed database and Redis servers.
 ```yaml
 services:
   app:
+    # See above for a full list of other image sources, e.g. GHCR
     image: manyfold3d/manyfold:latest
     ports:
       - 3214:3214
