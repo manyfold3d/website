@@ -51,7 +51,7 @@ You can install and run all the dependencies in one go using `docker compose`:
 
 A single all-in-one container that runs everything you need, including database and Redis
 
-```docker
+```yaml
 services:
   app:
     image: manyfold3d/manyfold-solo:latest
@@ -90,7 +90,7 @@ services:
 
 Requires connection to separately-managed database and Redis servers.
 
-```docker
+```yaml
 services:
   app:
     image: manyfold3d/manyfold:latest
