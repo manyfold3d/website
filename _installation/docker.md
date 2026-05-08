@@ -40,7 +40,7 @@ There are two separate docker images: standard and "solo":
     </div>
     <div>
       <p style="margin-bottom: 3em">
-        Requires connection to separately-managed database and Redis servers
+        More control; requires a separate database server such as PostgresSQL, and a separate Redis server.
       </p>
     </div>
     <div style="position: absolute; bottom: 0.5em; right: 1em">
@@ -103,7 +103,7 @@ services:
 
 ## Standard docker-compose.yml
 
-Requires connection to separately-managed database and Redis servers.
+More control; requires a separate database server such as PostgresSQL, and a separate Redis server.
 
 ```yaml
 services:
