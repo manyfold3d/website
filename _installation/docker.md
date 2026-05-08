@@ -13,7 +13,7 @@ Before trying to get the app running using this method, we strongly suggest you 
 There are two separate docker images: standard and "solo":
 
 <div class="card-list col-2" id="now">
-  <div>
+  <div style="position: relative">
     <div>
       <h3>Solo: the simplest setup</h3>
       <ul>
@@ -22,12 +22,15 @@ There are two separate docker images: standard and "solo":
       </ul>
     </div>
     <div>
-      <p>
+      <p style="margin-bottom: 3em">
         A single all-in-one container that runs everything you need, including database and Redis
       </p>
     </div>
+    <div style="position: absolute; bottom: 0.5em; right: 1em">
+      <a href="#solo-docker-composeyml" type="button" class="btn btn-purple">View compose file</a>
+    </div>
   </div>
-  <div>
+  <div style="position: relative">
     <div>
       <h3>Standard: scalable performance</h3>
       <ul>
@@ -36,7 +39,12 @@ There are two separate docker images: standard and "solo":
       </ul>
     </div>
     <div>
-      <p>Requires connection to separately-managed database and Redis servers</p>
+      <p style="margin-bottom: 3em">
+        Requires connection to separately-managed database and Redis servers
+      </p>
+    </div>
+    <div style="position: absolute; bottom: 0.5em; right: 1em">
+      <a href="#standard-docker-composeyml" type="button" class="btn btn-purple">View compose file</a>
     </div>
   </div>
 </div>
@@ -51,7 +59,7 @@ You can install and run all the dependencies in one go using `docker compose`:
 
 3. Open Manyfold at <http://localhost:3214>
 
-4. Add a library. Remember the path mappings in the Docker Compose file? In the examples below, the contents of /path/to/your/libraries in your file system would be available in /libraries inside the running app.
+4. Add a library. Remember the path mappings in the Docker Compose file? In the examples below, the contents of `/local/path/to/your/models` in your file system would be available in `/models` inside the running app.
 
 ## Solo docker-compose.yml
 
@@ -105,12 +113,12 @@ services:
     ports:
       - 3214:3214
     volumes:
-      # Uncomment to add a filesystem volume for your model library (or multiple if
+      # Add a filesystem volume for your model library (or multiple if
       # you want multiple libraries), in the form <local_path>:<container_path>.
       # The local path could be a folder that already contains models, in which case Manyfold
       # will scan and import them, or it could be empty.
       # The container path can be anything; you will need to enter it in the "new library" form.
-      # - /local/path/to/your/models:/models
+      - /local/path/to/your/models:/models
     environment:
       DATABASE_ADAPTER: postgresql # mysql2 or sqlite3 are also supported
       DATABASE_HOST: postgres-server
