@@ -1,5 +1,5 @@
 ---
-title: Cosmos
+title: Cosmos Cloud
 logo_url: https://cosmos-cloud.io/Logo.png
 layout: installation
 ---
