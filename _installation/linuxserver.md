@@ -2,6 +2,7 @@
 title: Linuxserver.io
 logo_url: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/linuxserver-io.svg
 layout: installation
+order: 2
 ---
 
 If you prefer to run [Linuxserver.io](https://linuxserver.io/) images, you can install their
