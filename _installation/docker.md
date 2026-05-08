@@ -15,17 +15,6 @@ There are two separate docker images: standard and "solo":
 <div class="card-list col-2" id="now">
   <div>
     <div>
-      <h3>Standard: scalable performance</h3>
-      <code>manyfold3d/manyfold:latest</code>
-    </div>
-    <div>
-      <p>Requires connection to separately-managed database and Redis servers</p>
-    </div>
-    <p>
-    </p>
-  </div>
-  <div>
-    <div>
       <h3>Solo: the simplest setup</h3>
       <code>manyfold3d/manyfold-solo:latest</code>
     </div>
@@ -33,6 +22,15 @@ There are two separate docker images: standard and "solo":
       <p>
         A single all-in-one container that runs everything you need, including database and Redis
       </p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h3>Standard: scalable performance</h3>
+      <code>manyfold3d/manyfold:latest</code>
+    </div>
+    <div>
+      <p>Requires connection to separately-managed database and Redis servers</p>
     </div>
   </div>
 </div>
@@ -49,7 +47,48 @@ You can install and run all the dependencies in one go using `docker compose`:
 
 4. Add a library. Remember the path mappings in the Docker Compose file? In the examples below, the contents of /path/to/your/libraries in your file system would be available in /libraries inside the running app.
 
+## Solo docker-compose.yml
+
+A single all-in-one container that runs everything you need, including database and Redis
+
+```docker
+services:
+  app:
+    image: manyfold3d/manyfold-solo:latest
+    ports:
+      - 3214:3214
+    volumes:
+      # Add a volume where a database file should be created.
+      # IMPORTANT: Don't change the part after the colon, it needs to be at /config
+      - /local/path/to/your/database:/config
+      # Add a filesystem volume for your model library (or multiple if
+      # you want multiple libraries), in the form <local_path>:<container_path>.
+      # The local path could be a folder that already contains models, in which case Manyfold
+      # will scan and import them, or it could be empty.
+      # The container path can be anything; you will need to enter it in the "new library" form.
+      - /local/path/to/your/models:/models
+    environment:
+      SECRET_KEY_BASE: a_nice_long_random_string
+      PUID: 1000
+      PGID: 1000
+      # For details of other optional environment variables, including features such
+      # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
+    restart: unless-stopped
+    # Optional, but recommended for better security
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - DAC_OVERRIDE
+      - SETUID
+      - SETGID
+```
+
 ## Standard docker-compose.yml
+
+Requires connection to separately-managed database and Redis servers.
 
 ```docker
 services:
@@ -116,41 +155,4 @@ volumes:
 
 networks:
   manyfold:
-```
-
-## Solo docker-compose.yml
-
-```docker
-services:
-  app:
-    image: manyfold3d/manyfold-solo:latest
-    ports:
-      - 3214:3214
-    volumes:
-      # Uncomment to add a volume where a database file should be created.
-      # Don't change the part after the colon, it needs to be at /config
-      # - /local/path/to/your/database:/config
-      # Uncomment to add a filesystem volume for your model library (or multiple if
-      # you want multiple libraries), in the form <local_path>:<container_path>.
-      # The local path could be a folder that already contains models, in which case Manyfold
-      # will scan and import them, or it could be empty.
-      # The container path can be anything; you will need to enter it in the "new library" form.
-      # - /local/path/to/your/models:/models
-    environment:
-      SECRET_KEY_BASE: a_nice_long_random_string
-      PUID: 1000
-      PGID: 1000
-      # For details of other optional environment variables, including features such
-      # as multiuser mode, visit https://manyfold.app/sysadmin/configuration.html
-    restart: unless-stopped
-    # Optional, but recommended for better security
-    security_opt:
-      - no-new-privileges:true
-    cap_drop:
-      - ALL
-    cap_add:
-      - CHOWN
-      - DAC_OVERRIDE
-      - SETUID
-      - SETGID
 ```
