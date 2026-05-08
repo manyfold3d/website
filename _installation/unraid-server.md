@@ -4,9 +4,11 @@ logo_url: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/unraid.svg
 layout: installation
 ---
 
-{: .note }
-Some people have had success with this method, though it's not yet officially supported. Improved documentation will come along in the future!
+Manyfold is available via the [Unraid Community Apps plugin](https://unraid.net/community/apps). For detailed instructions, install the CA plugin and search on the apps tab.
 
-Manyfold is available via the [Unraid Community Apps plugin](https://unraid.net/community/apps), currently under its old name "van_dam". For detailed instructions, install the CA plugin and search on the apps tab.
+There are two installation choices available at present:
 
-If you have any problems, take a look at the open [feature request](https://github.com/manyfold3d/manyfold/issues/451) for suggestions, or add your own experiences.
+* `Manyfold` uses our official "solo" build, and doesn't require any external databases.
+* `manyfold` is the Linuxserver.io build, which requires separate PostgreSQL and Redis databases to connect to.
+
+(Apologies for the naming confusion, we're working on improving that)
