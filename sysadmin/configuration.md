@@ -139,7 +139,7 @@ Set to `enabled` to disable logging in with local accounts, and force all login 
 ### `HTTPS_ONLY`
 <small>Version 0.69.0+</small>
 
-Put the application into HTTPS-only mode, including automatic HTTPS redirection, Strict-Transport-Security, and secure cookies. Read the [security](security) page for important details.
+If set to `enabled`, puts the application into HTTPS-only mode, including automatic HTTPS redirection, Strict-Transport-Security, and secure cookies. Read the [security](security) page for important details.
 
 {:.important}
 The HSTS header has a long expiry time, so this is effectively a one-way switch! By turning it on you will lose unencrypted access to your instance for a long time, so make sure HTTPS is working first!
