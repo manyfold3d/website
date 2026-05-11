@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4"
 gem "just-the-docs"
@@ -8,3 +8,6 @@ gem "octokit"
 gem "jekyll-feed"
 
 gem "jekyll-redirect-from", "~> 0.16.0"
+
+gem "standard", "~> 1.54"
+gem "rubocop-rake", "~> 0.7.1"
