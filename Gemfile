@@ -9,5 +9,5 @@ gem "jekyll-feed"
 
 gem "jekyll-redirect-from", "~> 0.16.0"
 
-gem "standard", "~> 1.54"
+gem "standard", "~> 1.55"
 gem "rubocop-rake", "~> 0.7.1"
