@@ -86,7 +86,7 @@ A single string that combines all the information necessary to connect to your d
 ### `DEMO_MODE`
 <small>Version 0.55.0+</small>
 
-Set to `enabled` to put the entire site into the demo mode used on [try.manyfold.app](https://try.manyfold.app). In this mode, all deletion, upload, and advanced admin features are disabled, even in single-user mode and for administrator users. You're pretty unlikely to need it, though perhaps you could use it as a sort of "emergency lockdown" mode.
+Set to `enabled` to put the entire site into the demo mode used on the old try.manyfold.app site. In this mode, all deletion, upload, and advanced admin features are disabled, even in single-user mode and for administrator users. You're pretty unlikely to need it, though perhaps you could use it as a sort of "emergency lockdown" mode.
 
 ### `MULTIUSER`
 <small>Version 0.59.0+</small>
@@ -213,7 +213,7 @@ The number of seconds to wait for reads from the SMTP server (default 5).
 ### `PUBLIC_HOSTNAME`
 <small>Version 0.61.0+</small>
 
-The hostname of your publicly-accessible service, e.g. `try.manyfold.app`. This variable is used to create links in emails, and _must_ be set for email delivery to work.
+The hostname of your publicly-accessible service, e.g. `3dprint.social`. This variable is used to create links in emails, and _must_ be set for email delivery to work.
 
 ### `PUBLIC_PORT`
 <small>Version 0.61.0+</small>

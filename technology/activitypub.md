@@ -82,7 +82,7 @@ An entity which creates and publishes models; i.e. a content creator or author. 
 |`summary`|string|Short-form textual description; allows HTML|caption||Manyfold creates HTML from Markdown. Appears as bio on Mastodon.|
 |`content`|string|Longer-form description; allows HTML|notes||Manyfold creates HTML from Markdown. Not shown on Mastodon.|
 |`attachment`|object[]|standard ActivityStreams [attachment](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment)|links|<code>[<br>&nbsp;{<br>&nbsp;&nbsp;"type":&nbsp;"Link",<br>&nbsp;&nbsp;"href":&nbsp;"https://example.com"<br>&nbsp;}<br>]</code>|Manyfold only creates and parses `Link` attachments at present|
-|`toot:attributionDomains`|string[]|A list of domains that are valid for `fediverse:creator` [opengraph tags](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/)||`["try.manyfold.app"]`|Will always be set to the account domain|
+|`toot:attributionDomains`|string[]|A list of domains that are valid for `fediverse:creator` [opengraph tags](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/)||`["3dprint.social"]`|Will always be set to the account domain|
 
 Standard Actor [properties](https://www.w3.org/ns/activitystreams#activitypub) (e.g. `inbox`) are also included and use the standard semantics.
 
