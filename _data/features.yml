@@ -19,11 +19,9 @@ now:
     description: Automate your instance with our comprehensive API, including permissions and sharing to help you manage access control.
   - name: External services
     description: Import model metadata (and sometimes files) from other hosting sites like MyMiniFactory, Thingiverse, and Cults3D.
+  - name: Print directly
+    description: Send sliced files directly to your printer, via the Octoprint, Moonraker and other APIs.
 next:
-  - name: Printer APIs
-    description: Send sliced files directly to your printer, via the Octoprint, Moonraker and Repetier APIs.
-    when: Q3 2026
-    link: https://github.com/manyfold3d/manyfold/issues/3230
   - name: Custom viewers
     description: Use different viewers for different files, including swapping the built-in renderer.
     when: Q3 2026
