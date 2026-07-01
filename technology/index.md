@@ -1,5 +1,5 @@
 ---
-title: Technology
+title: Developers
 layout: page
 nav_order: 6
 has_children: true

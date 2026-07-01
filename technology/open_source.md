@@ -1,8 +1,8 @@
 ---
 title: Open Source
-parent: Technology
+parent: Developers
 layout: page
-nav_order: 2
+nav_order: 1
 ---
 
 Manyfold is [Open Source software](https://opensource.org/osd), published under the [MIT license](https://github.com/manyfold3d/manyfold/?tab=MIT-1-ov-file#readme).

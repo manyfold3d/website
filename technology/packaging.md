@@ -1,8 +1,8 @@
 ---
 title: Packaging
-parent: Technology
+parent: Developers
 layout: page
-nav_order: 1
+nav_order: 2
 ---
 3D print models inherently have associated metadata, such as license, description, links, keywords and so on. However, this metadata is rarely included in model downloads, and certainly not in a machine-readable structured format. This page proposes that [Data Package](https://datapackage.org/) be adopted as a standard packaging format for 3d print models, so that this metadata can be included along with the model files themselves; we also define the Manyfold 3D Data Package Profile, a JSON schema extension, for application-specific metadata.
 

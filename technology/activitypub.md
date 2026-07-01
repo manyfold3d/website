@@ -1,8 +1,8 @@
 ---
 title: ActivityPub
-parent: Technology
+parent: Developers
 layout: page
-nav_order: 1
+nav_order: 3
 ---
 
 Manyfold instances use the [ActivityPub](http://activitypub.rocks/) protocol to exchange user activity with other instances, and other ActivityPub services, such as [Mastodon](https://joinmastodon.org/). We use ActivityPub standard object types to directly federate content, and also post activities as Notes for use by microblog-style instances (e.g. Mastodon).
