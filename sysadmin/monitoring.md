@@ -2,7 +2,7 @@
 title: Monitoring
 parent: Admin Guide
 layout: page
-nav_order: 2
+nav_order: 3
 ---
 
 In order to monitor application uptime, you can use the `/health` endpoint.

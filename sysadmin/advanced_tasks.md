@@ -2,7 +2,7 @@
 title: Advanced Tasks
 parent: Admin Guide
 layout: page
-nav_order: 9
+nav_order: 10
 ---
 
 You can do a lot through Manyfold's UI, but sometimes you might need to do some one-off maintenance. This page lists some useful tasks that you can perform via a command-line interface instead.

@@ -2,7 +2,7 @@
 title: Security
 parent: Admin Guide
 layout: page
-nav_order: 3
+nav_order: 4
 ---
 
 This page describes how to configure your Manyfold instance to run securely. Some things are built-in options, and some are changes to your Docker configuration that you'll need to apply yourself.
