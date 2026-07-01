@@ -37,7 +37,7 @@ callouts:
     color: yellow
   info:
     title: Info
-    color: blue
+    color: lightblue
   todo:
     title: TODO
     color: grey-lt
