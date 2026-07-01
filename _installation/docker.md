@@ -73,7 +73,7 @@ services:
     ports:
       - 3214:3214
     volumes:
-      # Add a volume where a database file should be created.
+      # Add a volume where a database file should be created. Plugins are also stored here.
       # IMPORTANT: Don't change the part after the colon, it needs to be at /config
       - /local/path/to/your/database:/config
       # Add a filesystem volume for your model library (or multiple if
@@ -119,6 +119,10 @@ services:
       # will scan and import them, or it could be empty.
       # The container path can be anything; you will need to enter it in the "new library" form.
       - /local/path/to/your/models:/models
+      # If you want to use any plugins, you will also need a persistent plugins folder.
+      # /usr/src/app/plugins is the default, but you can set a different path using the
+      # PLUGINS_PATH environment variable.
+      - /local/path/to/plugins:/usr/src/app/plugins
     environment:
       DATABASE_ADAPTER: postgresql # mysql2 or sqlite3 are also supported
       DATABASE_HOST: postgres-server

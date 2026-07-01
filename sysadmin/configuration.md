@@ -281,6 +281,11 @@ Controls log verbosity. Set to `debug`, `info`, `warn`, `error`, `fatal` or `unk
 
 Set to `enabled` to show less-translated languages in the main interface.
 
+### `PLUGINS_PATH`
+<small>Version 0.146.0+</small>
+
+Sets a path to a directory where the application should look for plugins. By default, set to `/usr/src/app/plugins` in our standard docker images, and `/config/plugins` on solo images.
+
 ## Deprecated options
 
 ### `DATABASE_CONNECTION_POOL`
