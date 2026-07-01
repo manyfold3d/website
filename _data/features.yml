@@ -21,28 +21,26 @@ now:
     description: Import model metadata (and sometimes files) from other hosting sites like MyMiniFactory, Thingiverse, and Cults3D.
   - name: Print directly
     description: Send sliced files directly to your printer, via the Octoprint, Moonraker and other APIs.
+  - name: Plugin system
+    description: Add third-party plugins for optional features on your Manyfold instance.
 next:
   - name: Custom viewers
     description: Use different viewers for different files, including swapping the built-in renderer.
     when: Q3 2026
     link: https://github.com/manyfold3d/manyfold/issues/4965
-  - name: Plugin system
-    description: A system allowing third-party plugins, to add optional features on your Manyfold instance.
-    when: Q3 2026
-    link: https://github.com/manyfold3d/manyfold/issues/5626
-later:
   - name: File organisation
     description: More powerful file organisation options, from fully automatic to fully manual.
     when: Q4 2026
     link: https://github.com/manyfold3d/manyfold/issues/2024
-  - name: Version control
-    description: Store every change to your models over time with a built-in version control system.
-    when: Q4 2026
-    link: https://github.com/manyfold3d/manyfold/issues/4274
   - name: Built-in slicer
     description: Perform basic slicing without leaving Manyfold.
     when: Q4 2026
     link: https://github.com/manyfold3d/manyfold/issues/3330
+later:
+  - name: Version control
+    description: Store every change to your models over time with a built-in version control system.
+    when: Q4 2026
+    link: https://github.com/manyfold3d/manyfold/issues/4274
   - name: Assembly mode
     description: Load multiple files at once into the same 3D scene, to "assemble" them into a complete model.
     when: 2027
