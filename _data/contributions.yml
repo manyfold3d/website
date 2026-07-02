@@ -7,7 +7,7 @@
   - text: Donate on OpenCollective
     url: https://opencollective.com/manyfold/contribute
 - name: 🧑‍💻 Coding
-  description: New code contributors are very welcome (<a href="">no AI</a> though). Manyfold is mostly built in Ruby on Rails with some Typescript, but there's lots of other aspects too.
+  description: New code contributors are very welcome (<a href="">no AI</a> though). Manyfold is mostly built in Ruby on Rails with some Typescript, but there's lots of other aspects too. And, as well as working on the main source code, you could write a plugin to add optional features.
   wanted:
   - database query analysis
   - memory optimisation
@@ -17,6 +17,8 @@
     url: https://github.com/manyfold3d/manyfold?tab=readme-ov-file#developer-documentation
   - text: Good first issues
     url: https://github.com/manyfold3d/manyfold/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+  - text: Writing Manyfold plugins
+    url: /technology/plugins
   - text: Development chat (on Matrix)
     url: https://matrix.to/#/#manyfold-development:matrix.org
 - name: 🧑‍🎨 Design / UX
