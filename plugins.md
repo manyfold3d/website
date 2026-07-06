@@ -19,20 +19,20 @@ For information on how to configure your instance to run plugins, see the [admin
 		<th></th>
 	</tr>
 	{% for plugin in site.data.plugins %}
-		<tr>
+		<tr id="{{ plugin[0] }}">
 			<td>
-				<a href="{{ plugin.download_link }}" download>
-					{{ plugin.name }}
+				<a href="{{ plugin[1].download_link }}" download>
+					{{ plugin[1].name }}
 				</a>
 			</td>
-			<td>{{ plugin.summary }}</td>
-			<td>{{ plugin.version }}</td>
-			<td>{{ plugin.release_date }}</td>
+			<td>{{ plugin[1].summary }}</td>
+			<td>{{ plugin[1].version }}</td>
+			<td>{{ plugin[1].release_date }}</td>
 			<td>
-				<a href="{{ plugin.download_link }}" title="Download" download>
+				<a href="{{ plugin[1].download_link }}" title="Download" download>
 					<img src="/images/cloud-download.svg" role="presentation">
 				</a>
-				<a href="{{ plugin.source_link }}" title="Source code">
+				<a href="{{ plugin[1].source_link }}" title="Source code">
 					<img src="/images/file-earmark-code.svg" role="presentation">
 				</a>
 			</td>
