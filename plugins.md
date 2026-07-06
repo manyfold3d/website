@@ -10,9 +10,34 @@ For information on how to configure your instance to run plugins, see the [admin
 
 ## Available Plugins
 
-|Name|Summary|Version|Released|||
-|-|-|-|-|
-|Open Local Files|Open local files directly via file:// URLs|v0.1.1|01-07-2026|[Source code](https://github.com/manyfold3d/open_local_files/)|[Download](https://github.com/manyfold3d/open_local_files/archive/refs/tags/v0.1.1.zip)
-
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Summary</th>
+		<th>Version</th>
+		<th>Released</th>
+		<th></th>
+	</tr>
+	{% for plugin in site.data.plugins %}
+		<tr>
+			<td>
+				<a href="{{ plugin.download_link }}" download>
+					{{ plugin.name }}
+				</a>
+			</td>
+			<td>{{ plugin.summary }}</td>
+			<td>{{ plugin.version }}</td>
+			<td>{{ plugin.release_date }}</td>
+			<td>
+				<a href="{{ plugin.download_link }}" title="Download" download>
+					<img src="/images/cloud-download.svg" role="presentation">
+				</a>
+				<a href="{{ plugin.source_link }}" title="Source code">
+					<img src="/images/file-earmark-code.svg" role="presentation">
+				</a>
+			</td>
+		</tr>
+	{% endfor %}
+</table>
 {:.note}
 Plugins are a very new feature! We hope to see many more plugins soon! Why not try [writing your own](/technology/plugins)? Or, you might find more using the [manyfold-plugin](https://github.com/topics/manyfold-plugin) topic on GitHub!

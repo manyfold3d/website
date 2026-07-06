@@ -1,0 +1,12 @@
+- name: Open Local Files
+  summary: Open local files directly via file:// URLs
+  version: 0.1.1
+  release_date: 2026-07-01
+  source_link: https://github.com/manyfold3d/open_local_files
+  download_link: https://github.com/manyfold3d/open_local_files/archive/refs/tags/v0.1.1.zip
+- name: Snapmaker Orca
+  summary: Open STL files directly in Snapmaker Orca
+  version: 0.1.0
+  release_date: 2026-07-06
+  source_link: https://github.com/Piets/manyfold_snapmaker_orca
+  download_link: https://github.com/Piets/manyfold_snapmaker_orca/archive/refs/heads/main.zip
