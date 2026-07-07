@@ -4,7 +4,6 @@ parent: Writing Plugins
 layout: page
 nav_order: 1
 ---
-
 #### Table of Contents
 {:.no_toc}
 1. TOC

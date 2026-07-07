@@ -4,10 +4,16 @@ parent: Writing Plugins
 layout: page
 nav_order: 2
 ---
+#### Table of Contents
+{:.no_toc}
+1. TOC
+{:toc}
+
+## Registering types
 
 Manyfold knows about a lot of [file types](/manual/supported_formats), but plugins can register their own. All files that match a registered file type will be detected and indexed during scans.
 
-To register a new file type, add a `config/initializers/media_types.rb` file to your plugin, and add the following for each type you want to add:
+File types are registered at application startup, using an initializer. Add a `config/initializers/media_types.rb` file to your plugin, and add the following for each type you want to add:
 
 ```ruby
 # Simple format with one media type and one extension
@@ -29,7 +35,7 @@ As you can see, each file type needs the following:
 * One or more file extensions (`:stl` above)
 * A category (see below)
 
-If the file type has more than one media type or extension, add them in the additional parameters. See [media_types.rb] in the example plugin for a working example.
+If the file type has more than one media type or extension, add them in the additional parameters. See [media_types.rb](https://github.com/manyfold3d/example_plugin/blob/main/config/initializers/media_types.rb) in the example plugin for a working example.
 
 ## Categories
 
