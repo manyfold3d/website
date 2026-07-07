@@ -54,11 +54,11 @@ In general the only one of these you'll need to touch (after renaming) is `lib/m
 
 ### The /app directory
 
-Most of your plugin code will live here. This directory should follow the standard Rails layout, with `controllers` and `views` subdirectories if you are adding [your own pages](/technology/plugins/adding_pages), `components` for [UI components](/technology/plugins/ui_components), or `lib/file_handlers` if you're adding [file handlers](/technology/plugins/file_handlers).
+Most of your plugin code will live here. This directory should follow the standard Rails layout, with `controllers` and `views` subdirectories if you are adding [your own pages](/technology/plugins/adding_pages), `components` for [UI elements](/technology/plugins/ui_elements), or `lib/file_handlers` if you're adding [file handlers](/technology/plugins/file_handlers).
 
 ### Initializers
 
-Files in `/config/initializers` are automatically run when Manyfold starts. The example plugin uses these to [register file types](/technology/plugins/file_types) and [UI hooks](/technology/plugins/ui_hooks.md); see those sections for detail. If you want to do other work at initialization time, create a file here and it will be run automatically.
+Files in `/config/initializers` are automatically run when Manyfold starts. The example plugin uses these to [register file types](/technology/plugins/file_types) and [UI elements](/technology/plugins/ui_elements); see those sections for detail. If you want to do other work at initialization time, create a file here and it will be run automatically.
 
 ### Locale data
 
