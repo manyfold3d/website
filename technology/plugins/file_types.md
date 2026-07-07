@@ -17,7 +17,8 @@ MediaType.register("model/stl", :stl, category: :model)
 MediaType.register(
 	"model/step",
 	:step,
-	additional_types: ["model/step+xml", "model/step+zip", "model/step-xml+zip", "application/vnd.step"], additional_extensions: ["stp", "stpnc", "p21", "210"],
+	additional_types: ["model/step+xml", "application/vnd.step"],
+	additional_extensions: ["stp", "stpnc"],
 	category: :model
 )
 ```
