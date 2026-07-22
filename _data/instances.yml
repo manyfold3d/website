@@ -19,3 +19,8 @@
   note: The developer's own personal instance
   federation: true
   open_signup: false
+- name: Holocreators
+  url: https://3d.holocreators.com
+  note: A 3D CT scanning company
+  federation: true
+  open_signup: false
