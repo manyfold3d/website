@@ -9,11 +9,6 @@
   note: Wir machen Bonn 3-dimensional
   federation: true
   open_signup: false
-- name: Sibi models
-  url: https://models.sibi.boo/
-  note:
-  federation: true
-  open_signup: false
 - name: Manyfold Prime
   url: https://manyfold.floppy.org.uk
   note: The developer's own personal instance
