@@ -8,12 +8,22 @@ redirect_from:
 ---
 Manyfold instances aren't all public, but some of them are! Here's a few sharing their content publicly. Visit to take a look, or follow on the Fediverse!
 
-|Instance|Federation|Open signups|Notes|
-|-|-|-|-|
-|[3dprint.social](https://3dprint.social)|✔|✔|Manyfold's flagship public instance|
-|[Bonn.digital 3D](https://3d.bonn.digital/)|✔|✘|Wir machen Bonn 3-dimensional|
-|[Sibi models](https://models.sibi.boo/)|✔|✘||
-|[manyfold.floppy.org.uk](https://manyfold.floppy.org.uk)|✔|✘|The developer's own personal instance|
-
+<table>
+  <tr>
+    <th>Instance</th>
+    <th>Federation</th>
+    <th>Open signups</th>
+    <th>Notes</th>
+  </tr>
+  {% assign instances = site.data.instances | sort: 'name' %}
+  {% for instance in instances %}
+  <tr>
+    <td><a href="{{instance.url}}">{{instance.name}}</a></td>
+    <td>{% if instance.federation %}✅{% else %}❌{% endif %}</td>
+    <td>{% if instance.open_signup %}✅{% else %}❌{% endif %}</td>
+    <td>{{instance.note}}</td>
+  </tr>
+  {% endfor %}
+</table>
 
 If you'd like to add your instance to the list, [get in touch](community.md)!

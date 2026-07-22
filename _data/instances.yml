@@ -1,0 +1,21 @@
+---
+- name: 3DPrint.social
+  url: https://3dprint.social
+  note: Manyfold's flagship public instance
+  federation: true
+  open_signup: true
+- name: Bonn.digital 3D
+  url: https://3d.bonn.digital/
+  note: Wir machen Bonn 3-dimensional
+  federation: true
+  open_signup: false
+- name: Manyfold Prime
+  url: https://manyfold.floppy.org.uk
+  note: The developer's own personal instance
+  federation: true
+  open_signup: false
+- name: Holocreators
+  url: https://3d.holocreators.com
+  note: A 3D CT scanning company
+  federation: true
+  open_signup: false
