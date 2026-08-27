@@ -32,7 +32,7 @@ To request support for another file format, please [open a feature request](http
 |DirectX|`*.x`|`application/vnd.x`|✅|||
 |DRACO|`*.drc`|`model/vnd.google.draco`|✅|||
 |Filmbox|`*.fbx`|`model/x-fbx`|✅|✅||
-|FreeCAD|`*.fcstd`|`model/x-freecad`||||
+|FreeCAD|`*.fcstd`|`model/x-freecad`|✅|||
 |Fusion360|`*.f3d`, `*.f3z`|`model/x-fusion`||||
 |GLTF|`*.gltf`, `*.glb`|`model/gtlf+json`, `model/gtlf+binary`|✅|✅||
 |HueForge|`*.hfp`|`model/x-hfp`||||
@@ -60,20 +60,21 @@ To request support for another file format, please [open a feature request](http
 |VTK XML|`*.vtp`, `*.vtu`, `*.vti`, `*.vtr`, `*.vts`|`application/vnd.vtp`, `application/vnd.vtu`, `application/vnd.vti`, `application/vnd.vtr`, `application/vnd.vts`|✅|||
 |Wavefront OBJ|`*.obj`, `*.mtl`|`model/obj`|✅|✅|✅|
 |X3D|`*.x3d`|`model/x3d`||||
+|Lychee|`*.lys`, `*.lyt`|`model/x-lychee`|||
+|Chitubox|`*.chitubox`, `*.ctb`|`model/x-chitubox`|||
+|Dragonfruit|`*.voxl`|`application/vnd.dragonfruit.voxl`|||
 
 ## Print & Slicer files
 
 |File type|Extensions|MIME type|Static preview|3D view|
 |--|--|--|--|--|
-|Chitubox|`*.chitubox`, `*.ctb`|`model/x-chitubox`|||
-|Dragonfruit|`*.voxl`|`application/vnd.dragonfruit.voxl`|||
 |GCode|`*.gcode`|`model/x-gcode`|✅|✅|
-|Lychee|`*.lys`, `*.lyt`|`model/x-lychee`|||
 
 ## Images
 
 |File type|Extensions|MIME type|Preview|
 |--|--|--|--|
+|AVIF|`*.avif`|`image/avif`|✅|
 |BMP|`*.bmp`|`image/bmp`|✅|
 |GIF|`*.gif`|`image/gif`|✅|
 |JPEG|`*.jpg`, `*.jpeg`, `*.jpe`, `*.pjpeg`|`image/jpeg`|✅|
