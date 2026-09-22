@@ -32,6 +32,9 @@ to let us know confidentially.
 
 We publicise and credit all security advisories and issues when safe to do so. Our full [list of advisories](https://github.com/manyfold3d/manyfold/security/advisories) can be found on GitHub.
 
+{:.warning}
+*Anyone* explicitly asking for a CVE ID to be issued after filing a security report will be assumed to be a CVE-fishing LLM and banned. If a CVE is necessary, one will be requested, you don't need to remind us.
+
 ## Updates & Dependencies
 
 At least until we reach v1.0, only the latest release version is supported with security updates. Track `latest` and check for updates regularly.
