@@ -7,7 +7,7 @@ gem "dotenv"
 gem "octokit"
 gem "jekyll-feed"
 
-gem "jekyll-redirect-from", "~> 0.16.0"
+gem "jekyll-redirect-from", "~> 0.17.0"
 
 gem "standard", "~> 1.54"
 gem "rubocop-rake", "~> 0.7.1"
