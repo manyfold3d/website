@@ -17,7 +17,7 @@ As part of Manyfold's development, we've contributed Open Source code back to th
 * [wsg-assessment](https://github.com/manyfold3d/wsg-assessment) - a tool to help with DIY assessments against the [Web Sustainability Guidelines](https://w3c.github.io/sustyweb/)
 * [tracking](https://github.com/manyfold3d/tracking) - Manyfold's aggressively privacy-protecting usage tracking system
 
-We've also made contributions to a number of the open source projects listed below to help improve them, particularly [Federails](https://gitlab.com/experimentslabs/federails) and [Mittsu](https://github.com/daninithepanini/mittsu).
+We've also made contributions to a number of the open source projects listed below to help improve them, particularly [Fedipub](https://fedipub.dev) and [Mittsu](https://github.com/daninithepanini/mittsu).
 
 ## Credits
 
@@ -26,7 +26,9 @@ We could not have built Manyfold without standing on the shoulders of all the ot
 * [Ruby on Rails](https://rubyonrails.org) - Application framework
 * [Three.js](https://threejs.org) - 3D rendering in the browser
 * [F3D](https://f3d.app) - Fast and minimalist 3D viewer
-* [Federails](https://gitlab.com/experimentslabs/federails) - Rails engine for ActivityPub federation
+* [Kiri:Moto](https://grid.space) - In-browser slicer
+* [Assimp](https://www.assimp.org) - 3D file conversion
+* [Fedipub](https://fedipub.dev) - Rails engine for ActivityPub federation
 * [Bootstrap](https://getbootstrap.com) - CSS framework and icons
 * [Bootswatch](https://bootswatch.com) - Themes for Bootstrap
 * [Shrine](https://shrinerb.com) - File management library
